@@ -1,0 +1,4810 @@
+{
+  "builtAt": "2026-04-10T07:45:21.889Z",
+  "patch": {
+    "statsPatch": "16_7",
+    "statsPatchLabel": "16.7",
+    "assetVersion": "16.7.1",
+    "overviewVersion": "1.5.0",
+    "apiTrack": "1.5"
+  },
+  "featured": [
+    {
+      "nameZh": "拉克絲",
+      "nameEn": "Lux",
+      "slug": "lux",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Lux.png",
+      "hasData": true
+    },
+    {
+      "nameZh": "吉茵珂絲",
+      "nameEn": "Jinx",
+      "slug": "jinx",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Jinx.png",
+      "hasData": true
+    },
+    {
+      "nameZh": "納帝魯斯",
+      "nameEn": "Nautilus",
+      "slug": "nautilus",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nautilus.png",
+      "hasData": true
+    },
+    {
+      "nameZh": "瑟菈紛",
+      "nameEn": "Seraphine",
+      "slug": "seraphine",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Seraphine.png",
+      "hasData": true
+    },
+    {
+      "nameZh": "阿璃",
+      "nameEn": "Ahri",
+      "slug": "ahri",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ahri.png",
+      "hasData": true
+    },
+    {
+      "nameZh": "布蘭德",
+      "nameEn": "Brand",
+      "slug": "brand",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Brand.png",
+      "hasData": true
+    },
+    {
+      "nameZh": "艾希",
+      "nameEn": "Ashe",
+      "slug": "ashe",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ashe.png",
+      "hasData": true
+    },
+    {
+      "nameZh": "法洛士",
+      "nameEn": "Varus",
+      "slug": "varus",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Varus.png",
+      "hasData": true
+    }
+  ],
+  "champions": [
+    {
+      "key": 266,
+      "id": "Aatrox",
+      "slug": "aatrox",
+      "nameZh": "厄薩斯",
+      "nameEn": "Aatrox",
+      "titleZh": "冥血劍魔",
+      "titleEn": "the Darkin Blade",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Aatrox.png",
+      "aliases": [
+        "Aatrox",
+        "Aatrox",
+        "厄薩斯",
+        "冥血劍魔",
+        "the Darkin Blade",
+        "Aatrox"
+      ],
+      "normalized": [
+        "aatrox",
+        "aatrox",
+        "厄薩斯",
+        "冥血劍魔",
+        "thedarkinblade",
+        "aatrox"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 103,
+      "id": "Ahri",
+      "slug": "ahri",
+      "nameZh": "阿璃",
+      "nameEn": "Ahri",
+      "titleZh": "九尾妖狐",
+      "titleEn": "the Nine-Tailed Fox",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ahri.png",
+      "aliases": [
+        "Ahri",
+        "Ahri",
+        "阿璃",
+        "九尾妖狐",
+        "the Nine-Tailed Fox",
+        "Ahri"
+      ],
+      "normalized": [
+        "ahri",
+        "ahri",
+        "阿璃",
+        "九尾妖狐",
+        "theninetailedfox",
+        "ahri"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 84,
+      "id": "Akali",
+      "slug": "akali",
+      "nameZh": "阿卡莉",
+      "nameEn": "Akali",
+      "titleZh": "隻影刺客",
+      "titleEn": "the Rogue Assassin",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Akali.png",
+      "aliases": [
+        "Akali",
+        "Akali",
+        "阿卡莉",
+        "隻影刺客",
+        "the Rogue Assassin",
+        "Akali"
+      ],
+      "normalized": [
+        "akali",
+        "akali",
+        "阿卡莉",
+        "隻影刺客",
+        "therogueassassin",
+        "akali"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 166,
+      "id": "Akshan",
+      "slug": "akshan",
+      "nameZh": "埃可尚",
+      "nameEn": "Akshan",
+      "titleZh": "俠盜哨兵",
+      "titleEn": "the Rogue Sentinel",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Akshan.png",
+      "aliases": [
+        "Akshan",
+        "Akshan",
+        "埃可尚",
+        "俠盜哨兵",
+        "the Rogue Sentinel",
+        "Akshan"
+      ],
+      "normalized": [
+        "akshan",
+        "akshan",
+        "埃可尚",
+        "俠盜哨兵",
+        "theroguesentinel",
+        "akshan"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 12,
+      "id": "Alistar",
+      "slug": "alistar",
+      "nameZh": "亞歷斯塔",
+      "nameEn": "Alistar",
+      "titleZh": "牛頭酋長",
+      "titleEn": "the Minotaur",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Alistar.png",
+      "aliases": [
+        "Alistar",
+        "Alistar",
+        "亞歷斯塔",
+        "牛頭酋長",
+        "the Minotaur",
+        "Alistar"
+      ],
+      "normalized": [
+        "alistar",
+        "alistar",
+        "亞歷斯塔",
+        "牛頭酋長",
+        "theminotaur",
+        "alistar"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 799,
+      "id": "Ambessa",
+      "slug": "ambessa",
+      "nameZh": "安比薩",
+      "nameEn": "Ambessa",
+      "titleZh": "鐵血狼母",
+      "titleEn": "Matriarch of War",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ambessa.png",
+      "aliases": [
+        "Ambessa",
+        "Ambessa",
+        "安比薩",
+        "鐵血狼母",
+        "Matriarch of War",
+        "Ambessa"
+      ],
+      "normalized": [
+        "ambessa",
+        "ambessa",
+        "安比薩",
+        "鐵血狼母",
+        "matriarchofwar",
+        "ambessa"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 32,
+      "id": "Amumu",
+      "slug": "amumu",
+      "nameZh": "阿姆姆",
+      "nameEn": "Amumu",
+      "titleZh": "殤之木乃伊",
+      "titleEn": "the Sad Mummy",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Amumu.png",
+      "aliases": [
+        "Amumu",
+        "Amumu",
+        "阿姆姆",
+        "殤之木乃伊",
+        "the Sad Mummy",
+        "Amumu"
+      ],
+      "normalized": [
+        "amumu",
+        "amumu",
+        "阿姆姆",
+        "殤之木乃伊",
+        "thesadmummy",
+        "amumu"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 34,
+      "id": "Anivia",
+      "slug": "anivia",
+      "nameZh": "艾妮維亞",
+      "nameEn": "Anivia",
+      "titleZh": "冰晶鳳凰",
+      "titleEn": "the Cryophoenix",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Anivia.png",
+      "aliases": [
+        "Anivia",
+        "Anivia",
+        "艾妮維亞",
+        "冰晶鳳凰",
+        "the Cryophoenix",
+        "Anivia"
+      ],
+      "normalized": [
+        "anivia",
+        "anivia",
+        "艾妮維亞",
+        "冰晶鳳凰",
+        "thecryophoenix",
+        "anivia"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 1,
+      "id": "Annie",
+      "slug": "annie",
+      "nameZh": "安妮",
+      "nameEn": "Annie",
+      "titleZh": "黑暗之女",
+      "titleEn": "the Dark Child",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Annie.png",
+      "aliases": [
+        "Annie",
+        "Annie",
+        "安妮",
+        "黑暗之女",
+        "the Dark Child",
+        "Annie"
+      ],
+      "normalized": [
+        "annie",
+        "annie",
+        "安妮",
+        "黑暗之女",
+        "thedarkchild",
+        "annie"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 523,
+      "id": "Aphelios",
+      "slug": "aphelios",
+      "nameZh": "亞菲利歐",
+      "nameEn": "Aphelios",
+      "titleZh": "信仰銳武",
+      "titleEn": "the Weapon of the Faithful",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Aphelios.png",
+      "aliases": [
+        "Aphelios",
+        "Aphelios",
+        "亞菲利歐",
+        "信仰銳武",
+        "the Weapon of the Faithful",
+        "Aphelios"
+      ],
+      "normalized": [
+        "aphelios",
+        "aphelios",
+        "亞菲利歐",
+        "信仰銳武",
+        "theweaponofthefaithful",
+        "aphelios"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 22,
+      "id": "Ashe",
+      "slug": "ashe",
+      "nameZh": "艾希",
+      "nameEn": "Ashe",
+      "titleZh": "冰霜射手",
+      "titleEn": "the Frost Archer",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ashe.png",
+      "aliases": [
+        "Ashe",
+        "Ashe",
+        "艾希",
+        "冰霜射手",
+        "the Frost Archer",
+        "Ashe"
+      ],
+      "normalized": [
+        "ashe",
+        "ashe",
+        "艾希",
+        "冰霜射手",
+        "thefrostarcher",
+        "ashe"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 136,
+      "id": "AurelionSol",
+      "slug": "aurelion-sol",
+      "nameZh": "翱銳龍獸",
+      "nameEn": "Aurelion Sol",
+      "titleZh": "星際漫遊者",
+      "titleEn": "The Star Forger",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/AurelionSol.png",
+      "aliases": [
+        "Aurelion Sol",
+        "AurelionSol",
+        "翱銳龍獸",
+        "星際漫遊者",
+        "The Star Forger",
+        "Aurelion Sol"
+      ],
+      "normalized": [
+        "aurelionsol",
+        "aurelionsol",
+        "翱銳龍獸",
+        "星際漫遊者",
+        "thestarforger",
+        "aurelionsol"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 893,
+      "id": "Aurora",
+      "slug": "aurora",
+      "nameZh": "歐羅拉",
+      "nameEn": "Aurora",
+      "titleZh": "跨界靈使",
+      "titleEn": "the Witch Between Worlds",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Aurora.png",
+      "aliases": [
+        "Aurora",
+        "Aurora",
+        "歐羅拉",
+        "跨界靈使",
+        "the Witch Between Worlds",
+        "Aurora"
+      ],
+      "normalized": [
+        "aurora",
+        "aurora",
+        "歐羅拉",
+        "跨界靈使",
+        "thewitchbetweenworlds",
+        "aurora"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 268,
+      "id": "Azir",
+      "slug": "azir",
+      "nameZh": "阿祈爾",
+      "nameEn": "Azir",
+      "titleZh": "蘇瑞瑪砂皇",
+      "titleEn": "the Emperor of the Sands",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Azir.png",
+      "aliases": [
+        "Azir",
+        "Azir",
+        "阿祈爾",
+        "蘇瑞瑪砂皇",
+        "the Emperor of the Sands",
+        "Azir"
+      ],
+      "normalized": [
+        "azir",
+        "azir",
+        "阿祈爾",
+        "蘇瑞瑪砂皇",
+        "theemperorofthesands",
+        "azir"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 432,
+      "id": "Bard",
+      "slug": "bard",
+      "nameZh": "巴德",
+      "nameEn": "Bard",
+      "titleZh": "漂泊守望者",
+      "titleEn": "the Wandering Caretaker",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Bard.png",
+      "aliases": [
+        "Bard",
+        "Bard",
+        "巴德",
+        "漂泊守望者",
+        "the Wandering Caretaker",
+        "Bard"
+      ],
+      "normalized": [
+        "bard",
+        "bard",
+        "巴德",
+        "漂泊守望者",
+        "thewanderingcaretaker",
+        "bard"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 200,
+      "id": "Belveth",
+      "slug": "belveth",
+      "nameZh": "貝爾薇斯",
+      "nameEn": "Bel'Veth",
+      "titleZh": "虛空女皇",
+      "titleEn": "the Empress of the Void",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Belveth.png",
+      "aliases": [
+        "Bel'Veth",
+        "Belveth",
+        "貝爾薇斯",
+        "虛空女皇",
+        "the Empress of the Void",
+        "Bel'Veth"
+      ],
+      "normalized": [
+        "belveth",
+        "belveth",
+        "貝爾薇斯",
+        "虛空女皇",
+        "theempressofthevoid",
+        "belveth"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 53,
+      "id": "Blitzcrank",
+      "slug": "blitzcrank",
+      "nameZh": "布里茨",
+      "nameEn": "Blitzcrank",
+      "titleZh": "蒸汽巨神兵",
+      "titleEn": "the Great Steam Golem",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Blitzcrank.png",
+      "aliases": [
+        "Blitzcrank",
+        "Blitzcrank",
+        "布里茨",
+        "蒸汽巨神兵",
+        "the Great Steam Golem",
+        "Blitz",
+        "Blitzcrank"
+      ],
+      "normalized": [
+        "blitzcrank",
+        "blitzcrank",
+        "布里茨",
+        "蒸汽巨神兵",
+        "thegreatsteamgolem",
+        "blitz",
+        "blitzcrank"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 63,
+      "id": "Brand",
+      "slug": "brand",
+      "nameZh": "布蘭德",
+      "nameEn": "Brand",
+      "titleZh": "復仇業火",
+      "titleEn": "the Burning Vengeance",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Brand.png",
+      "aliases": [
+        "Brand",
+        "Brand",
+        "布蘭德",
+        "復仇業火",
+        "the Burning Vengeance",
+        "Brand"
+      ],
+      "normalized": [
+        "brand",
+        "brand",
+        "布蘭德",
+        "復仇業火",
+        "theburningvengeance",
+        "brand"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 201,
+      "id": "Braum",
+      "slug": "braum",
+      "nameZh": "布郎姆",
+      "nameEn": "Braum",
+      "titleZh": "弗雷爾卓德豪腕",
+      "titleEn": "the Heart of the Freljord",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Braum.png",
+      "aliases": [
+        "Braum",
+        "Braum",
+        "布郎姆",
+        "弗雷爾卓德豪腕",
+        "the Heart of the Freljord",
+        "Braum"
+      ],
+      "normalized": [
+        "braum",
+        "braum",
+        "布郎姆",
+        "弗雷爾卓德豪腕",
+        "theheartofthefreljord",
+        "braum"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 233,
+      "id": "Briar",
+      "slug": "briar",
+      "nameZh": "布蕾爾",
+      "nameEn": "Briar",
+      "titleZh": "披枷饞鬼",
+      "titleEn": "the Restrained Hunger",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Briar.png",
+      "aliases": [
+        "Briar",
+        "Briar",
+        "布蕾爾",
+        "披枷饞鬼",
+        "the Restrained Hunger",
+        "Briar"
+      ],
+      "normalized": [
+        "briar",
+        "briar",
+        "布蕾爾",
+        "披枷饞鬼",
+        "therestrainedhunger",
+        "briar"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 51,
+      "id": "Caitlyn",
+      "slug": "caitlyn",
+      "nameZh": "凱特琳",
+      "nameEn": "Caitlyn",
+      "titleZh": "執法者",
+      "titleEn": "the Sheriff of Piltover",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Caitlyn.png",
+      "aliases": [
+        "Caitlyn",
+        "Caitlyn",
+        "凱特琳",
+        "執法者",
+        "the Sheriff of Piltover",
+        "Cait",
+        "Caitlyn"
+      ],
+      "normalized": [
+        "caitlyn",
+        "caitlyn",
+        "凱特琳",
+        "執法者",
+        "thesheriffofpiltover",
+        "cait",
+        "caitlyn"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 164,
+      "id": "Camille",
+      "slug": "camille",
+      "nameZh": "卡蜜兒",
+      "nameEn": "Camille",
+      "titleZh": "鋼鐵殘影",
+      "titleEn": "the Steel Shadow",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Camille.png",
+      "aliases": [
+        "Camille",
+        "Camille",
+        "卡蜜兒",
+        "鋼鐵殘影",
+        "the Steel Shadow",
+        "Camille"
+      ],
+      "normalized": [
+        "camille",
+        "camille",
+        "卡蜜兒",
+        "鋼鐵殘影",
+        "thesteelshadow",
+        "camille"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 69,
+      "id": "Cassiopeia",
+      "slug": "cassiopeia",
+      "nameZh": "卡莎碧雅",
+      "nameEn": "Cassiopeia",
+      "titleZh": "蛇之擁抱",
+      "titleEn": "the Serpent's Embrace",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Cassiopeia.png",
+      "aliases": [
+        "Cassiopeia",
+        "Cassiopeia",
+        "卡莎碧雅",
+        "蛇之擁抱",
+        "the Serpent's Embrace",
+        "Cass",
+        "Cassiopeia"
+      ],
+      "normalized": [
+        "cassiopeia",
+        "cassiopeia",
+        "卡莎碧雅",
+        "蛇之擁抱",
+        "theserpentsembrace",
+        "cass",
+        "cassiopeia"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 31,
+      "id": "Chogath",
+      "slug": "chogath",
+      "nameZh": "科加斯",
+      "nameEn": "Cho'Gath",
+      "titleZh": "虛空恐懼",
+      "titleEn": "the Terror of the Void",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Chogath.png",
+      "aliases": [
+        "Cho'Gath",
+        "Chogath",
+        "科加斯",
+        "虛空恐懼",
+        "the Terror of the Void",
+        "ChoGath",
+        "Cho",
+        "Cho'Gath"
+      ],
+      "normalized": [
+        "chogath",
+        "chogath",
+        "科加斯",
+        "虛空恐懼",
+        "theterrorofthevoid",
+        "chogath",
+        "cho",
+        "chogath"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 42,
+      "id": "Corki",
+      "slug": "corki",
+      "nameZh": "庫奇",
+      "nameEn": "Corki",
+      "titleZh": "英勇投彈手",
+      "titleEn": "the Daring Bombardier",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Corki.png",
+      "aliases": [
+        "Corki",
+        "Corki",
+        "庫奇",
+        "英勇投彈手",
+        "the Daring Bombardier",
+        "Corki"
+      ],
+      "normalized": [
+        "corki",
+        "corki",
+        "庫奇",
+        "英勇投彈手",
+        "thedaringbombardier",
+        "corki"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 122,
+      "id": "Darius",
+      "slug": "darius",
+      "nameZh": "達瑞斯",
+      "nameEn": "Darius",
+      "titleZh": "諾克薩斯之力",
+      "titleEn": "the Hand of Noxus",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Darius.png",
+      "aliases": [
+        "Darius",
+        "Darius",
+        "達瑞斯",
+        "諾克薩斯之力",
+        "the Hand of Noxus",
+        "Darius"
+      ],
+      "normalized": [
+        "darius",
+        "darius",
+        "達瑞斯",
+        "諾克薩斯之力",
+        "thehandofnoxus",
+        "darius"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 131,
+      "id": "Diana",
+      "slug": "diana",
+      "nameZh": "黛安娜",
+      "nameEn": "Diana",
+      "titleZh": "輕藐之月",
+      "titleEn": "Scorn of the Moon",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Diana.png",
+      "aliases": [
+        "Diana",
+        "Diana",
+        "黛安娜",
+        "輕藐之月",
+        "Scorn of the Moon",
+        "Diana"
+      ],
+      "normalized": [
+        "diana",
+        "diana",
+        "黛安娜",
+        "輕藐之月",
+        "scornofthemoon",
+        "diana"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 36,
+      "id": "DrMundo",
+      "slug": "dr-mundo",
+      "nameZh": "蒙多醫生",
+      "nameEn": "Dr. Mundo",
+      "titleZh": "佐恩狂人",
+      "titleEn": "the Madman of Zaun",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/DrMundo.png",
+      "aliases": [
+        "Dr. Mundo",
+        "DrMundo",
+        "蒙多醫生",
+        "佐恩狂人",
+        "the Madman of Zaun",
+        "Mundo",
+        "Dr Mundo",
+        "Dr. Mundo"
+      ],
+      "normalized": [
+        "drmundo",
+        "drmundo",
+        "蒙多醫生",
+        "佐恩狂人",
+        "themadmanofzaun",
+        "mundo",
+        "drmundo",
+        "drmundo"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 119,
+      "id": "Draven",
+      "slug": "draven",
+      "nameZh": "達瑞文",
+      "nameEn": "Draven",
+      "titleZh": "處刑娛樂大師",
+      "titleEn": "the Glorious Executioner",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Draven.png",
+      "aliases": [
+        "Draven",
+        "Draven",
+        "達瑞文",
+        "處刑娛樂大師",
+        "the Glorious Executioner",
+        "Draven"
+      ],
+      "normalized": [
+        "draven",
+        "draven",
+        "達瑞文",
+        "處刑娛樂大師",
+        "thegloriousexecutioner",
+        "draven"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 245,
+      "id": "Ekko",
+      "slug": "ekko",
+      "nameZh": "艾克",
+      "nameEn": "Ekko",
+      "titleZh": "時空少年",
+      "titleEn": "the Boy Who Shattered Time",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ekko.png",
+      "aliases": [
+        "Ekko",
+        "Ekko",
+        "艾克",
+        "時空少年",
+        "the Boy Who Shattered Time",
+        "Ekko"
+      ],
+      "normalized": [
+        "ekko",
+        "ekko",
+        "艾克",
+        "時空少年",
+        "theboywhoshatteredtime",
+        "ekko"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 60,
+      "id": "Elise",
+      "slug": "elise",
+      "nameZh": "伊莉絲",
+      "nameEn": "Elise",
+      "titleZh": "蜘蛛女王",
+      "titleEn": "the Spider Queen",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Elise.png",
+      "aliases": [
+        "Elise",
+        "Elise",
+        "伊莉絲",
+        "蜘蛛女王",
+        "the Spider Queen",
+        "Elise"
+      ],
+      "normalized": [
+        "elise",
+        "elise",
+        "伊莉絲",
+        "蜘蛛女王",
+        "thespiderqueen",
+        "elise"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 28,
+      "id": "Evelynn",
+      "slug": "evelynn",
+      "nameZh": "伊芙琳",
+      "nameEn": "Evelynn",
+      "titleZh": "臨終擁抱",
+      "titleEn": "Agony's Embrace",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Evelynn.png",
+      "aliases": [
+        "Evelynn",
+        "Evelynn",
+        "伊芙琳",
+        "臨終擁抱",
+        "Agony's Embrace",
+        "Eve",
+        "Evelynn"
+      ],
+      "normalized": [
+        "evelynn",
+        "evelynn",
+        "伊芙琳",
+        "臨終擁抱",
+        "agonysembrace",
+        "eve",
+        "evelynn"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 81,
+      "id": "Ezreal",
+      "slug": "ezreal",
+      "nameZh": "伊澤瑞爾",
+      "nameEn": "Ezreal",
+      "titleZh": "探險家",
+      "titleEn": "the Prodigal Explorer",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ezreal.png",
+      "aliases": [
+        "Ezreal",
+        "Ezreal",
+        "伊澤瑞爾",
+        "探險家",
+        "the Prodigal Explorer",
+        "Ez",
+        "Ezreal"
+      ],
+      "normalized": [
+        "ezreal",
+        "ezreal",
+        "伊澤瑞爾",
+        "探險家",
+        "theprodigalexplorer",
+        "ez",
+        "ezreal"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 9,
+      "id": "Fiddlesticks",
+      "slug": "fiddlesticks",
+      "nameZh": "費德提克",
+      "nameEn": "Fiddlesticks",
+      "titleZh": "亙古之懼",
+      "titleEn": "the Ancient Fear",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Fiddlesticks.png",
+      "aliases": [
+        "Fiddlesticks",
+        "Fiddlesticks",
+        "費德提克",
+        "亙古之懼",
+        "the Ancient Fear",
+        "Fiddle",
+        "Fiddlesticks"
+      ],
+      "normalized": [
+        "fiddlesticks",
+        "fiddlesticks",
+        "費德提克",
+        "亙古之懼",
+        "theancientfear",
+        "fiddle",
+        "fiddlesticks"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 114,
+      "id": "Fiora",
+      "slug": "fiora",
+      "nameZh": "菲歐拉",
+      "nameEn": "Fiora",
+      "titleZh": "孤高劍客",
+      "titleEn": "the Grand Duelist",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Fiora.png",
+      "aliases": [
+        "Fiora",
+        "Fiora",
+        "菲歐拉",
+        "孤高劍客",
+        "the Grand Duelist",
+        "Fiora"
+      ],
+      "normalized": [
+        "fiora",
+        "fiora",
+        "菲歐拉",
+        "孤高劍客",
+        "thegrandduelist",
+        "fiora"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 105,
+      "id": "Fizz",
+      "slug": "fizz",
+      "nameZh": "飛斯",
+      "nameEn": "Fizz",
+      "titleZh": "深海頑童",
+      "titleEn": "the Tidal Trickster",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Fizz.png",
+      "aliases": [
+        "Fizz",
+        "Fizz",
+        "飛斯",
+        "深海頑童",
+        "the Tidal Trickster",
+        "Fizz"
+      ],
+      "normalized": [
+        "fizz",
+        "fizz",
+        "飛斯",
+        "深海頑童",
+        "thetidaltrickster",
+        "fizz"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 3,
+      "id": "Galio",
+      "slug": "galio",
+      "nameZh": "加里歐",
+      "nameEn": "Galio",
+      "titleZh": "禦國巨像",
+      "titleEn": "the Colossus",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Galio.png",
+      "aliases": [
+        "Galio",
+        "Galio",
+        "加里歐",
+        "禦國巨像",
+        "the Colossus",
+        "Galio"
+      ],
+      "normalized": [
+        "galio",
+        "galio",
+        "加里歐",
+        "禦國巨像",
+        "thecolossus",
+        "galio"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 41,
+      "id": "Gangplank",
+      "slug": "gangplank",
+      "nameZh": "剛普朗克",
+      "nameEn": "Gangplank",
+      "titleZh": "海洋之災",
+      "titleEn": "the Saltwater Scourge",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Gangplank.png",
+      "aliases": [
+        "Gangplank",
+        "Gangplank",
+        "剛普朗克",
+        "海洋之災",
+        "the Saltwater Scourge",
+        "GP",
+        "Gangplank"
+      ],
+      "normalized": [
+        "gangplank",
+        "gangplank",
+        "剛普朗克",
+        "海洋之災",
+        "thesaltwaterscourge",
+        "gp",
+        "gangplank"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 86,
+      "id": "Garen",
+      "slug": "garen",
+      "nameZh": "蓋倫",
+      "nameEn": "Garen",
+      "titleZh": "蒂瑪西亞之力",
+      "titleEn": "The Might of Demacia",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Garen.png",
+      "aliases": [
+        "Garen",
+        "Garen",
+        "蓋倫",
+        "蒂瑪西亞之力",
+        "The Might of Demacia",
+        "Garen"
+      ],
+      "normalized": [
+        "garen",
+        "garen",
+        "蓋倫",
+        "蒂瑪西亞之力",
+        "themightofdemacia",
+        "garen"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 150,
+      "id": "Gnar",
+      "slug": "gnar",
+      "nameZh": "吶兒",
+      "nameEn": "Gnar",
+      "titleZh": "失落之子",
+      "titleEn": "the Missing Link",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Gnar.png",
+      "aliases": [
+        "Gnar",
+        "Gnar",
+        "吶兒",
+        "失落之子",
+        "the Missing Link",
+        "Gnar"
+      ],
+      "normalized": [
+        "gnar",
+        "gnar",
+        "吶兒",
+        "失落之子",
+        "themissinglink",
+        "gnar"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 79,
+      "id": "Gragas",
+      "slug": "gragas",
+      "nameZh": "古拉格斯",
+      "nameEn": "Gragas",
+      "titleZh": "酒桶之王",
+      "titleEn": "the Rabble Rouser",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Gragas.png",
+      "aliases": [
+        "Gragas",
+        "Gragas",
+        "古拉格斯",
+        "酒桶之王",
+        "the Rabble Rouser",
+        "Gragas"
+      ],
+      "normalized": [
+        "gragas",
+        "gragas",
+        "古拉格斯",
+        "酒桶之王",
+        "therabblerouser",
+        "gragas"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 104,
+      "id": "Graves",
+      "slug": "graves",
+      "nameZh": "葛雷夫",
+      "nameEn": "Graves",
+      "titleZh": "亡命之徒",
+      "titleEn": "the Outlaw",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Graves.png",
+      "aliases": [
+        "Graves",
+        "Graves",
+        "葛雷夫",
+        "亡命之徒",
+        "the Outlaw",
+        "Graves"
+      ],
+      "normalized": [
+        "graves",
+        "graves",
+        "葛雷夫",
+        "亡命之徒",
+        "theoutlaw",
+        "graves"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 887,
+      "id": "Gwen",
+      "slug": "gwen",
+      "nameZh": "關",
+      "nameEn": "Gwen",
+      "titleZh": "聖啟織偶",
+      "titleEn": "The Hallowed Seamstress",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Gwen.png",
+      "aliases": [
+        "Gwen",
+        "Gwen",
+        "關",
+        "聖啟織偶",
+        "The Hallowed Seamstress",
+        "Gwen"
+      ],
+      "normalized": [
+        "gwen",
+        "gwen",
+        "關",
+        "聖啟織偶",
+        "thehallowedseamstress",
+        "gwen"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 120,
+      "id": "Hecarim",
+      "slug": "hecarim",
+      "nameZh": "赫克林",
+      "nameEn": "Hecarim",
+      "titleZh": "戰爭之影",
+      "titleEn": "the Shadow of War",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Hecarim.png",
+      "aliases": [
+        "Hecarim",
+        "Hecarim",
+        "赫克林",
+        "戰爭之影",
+        "the Shadow of War",
+        "Hec",
+        "Hecarim"
+      ],
+      "normalized": [
+        "hecarim",
+        "hecarim",
+        "赫克林",
+        "戰爭之影",
+        "theshadowofwar",
+        "hec",
+        "hecarim"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 74,
+      "id": "Heimerdinger",
+      "slug": "heimerdinger",
+      "nameZh": "漢默丁格",
+      "nameEn": "Heimerdinger",
+      "titleZh": "大發明家",
+      "titleEn": "the Revered Inventor",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Heimerdinger.png",
+      "aliases": [
+        "Heimerdinger",
+        "Heimerdinger",
+        "漢默丁格",
+        "大發明家",
+        "the Revered Inventor",
+        "Heimer",
+        "Heimerdinger"
+      ],
+      "normalized": [
+        "heimerdinger",
+        "heimerdinger",
+        "漢默丁格",
+        "大發明家",
+        "thereveredinventor",
+        "heimer",
+        "heimerdinger"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 910,
+      "id": "Hwei",
+      "slug": "hwei",
+      "nameZh": "赫威",
+      "nameEn": "Hwei",
+      "titleZh": "奇想繪師",
+      "titleEn": "the Visionary",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Hwei.png",
+      "aliases": [
+        "Hwei",
+        "Hwei",
+        "赫威",
+        "奇想繪師",
+        "the Visionary",
+        "Hwei"
+      ],
+      "normalized": [
+        "hwei",
+        "hwei",
+        "赫威",
+        "奇想繪師",
+        "thevisionary",
+        "hwei"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 420,
+      "id": "Illaoi",
+      "slug": "illaoi",
+      "nameZh": "伊羅旖",
+      "nameEn": "Illaoi",
+      "titleZh": "海妖祭司",
+      "titleEn": "the Kraken Priestess",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Illaoi.png",
+      "aliases": [
+        "Illaoi",
+        "Illaoi",
+        "伊羅旖",
+        "海妖祭司",
+        "the Kraken Priestess",
+        "Illaoi"
+      ],
+      "normalized": [
+        "illaoi",
+        "illaoi",
+        "伊羅旖",
+        "海妖祭司",
+        "thekrakenpriestess",
+        "illaoi"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 39,
+      "id": "Irelia",
+      "slug": "irelia",
+      "nameZh": "伊瑞莉雅",
+      "nameEn": "Irelia",
+      "titleZh": "舞劍靈使",
+      "titleEn": "the Blade Dancer",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Irelia.png",
+      "aliases": [
+        "Irelia",
+        "Irelia",
+        "伊瑞莉雅",
+        "舞劍靈使",
+        "the Blade Dancer",
+        "Irelia"
+      ],
+      "normalized": [
+        "irelia",
+        "irelia",
+        "伊瑞莉雅",
+        "舞劍靈使",
+        "thebladedancer",
+        "irelia"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 427,
+      "id": "Ivern",
+      "slug": "ivern",
+      "nameZh": "埃爾文",
+      "nameEn": "Ivern",
+      "titleZh": "綠林之父",
+      "titleEn": "the Green Father",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ivern.png",
+      "aliases": [
+        "Ivern",
+        "Ivern",
+        "埃爾文",
+        "綠林之父",
+        "the Green Father",
+        "Ivern"
+      ],
+      "normalized": [
+        "ivern",
+        "ivern",
+        "埃爾文",
+        "綠林之父",
+        "thegreenfather",
+        "ivern"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 40,
+      "id": "Janna",
+      "slug": "janna",
+      "nameZh": "珍娜",
+      "nameEn": "Janna",
+      "titleZh": "風暴女神",
+      "titleEn": "the Storm's Fury",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Janna.png",
+      "aliases": [
+        "Janna",
+        "Janna",
+        "珍娜",
+        "風暴女神",
+        "the Storm's Fury",
+        "Janna"
+      ],
+      "normalized": [
+        "janna",
+        "janna",
+        "珍娜",
+        "風暴女神",
+        "thestormsfury",
+        "janna"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 59,
+      "id": "JarvanIV",
+      "slug": "jarvan",
+      "nameZh": "嘉文四世",
+      "nameEn": "Jarvan",
+      "titleZh": "蒂瑪西亞楷模",
+      "titleEn": "the Exemplar of Demacia",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/JarvanIV.png",
+      "aliases": [
+        "Jarvan IV",
+        "JarvanIV",
+        "嘉文四世",
+        "蒂瑪西亞楷模",
+        "the Exemplar of Demacia",
+        "J4",
+        "Jarvan"
+      ],
+      "normalized": [
+        "jarvaniv",
+        "jarvaniv",
+        "嘉文四世",
+        "蒂瑪西亞楷模",
+        "theexemplarofdemacia",
+        "j4",
+        "jarvan"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 24,
+      "id": "Jax",
+      "slug": "jax",
+      "nameZh": "賈克斯",
+      "nameEn": "Jax",
+      "titleZh": "武器達人",
+      "titleEn": "Grandmaster at Arms",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Jax.png",
+      "aliases": [
+        "Jax",
+        "Jax",
+        "賈克斯",
+        "武器達人",
+        "Grandmaster at Arms",
+        "Jax"
+      ],
+      "normalized": [
+        "jax",
+        "jax",
+        "賈克斯",
+        "武器達人",
+        "grandmasteratarms",
+        "jax"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 126,
+      "id": "Jayce",
+      "slug": "jayce",
+      "nameZh": "杰西",
+      "nameEn": "Jayce",
+      "titleZh": "明日守護者",
+      "titleEn": "the Defender of Tomorrow",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Jayce.png",
+      "aliases": [
+        "Jayce",
+        "Jayce",
+        "杰西",
+        "明日守護者",
+        "the Defender of Tomorrow",
+        "Jayce"
+      ],
+      "normalized": [
+        "jayce",
+        "jayce",
+        "杰西",
+        "明日守護者",
+        "thedefenderoftomorrow",
+        "jayce"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 202,
+      "id": "Jhin",
+      "slug": "jhin",
+      "nameZh": "燼",
+      "nameEn": "Jhin",
+      "titleZh": "炫技大師",
+      "titleEn": "the Virtuoso",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Jhin.png",
+      "aliases": [
+        "Jhin",
+        "Jhin",
+        "燼",
+        "炫技大師",
+        "the Virtuoso",
+        "Jhin"
+      ],
+      "normalized": [
+        "jhin",
+        "jhin",
+        "燼",
+        "炫技大師",
+        "thevirtuoso",
+        "jhin"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 222,
+      "id": "Jinx",
+      "slug": "jinx",
+      "nameZh": "吉茵珂絲",
+      "nameEn": "Jinx",
+      "titleZh": "暴走重砲",
+      "titleEn": "the Loose Cannon",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Jinx.png",
+      "aliases": [
+        "Jinx",
+        "Jinx",
+        "吉茵珂絲",
+        "暴走重砲",
+        "the Loose Cannon",
+        "Jinx"
+      ],
+      "normalized": [
+        "jinx",
+        "jinx",
+        "吉茵珂絲",
+        "暴走重砲",
+        "theloosecannon",
+        "jinx"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 897,
+      "id": "KSante",
+      "slug": "ksante",
+      "nameZh": "卡桑帝",
+      "nameEn": "K'Sante",
+      "titleZh": "納祖瑪之傲",
+      "titleEn": "the Pride of Nazumah",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/KSante.png",
+      "aliases": [
+        "K'Sante",
+        "KSante",
+        "卡桑帝",
+        "納祖瑪之傲",
+        "the Pride of Nazumah",
+        "K'Sante"
+      ],
+      "normalized": [
+        "ksante",
+        "ksante",
+        "卡桑帝",
+        "納祖瑪之傲",
+        "theprideofnazumah",
+        "ksante"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 145,
+      "id": "Kaisa",
+      "slug": "kaisa",
+      "nameZh": "凱莎",
+      "nameEn": "Kai'Sa",
+      "titleZh": "虛空之女",
+      "titleEn": "Daughter of the Void",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Kaisa.png",
+      "aliases": [
+        "Kai'Sa",
+        "Kaisa",
+        "凱莎",
+        "虛空之女",
+        "Daughter of the Void",
+        "Kaisa",
+        "Kai'Sa"
+      ],
+      "normalized": [
+        "kaisa",
+        "kaisa",
+        "凱莎",
+        "虛空之女",
+        "daughterofthevoid",
+        "kaisa",
+        "kaisa"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 429,
+      "id": "Kalista",
+      "slug": "kalista",
+      "nameZh": "克黎思妲",
+      "nameEn": "Kalista",
+      "titleZh": "復仇之矛",
+      "titleEn": "the Spear of Vengeance",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Kalista.png",
+      "aliases": [
+        "Kalista",
+        "Kalista",
+        "克黎思妲",
+        "復仇之矛",
+        "the Spear of Vengeance",
+        "Kalista"
+      ],
+      "normalized": [
+        "kalista",
+        "kalista",
+        "克黎思妲",
+        "復仇之矛",
+        "thespearofvengeance",
+        "kalista"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 43,
+      "id": "Karma",
+      "slug": "karma",
+      "nameZh": "卡瑪",
+      "nameEn": "Karma",
+      "titleZh": "魂之啟者",
+      "titleEn": "the Enlightened One",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Karma.png",
+      "aliases": [
+        "Karma",
+        "Karma",
+        "卡瑪",
+        "魂之啟者",
+        "the Enlightened One",
+        "Karma"
+      ],
+      "normalized": [
+        "karma",
+        "karma",
+        "卡瑪",
+        "魂之啟者",
+        "theenlightenedone",
+        "karma"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 30,
+      "id": "Karthus",
+      "slug": "karthus",
+      "nameZh": "卡爾瑟斯",
+      "nameEn": "Karthus",
+      "titleZh": "死亡頌唱者",
+      "titleEn": "the Deathsinger",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Karthus.png",
+      "aliases": [
+        "Karthus",
+        "Karthus",
+        "卡爾瑟斯",
+        "死亡頌唱者",
+        "the Deathsinger",
+        "Karthus"
+      ],
+      "normalized": [
+        "karthus",
+        "karthus",
+        "卡爾瑟斯",
+        "死亡頌唱者",
+        "thedeathsinger",
+        "karthus"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 38,
+      "id": "Kassadin",
+      "slug": "kassadin",
+      "nameZh": "卡薩丁",
+      "nameEn": "Kassadin",
+      "titleZh": "虛空行者",
+      "titleEn": "the Void Walker",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Kassadin.png",
+      "aliases": [
+        "Kassadin",
+        "Kassadin",
+        "卡薩丁",
+        "虛空行者",
+        "the Void Walker",
+        "Kassadin"
+      ],
+      "normalized": [
+        "kassadin",
+        "kassadin",
+        "卡薩丁",
+        "虛空行者",
+        "thevoidwalker",
+        "kassadin"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 55,
+      "id": "Katarina",
+      "slug": "katarina",
+      "nameZh": "卡特蓮娜",
+      "nameEn": "Katarina",
+      "titleZh": "不祥之刃",
+      "titleEn": "the Sinister Blade",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Katarina.png",
+      "aliases": [
+        "Katarina",
+        "Katarina",
+        "卡特蓮娜",
+        "不祥之刃",
+        "the Sinister Blade",
+        "Kat",
+        "Katarina"
+      ],
+      "normalized": [
+        "katarina",
+        "katarina",
+        "卡特蓮娜",
+        "不祥之刃",
+        "thesinisterblade",
+        "kat",
+        "katarina"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 10,
+      "id": "Kayle",
+      "slug": "kayle",
+      "nameZh": "凱爾",
+      "nameEn": "Kayle",
+      "titleZh": "正義天使",
+      "titleEn": "the Righteous",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Kayle.png",
+      "aliases": [
+        "Kayle",
+        "Kayle",
+        "凱爾",
+        "正義天使",
+        "the Righteous",
+        "Kayle"
+      ],
+      "normalized": [
+        "kayle",
+        "kayle",
+        "凱爾",
+        "正義天使",
+        "therighteous",
+        "kayle"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 141,
+      "id": "Kayn",
+      "slug": "kayn",
+      "nameZh": "慨影",
+      "nameEn": "Kayn",
+      "titleZh": "闇魂收割者",
+      "titleEn": "the Shadow Reaper",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Kayn.png",
+      "aliases": [
+        "Kayn",
+        "Kayn",
+        "慨影",
+        "闇魂收割者",
+        "the Shadow Reaper",
+        "Kayn"
+      ],
+      "normalized": [
+        "kayn",
+        "kayn",
+        "慨影",
+        "闇魂收割者",
+        "theshadowreaper",
+        "kayn"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 85,
+      "id": "Kennen",
+      "slug": "kennen",
+      "nameZh": "凱能",
+      "nameEn": "Kennen",
+      "titleZh": "狂暴之心",
+      "titleEn": "the Heart of the Tempest",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Kennen.png",
+      "aliases": [
+        "Kennen",
+        "Kennen",
+        "凱能",
+        "狂暴之心",
+        "the Heart of the Tempest",
+        "Kennen"
+      ],
+      "normalized": [
+        "kennen",
+        "kennen",
+        "凱能",
+        "狂暴之心",
+        "theheartofthetempest",
+        "kennen"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 121,
+      "id": "Khazix",
+      "slug": "khazix",
+      "nameZh": "卡力斯",
+      "nameEn": "Kha'Zix",
+      "titleZh": "虛空掠食者",
+      "titleEn": "the Voidreaver",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Khazix.png",
+      "aliases": [
+        "Kha'Zix",
+        "Khazix",
+        "卡力斯",
+        "虛空掠食者",
+        "the Voidreaver",
+        "Khazix",
+        "Kha",
+        "Kha'Zix"
+      ],
+      "normalized": [
+        "khazix",
+        "khazix",
+        "卡力斯",
+        "虛空掠食者",
+        "thevoidreaver",
+        "khazix",
+        "kha",
+        "khazix"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 203,
+      "id": "Kindred",
+      "slug": "kindred",
+      "nameZh": "鏡爪",
+      "nameEn": "Kindred",
+      "titleZh": "永恆獵手",
+      "titleEn": "The Eternal Hunters",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Kindred.png",
+      "aliases": [
+        "Kindred",
+        "Kindred",
+        "鏡爪",
+        "永恆獵手",
+        "The Eternal Hunters",
+        "Kindred"
+      ],
+      "normalized": [
+        "kindred",
+        "kindred",
+        "鏡爪",
+        "永恆獵手",
+        "theeternalhunters",
+        "kindred"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 240,
+      "id": "Kled",
+      "slug": "kled",
+      "nameZh": "克雷德",
+      "nameEn": "Kled",
+      "titleZh": "暴躁騎士",
+      "titleEn": "the Cantankerous Cavalier",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Kled.png",
+      "aliases": [
+        "Kled",
+        "Kled",
+        "克雷德",
+        "暴躁騎士",
+        "the Cantankerous Cavalier",
+        "Kled"
+      ],
+      "normalized": [
+        "kled",
+        "kled",
+        "克雷德",
+        "暴躁騎士",
+        "thecantankerouscavalier",
+        "kled"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 96,
+      "id": "KogMaw",
+      "slug": "kogmaw",
+      "nameZh": "寇格魔",
+      "nameEn": "Kog'Maw",
+      "titleZh": "深淵巨口",
+      "titleEn": "the Mouth of the Abyss",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/KogMaw.png",
+      "aliases": [
+        "Kog'Maw",
+        "KogMaw",
+        "寇格魔",
+        "深淵巨口",
+        "the Mouth of the Abyss",
+        "Kogmaw",
+        "Kog'Maw"
+      ],
+      "normalized": [
+        "kogmaw",
+        "kogmaw",
+        "寇格魔",
+        "深淵巨口",
+        "themouthoftheabyss",
+        "kogmaw",
+        "kogmaw"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 7,
+      "id": "Leblanc",
+      "slug": "leblanc",
+      "nameZh": "勒布朗",
+      "nameEn": "LeBlanc",
+      "titleZh": "詐欺師",
+      "titleEn": "the Deceiver",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Leblanc.png",
+      "aliases": [
+        "LeBlanc",
+        "Leblanc",
+        "勒布朗",
+        "詐欺師",
+        "the Deceiver",
+        "LB",
+        "LeBlanc"
+      ],
+      "normalized": [
+        "leblanc",
+        "leblanc",
+        "勒布朗",
+        "詐欺師",
+        "thedeceiver",
+        "lb",
+        "leblanc"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 64,
+      "id": "LeeSin",
+      "slug": "lee-sin",
+      "nameZh": "李星",
+      "nameEn": "Lee Sin",
+      "titleZh": "盲眼武僧",
+      "titleEn": "the Blind Monk",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/LeeSin.png",
+      "aliases": [
+        "Lee Sin",
+        "LeeSin",
+        "李星",
+        "盲眼武僧",
+        "the Blind Monk",
+        "Lee",
+        "Lee Sin"
+      ],
+      "normalized": [
+        "leesin",
+        "leesin",
+        "李星",
+        "盲眼武僧",
+        "theblindmonk",
+        "lee",
+        "leesin"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 89,
+      "id": "Leona",
+      "slug": "leona",
+      "nameZh": "雷歐娜",
+      "nameEn": "Leona",
+      "titleZh": "黎明之光",
+      "titleEn": "the Radiant Dawn",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Leona.png",
+      "aliases": [
+        "Leona",
+        "Leona",
+        "雷歐娜",
+        "黎明之光",
+        "the Radiant Dawn",
+        "Leona"
+      ],
+      "normalized": [
+        "leona",
+        "leona",
+        "雷歐娜",
+        "黎明之光",
+        "theradiantdawn",
+        "leona"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 876,
+      "id": "Lillia",
+      "slug": "lillia",
+      "nameZh": "莉莉亞",
+      "nameEn": "Lillia",
+      "titleZh": "羞赧綻華",
+      "titleEn": "the Bashful Bloom",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Lillia.png",
+      "aliases": [
+        "Lillia",
+        "Lillia",
+        "莉莉亞",
+        "羞赧綻華",
+        "the Bashful Bloom",
+        "Lillia"
+      ],
+      "normalized": [
+        "lillia",
+        "lillia",
+        "莉莉亞",
+        "羞赧綻華",
+        "thebashfulbloom",
+        "lillia"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 127,
+      "id": "Lissandra",
+      "slug": "lissandra",
+      "nameZh": "麗珊卓",
+      "nameEn": "Lissandra",
+      "titleZh": "傲雪巫女",
+      "titleEn": "the Ice Witch",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Lissandra.png",
+      "aliases": [
+        "Lissandra",
+        "Lissandra",
+        "麗珊卓",
+        "傲雪巫女",
+        "the Ice Witch",
+        "Liss",
+        "Lissandra"
+      ],
+      "normalized": [
+        "lissandra",
+        "lissandra",
+        "麗珊卓",
+        "傲雪巫女",
+        "theicewitch",
+        "liss",
+        "lissandra"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 236,
+      "id": "Lucian",
+      "slug": "lucian",
+      "nameZh": "路西恩",
+      "nameEn": "Lucian",
+      "titleZh": "驅魔聖槍",
+      "titleEn": "the Purifier",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Lucian.png",
+      "aliases": [
+        "Lucian",
+        "Lucian",
+        "路西恩",
+        "驅魔聖槍",
+        "the Purifier",
+        "Lucian"
+      ],
+      "normalized": [
+        "lucian",
+        "lucian",
+        "路西恩",
+        "驅魔聖槍",
+        "thepurifier",
+        "lucian"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 117,
+      "id": "Lulu",
+      "slug": "lulu",
+      "nameZh": "露璐",
+      "nameEn": "Lulu",
+      "titleZh": "精靈魔法使",
+      "titleEn": "the Fae Sorceress",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Lulu.png",
+      "aliases": [
+        "Lulu",
+        "Lulu",
+        "露璐",
+        "精靈魔法使",
+        "the Fae Sorceress",
+        "Lulu"
+      ],
+      "normalized": [
+        "lulu",
+        "lulu",
+        "露璐",
+        "精靈魔法使",
+        "thefaesorceress",
+        "lulu"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 99,
+      "id": "Lux",
+      "slug": "lux",
+      "nameZh": "拉克絲",
+      "nameEn": "Lux",
+      "titleZh": "光之少女",
+      "titleEn": "the Lady of Luminosity",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Lux.png",
+      "aliases": [
+        "Lux",
+        "Lux",
+        "拉克絲",
+        "光之少女",
+        "the Lady of Luminosity",
+        "Lux"
+      ],
+      "normalized": [
+        "lux",
+        "lux",
+        "拉克絲",
+        "光之少女",
+        "theladyofluminosity",
+        "lux"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 54,
+      "id": "Malphite",
+      "slug": "malphite",
+      "nameZh": "墨菲特",
+      "nameEn": "Malphite",
+      "titleZh": "幻石碎片",
+      "titleEn": "Shard of the Monolith",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Malphite.png",
+      "aliases": [
+        "Malphite",
+        "Malphite",
+        "墨菲特",
+        "幻石碎片",
+        "Shard of the Monolith",
+        "Malph",
+        "Malphite"
+      ],
+      "normalized": [
+        "malphite",
+        "malphite",
+        "墨菲特",
+        "幻石碎片",
+        "shardofthemonolith",
+        "malph",
+        "malphite"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 90,
+      "id": "Malzahar",
+      "slug": "malzahar",
+      "nameZh": "馬爾札哈",
+      "nameEn": "Malzahar",
+      "titleZh": "虛空先知",
+      "titleEn": "the Prophet of the Void",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Malzahar.png",
+      "aliases": [
+        "Malzahar",
+        "Malzahar",
+        "馬爾札哈",
+        "虛空先知",
+        "the Prophet of the Void",
+        "Malz",
+        "Malzahar"
+      ],
+      "normalized": [
+        "malzahar",
+        "malzahar",
+        "馬爾札哈",
+        "虛空先知",
+        "theprophetofthevoid",
+        "malz",
+        "malzahar"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 57,
+      "id": "Maokai",
+      "slug": "maokai",
+      "nameZh": "茂凱",
+      "nameEn": "Maokai",
+      "titleZh": "扭曲樹人",
+      "titleEn": "the Twisted Treant",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Maokai.png",
+      "aliases": [
+        "Maokai",
+        "Maokai",
+        "茂凱",
+        "扭曲樹人",
+        "the Twisted Treant",
+        "Mao",
+        "Maokai"
+      ],
+      "normalized": [
+        "maokai",
+        "maokai",
+        "茂凱",
+        "扭曲樹人",
+        "thetwistedtreant",
+        "mao",
+        "maokai"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 11,
+      "id": "MasterYi",
+      "slug": "master-yi",
+      "nameZh": "易大師",
+      "nameEn": "Master Yi",
+      "titleZh": "無極劍聖",
+      "titleEn": "the Wuju Bladesman",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/MasterYi.png",
+      "aliases": [
+        "Master Yi",
+        "MasterYi",
+        "易大師",
+        "無極劍聖",
+        "the Wuju Bladesman",
+        "Yi",
+        "Master Yi"
+      ],
+      "normalized": [
+        "masteryi",
+        "masteryi",
+        "易大師",
+        "無極劍聖",
+        "thewujubladesman",
+        "yi",
+        "masteryi"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 800,
+      "id": "Mel",
+      "slug": "mel",
+      "nameZh": "梅爾",
+      "nameEn": "Mel",
+      "titleZh": "映魂祕使",
+      "titleEn": "the Soul's Reflection",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Mel.png",
+      "aliases": [
+        "Mel",
+        "Mel",
+        "梅爾",
+        "映魂祕使",
+        "the Soul's Reflection",
+        "Mel"
+      ],
+      "normalized": [
+        "mel",
+        "mel",
+        "梅爾",
+        "映魂祕使",
+        "thesoulsreflection",
+        "mel"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 902,
+      "id": "Milio",
+      "slug": "milio",
+      "nameZh": "米里歐",
+      "nameEn": "Milio",
+      "titleZh": "溫煦良焰",
+      "titleEn": "The Gentle Flame",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Milio.png",
+      "aliases": [
+        "Milio",
+        "Milio",
+        "米里歐",
+        "溫煦良焰",
+        "The Gentle Flame",
+        "Milio"
+      ],
+      "normalized": [
+        "milio",
+        "milio",
+        "米里歐",
+        "溫煦良焰",
+        "thegentleflame",
+        "milio"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 21,
+      "id": "MissFortune",
+      "slug": "miss-fortune",
+      "nameZh": "好運姐",
+      "nameEn": "Miss Fortune",
+      "titleZh": "賞金獵人",
+      "titleEn": "the Bounty Hunter",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/MissFortune.png",
+      "aliases": [
+        "Miss Fortune",
+        "MissFortune",
+        "好運姐",
+        "賞金獵人",
+        "the Bounty Hunter",
+        "MF",
+        "Miss Fortune"
+      ],
+      "normalized": [
+        "missfortune",
+        "missfortune",
+        "好運姐",
+        "賞金獵人",
+        "thebountyhunter",
+        "mf",
+        "missfortune"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 82,
+      "id": "Mordekaiser",
+      "slug": "mordekaiser",
+      "nameZh": "魔鬥凱薩",
+      "nameEn": "Mordekaiser",
+      "titleZh": " 金屬亡靈",
+      "titleEn": "the Iron Revenant",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Mordekaiser.png",
+      "aliases": [
+        "Mordekaiser",
+        "Mordekaiser",
+        "魔鬥凱薩",
+        " 金屬亡靈",
+        "the Iron Revenant",
+        "Morde",
+        "Mordekaiser"
+      ],
+      "normalized": [
+        "mordekaiser",
+        "mordekaiser",
+        "魔鬥凱薩",
+        "金屬亡靈",
+        "theironrevenant",
+        "morde",
+        "mordekaiser"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 25,
+      "id": "Morgana",
+      "slug": "morgana",
+      "nameZh": "魔甘娜",
+      "nameEn": "Morgana",
+      "titleZh": "墮落天使",
+      "titleEn": "the Fallen",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Morgana.png",
+      "aliases": [
+        "Morgana",
+        "Morgana",
+        "魔甘娜",
+        "墮落天使",
+        "the Fallen",
+        "Morg",
+        "Morgana"
+      ],
+      "normalized": [
+        "morgana",
+        "morgana",
+        "魔甘娜",
+        "墮落天使",
+        "thefallen",
+        "morg",
+        "morgana"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 950,
+      "id": "Naafiri",
+      "slug": "naafiri",
+      "nameZh": "娜菲芮",
+      "nameEn": "Naafiri",
+      "titleZh": "百犬之牙",
+      "titleEn": "the Hound of a Hundred Bites",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Naafiri.png",
+      "aliases": [
+        "Naafiri",
+        "Naafiri",
+        "娜菲芮",
+        "百犬之牙",
+        "the Hound of a Hundred Bites",
+        "Naafiri"
+      ],
+      "normalized": [
+        "naafiri",
+        "naafiri",
+        "娜菲芮",
+        "百犬之牙",
+        "thehoundofahundredbites",
+        "naafiri"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 267,
+      "id": "Nami",
+      "slug": "nami",
+      "nameZh": "娜米",
+      "nameEn": "Nami",
+      "titleZh": "海潮之音",
+      "titleEn": "the Tidecaller",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nami.png",
+      "aliases": [
+        "Nami",
+        "Nami",
+        "娜米",
+        "海潮之音",
+        "the Tidecaller",
+        "Nami"
+      ],
+      "normalized": [
+        "nami",
+        "nami",
+        "娜米",
+        "海潮之音",
+        "thetidecaller",
+        "nami"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 75,
+      "id": "Nasus",
+      "slug": "nasus",
+      "nameZh": "納瑟斯",
+      "nameEn": "Nasus",
+      "titleZh": "沙漠死神",
+      "titleEn": "the Curator of the Sands",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nasus.png",
+      "aliases": [
+        "Nasus",
+        "Nasus",
+        "納瑟斯",
+        "沙漠死神",
+        "the Curator of the Sands",
+        "Nasus"
+      ],
+      "normalized": [
+        "nasus",
+        "nasus",
+        "納瑟斯",
+        "沙漠死神",
+        "thecuratorofthesands",
+        "nasus"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 111,
+      "id": "Nautilus",
+      "slug": "nautilus",
+      "nameZh": "納帝魯斯",
+      "nameEn": "Nautilus",
+      "titleZh": "深淵巨人",
+      "titleEn": "the Titan of the Depths",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nautilus.png",
+      "aliases": [
+        "Nautilus",
+        "Nautilus",
+        "納帝魯斯",
+        "深淵巨人",
+        "the Titan of the Depths",
+        "Naut",
+        "Nautilus"
+      ],
+      "normalized": [
+        "nautilus",
+        "nautilus",
+        "納帝魯斯",
+        "深淵巨人",
+        "thetitanofthedepths",
+        "naut",
+        "nautilus"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 518,
+      "id": "Neeko",
+      "slug": "neeko",
+      "nameZh": "妮可",
+      "nameEn": "Neeko",
+      "titleZh": "好奇變色龍",
+      "titleEn": "the Curious Chameleon",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Neeko.png",
+      "aliases": [
+        "Neeko",
+        "Neeko",
+        "妮可",
+        "好奇變色龍",
+        "the Curious Chameleon",
+        "Neeko"
+      ],
+      "normalized": [
+        "neeko",
+        "neeko",
+        "妮可",
+        "好奇變色龍",
+        "thecuriouschameleon",
+        "neeko"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 76,
+      "id": "Nidalee",
+      "slug": "nidalee",
+      "nameZh": "奈德麗",
+      "nameEn": "Nidalee",
+      "titleZh": "狂野獵手",
+      "titleEn": "the Bestial Huntress",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nidalee.png",
+      "aliases": [
+        "Nidalee",
+        "Nidalee",
+        "奈德麗",
+        "狂野獵手",
+        "the Bestial Huntress",
+        "Nid",
+        "Nidalee"
+      ],
+      "normalized": [
+        "nidalee",
+        "nidalee",
+        "奈德麗",
+        "狂野獵手",
+        "thebestialhuntress",
+        "nid",
+        "nidalee"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 895,
+      "id": "Nilah",
+      "slug": "nilah",
+      "nameZh": "淣菈",
+      "nameEn": "Nilah",
+      "titleZh": "奔放笑顏",
+      "titleEn": "the Joy Unbound",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nilah.png",
+      "aliases": [
+        "Nilah",
+        "Nilah",
+        "淣菈",
+        "奔放笑顏",
+        "the Joy Unbound",
+        "Nilah"
+      ],
+      "normalized": [
+        "nilah",
+        "nilah",
+        "淣菈",
+        "奔放笑顏",
+        "thejoyunbound",
+        "nilah"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 56,
+      "id": "Nocturne",
+      "slug": "nocturne",
+      "nameZh": "夜曲",
+      "nameEn": "Nocturne",
+      "titleZh": "永恆夢魘",
+      "titleEn": "the Eternal Nightmare",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nocturne.png",
+      "aliases": [
+        "Nocturne",
+        "Nocturne",
+        "夜曲",
+        "永恆夢魘",
+        "the Eternal Nightmare",
+        "Noct",
+        "Nocturne"
+      ],
+      "normalized": [
+        "nocturne",
+        "nocturne",
+        "夜曲",
+        "永恆夢魘",
+        "theeternalnightmare",
+        "noct",
+        "nocturne"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 20,
+      "id": "Nunu",
+      "slug": "nunu",
+      "nameZh": "努努和威朗普",
+      "nameEn": "Nunu",
+      "titleZh": "冰原拍檔",
+      "titleEn": "the Boy and His Yeti",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nunu.png",
+      "aliases": [
+        "Nunu & Willump",
+        "Nunu",
+        "努努和威朗普",
+        "冰原拍檔",
+        "the Boy and His Yeti",
+        "Nunu & Willump",
+        "Nunu"
+      ],
+      "normalized": [
+        "nunuwillump",
+        "nunu",
+        "努努和威朗普",
+        "冰原拍檔",
+        "theboyandhisyeti",
+        "nunuwillump",
+        "nunu"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 2,
+      "id": "Olaf",
+      "slug": "olaf",
+      "nameZh": "歐拉夫",
+      "nameEn": "Olaf",
+      "titleZh": "狂戰士",
+      "titleEn": "the Berserker",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Olaf.png",
+      "aliases": [
+        "Olaf",
+        "Olaf",
+        "歐拉夫",
+        "狂戰士",
+        "the Berserker",
+        "Olaf"
+      ],
+      "normalized": [
+        "olaf",
+        "olaf",
+        "歐拉夫",
+        "狂戰士",
+        "theberserker",
+        "olaf"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 61,
+      "id": "Orianna",
+      "slug": "orianna",
+      "nameZh": "奧莉安娜",
+      "nameEn": "Orianna",
+      "titleZh": "發條少女",
+      "titleEn": "the Lady of Clockwork",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Orianna.png",
+      "aliases": [
+        "Orianna",
+        "Orianna",
+        "奧莉安娜",
+        "發條少女",
+        "the Lady of Clockwork",
+        "Ori",
+        "Orianna"
+      ],
+      "normalized": [
+        "orianna",
+        "orianna",
+        "奧莉安娜",
+        "發條少女",
+        "theladyofclockwork",
+        "ori",
+        "orianna"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 516,
+      "id": "Ornn",
+      "slug": "ornn",
+      "nameZh": "鄂爾",
+      "nameEn": "Ornn",
+      "titleZh": "爐心山神",
+      "titleEn": "The Fire below the Mountain",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ornn.png",
+      "aliases": [
+        "Ornn",
+        "Ornn",
+        "鄂爾",
+        "爐心山神",
+        "The Fire below the Mountain",
+        "Ornn"
+      ],
+      "normalized": [
+        "ornn",
+        "ornn",
+        "鄂爾",
+        "爐心山神",
+        "thefirebelowthemountain",
+        "ornn"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 80,
+      "id": "Pantheon",
+      "slug": "pantheon",
+      "nameZh": "潘森",
+      "nameEn": "Pantheon",
+      "titleZh": "不屈之矛",
+      "titleEn": "the Unbreakable Spear",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Pantheon.png",
+      "aliases": [
+        "Pantheon",
+        "Pantheon",
+        "潘森",
+        "不屈之矛",
+        "the Unbreakable Spear",
+        "Panth",
+        "Pantheon"
+      ],
+      "normalized": [
+        "pantheon",
+        "pantheon",
+        "潘森",
+        "不屈之矛",
+        "theunbreakablespear",
+        "panth",
+        "pantheon"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 78,
+      "id": "Poppy",
+      "slug": "poppy",
+      "nameZh": "波比",
+      "nameEn": "Poppy",
+      "titleZh": "聖鎚守護者",
+      "titleEn": "Keeper of the Hammer",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Poppy.png",
+      "aliases": [
+        "Poppy",
+        "Poppy",
+        "波比",
+        "聖鎚守護者",
+        "Keeper of the Hammer",
+        "Poppy"
+      ],
+      "normalized": [
+        "poppy",
+        "poppy",
+        "波比",
+        "聖鎚守護者",
+        "keeperofthehammer",
+        "poppy"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 555,
+      "id": "Pyke",
+      "slug": "pyke",
+      "nameZh": "派克",
+      "nameEn": "Pyke",
+      "titleZh": "血港開膛手",
+      "titleEn": "the Bloodharbor Ripper",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Pyke.png",
+      "aliases": [
+        "Pyke",
+        "Pyke",
+        "派克",
+        "血港開膛手",
+        "the Bloodharbor Ripper",
+        "Pyke"
+      ],
+      "normalized": [
+        "pyke",
+        "pyke",
+        "派克",
+        "血港開膛手",
+        "thebloodharborripper",
+        "pyke"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 246,
+      "id": "Qiyana",
+      "slug": "qiyana",
+      "nameZh": "姬亞娜",
+      "nameEn": "Qiyana",
+      "titleZh": "元素女帝",
+      "titleEn": "Empress of the Elements",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Qiyana.png",
+      "aliases": [
+        "Qiyana",
+        "Qiyana",
+        "姬亞娜",
+        "元素女帝",
+        "Empress of the Elements",
+        "Qiyana"
+      ],
+      "normalized": [
+        "qiyana",
+        "qiyana",
+        "姬亞娜",
+        "元素女帝",
+        "empressoftheelements",
+        "qiyana"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 133,
+      "id": "Quinn",
+      "slug": "quinn",
+      "nameZh": "葵恩",
+      "nameEn": "Quinn",
+      "titleZh": "蒂瑪西亞之翼",
+      "titleEn": "Demacia's Wings",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Quinn.png",
+      "aliases": [
+        "Quinn",
+        "Quinn",
+        "葵恩",
+        "蒂瑪西亞之翼",
+        "Demacia's Wings",
+        "Quinn"
+      ],
+      "normalized": [
+        "quinn",
+        "quinn",
+        "葵恩",
+        "蒂瑪西亞之翼",
+        "demaciaswings",
+        "quinn"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 497,
+      "id": "Rakan",
+      "slug": "rakan",
+      "nameZh": "銳空",
+      "nameEn": "Rakan",
+      "titleZh": "惑羽",
+      "titleEn": "The Charmer",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Rakan.png",
+      "aliases": [
+        "Rakan",
+        "Rakan",
+        "銳空",
+        "惑羽",
+        "The Charmer",
+        "Rakan"
+      ],
+      "normalized": [
+        "rakan",
+        "rakan",
+        "銳空",
+        "惑羽",
+        "thecharmer",
+        "rakan"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 33,
+      "id": "Rammus",
+      "slug": "rammus",
+      "nameZh": "拉姆斯",
+      "nameEn": "Rammus",
+      "titleZh": "披甲龍龜",
+      "titleEn": "the Armordillo",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Rammus.png",
+      "aliases": [
+        "Rammus",
+        "Rammus",
+        "拉姆斯",
+        "披甲龍龜",
+        "the Armordillo",
+        "Rammus"
+      ],
+      "normalized": [
+        "rammus",
+        "rammus",
+        "拉姆斯",
+        "披甲龍龜",
+        "thearmordillo",
+        "rammus"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 421,
+      "id": "RekSai",
+      "slug": "reksai",
+      "nameZh": "雷珂煞",
+      "nameEn": "Rek'Sai",
+      "titleZh": "虛空穿梭者",
+      "titleEn": "the Void Burrower",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/RekSai.png",
+      "aliases": [
+        "Rek'Sai",
+        "RekSai",
+        "雷珂煞",
+        "虛空穿梭者",
+        "the Void Burrower",
+        "Reksai",
+        "Rek'Sai"
+      ],
+      "normalized": [
+        "reksai",
+        "reksai",
+        "雷珂煞",
+        "虛空穿梭者",
+        "thevoidburrower",
+        "reksai",
+        "reksai"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 526,
+      "id": "Rell",
+      "slug": "rell",
+      "nameZh": "銳兒",
+      "nameEn": "Rell",
+      "titleZh": "鋼鐵少女",
+      "titleEn": "the Iron Maiden",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Rell.png",
+      "aliases": [
+        "Rell",
+        "Rell",
+        "銳兒",
+        "鋼鐵少女",
+        "the Iron Maiden",
+        "Rell"
+      ],
+      "normalized": [
+        "rell",
+        "rell",
+        "銳兒",
+        "鋼鐵少女",
+        "theironmaiden",
+        "rell"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 888,
+      "id": "Renata",
+      "slug": "renata-glasc",
+      "nameZh": "睿娜妲‧格萊斯克",
+      "nameEn": "Renata Glasc",
+      "titleZh": "化學女爵",
+      "titleEn": "the Chem-Baroness",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Renata.png",
+      "aliases": [
+        "Renata Glasc",
+        "Renata",
+        "睿娜妲‧格萊斯克",
+        "化學女爵",
+        "the Chem-Baroness",
+        "Renata Glasc"
+      ],
+      "normalized": [
+        "renataglasc",
+        "renata",
+        "睿娜妲格萊斯克",
+        "化學女爵",
+        "thechembaroness",
+        "renataglasc"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 58,
+      "id": "Renekton",
+      "slug": "renekton",
+      "nameZh": "雷尼克頓",
+      "nameEn": "Renekton",
+      "titleZh": "沙漠屠夫",
+      "titleEn": "the Butcher of the Sands",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Renekton.png",
+      "aliases": [
+        "Renekton",
+        "Renekton",
+        "雷尼克頓",
+        "沙漠屠夫",
+        "the Butcher of the Sands",
+        "Renek",
+        "Renekton"
+      ],
+      "normalized": [
+        "renekton",
+        "renekton",
+        "雷尼克頓",
+        "沙漠屠夫",
+        "thebutcherofthesands",
+        "renek",
+        "renekton"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 107,
+      "id": "Rengar",
+      "slug": "rengar",
+      "nameZh": "雷葛爾",
+      "nameEn": "Rengar",
+      "titleZh": "傲慢伏擊者",
+      "titleEn": "the Pridestalker",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Rengar.png",
+      "aliases": [
+        "Rengar",
+        "Rengar",
+        "雷葛爾",
+        "傲慢伏擊者",
+        "the Pridestalker",
+        "Rengar"
+      ],
+      "normalized": [
+        "rengar",
+        "rengar",
+        "雷葛爾",
+        "傲慢伏擊者",
+        "thepridestalker",
+        "rengar"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 92,
+      "id": "Riven",
+      "slug": "riven",
+      "nameZh": "雷玟",
+      "nameEn": "Riven",
+      "titleZh": "破刃放逐者",
+      "titleEn": "the Exile",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Riven.png",
+      "aliases": [
+        "Riven",
+        "Riven",
+        "雷玟",
+        "破刃放逐者",
+        "the Exile",
+        "Riven"
+      ],
+      "normalized": [
+        "riven",
+        "riven",
+        "雷玟",
+        "破刃放逐者",
+        "theexile",
+        "riven"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 68,
+      "id": "Rumble",
+      "slug": "rumble",
+      "nameZh": "藍寶",
+      "nameEn": "Rumble",
+      "titleZh": "武裝機兵",
+      "titleEn": "the Mechanized Menace",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Rumble.png",
+      "aliases": [
+        "Rumble",
+        "Rumble",
+        "藍寶",
+        "武裝機兵",
+        "the Mechanized Menace",
+        "Rumble"
+      ],
+      "normalized": [
+        "rumble",
+        "rumble",
+        "藍寶",
+        "武裝機兵",
+        "themechanizedmenace",
+        "rumble"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 13,
+      "id": "Ryze",
+      "slug": "ryze",
+      "nameZh": "雷茲",
+      "nameEn": "Ryze",
+      "titleZh": "符文法師",
+      "titleEn": "the Rune Mage",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ryze.png",
+      "aliases": [
+        "Ryze",
+        "Ryze",
+        "雷茲",
+        "符文法師",
+        "the Rune Mage",
+        "Ryze"
+      ],
+      "normalized": [
+        "ryze",
+        "ryze",
+        "雷茲",
+        "符文法師",
+        "therunemage",
+        "ryze"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 360,
+      "id": "Samira",
+      "slug": "samira",
+      "nameZh": "煞蜜拉",
+      "nameEn": "Samira",
+      "titleZh": "荒漠薔薇",
+      "titleEn": "the Desert Rose",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Samira.png",
+      "aliases": [
+        "Samira",
+        "Samira",
+        "煞蜜拉",
+        "荒漠薔薇",
+        "the Desert Rose",
+        "Samira"
+      ],
+      "normalized": [
+        "samira",
+        "samira",
+        "煞蜜拉",
+        "荒漠薔薇",
+        "thedesertrose",
+        "samira"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 113,
+      "id": "Sejuani",
+      "slug": "sejuani",
+      "nameZh": "史瓦妮",
+      "nameEn": "Sejuani",
+      "titleZh": "北境之怒",
+      "titleEn": "Fury of the North",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Sejuani.png",
+      "aliases": [
+        "Sejuani",
+        "Sejuani",
+        "史瓦妮",
+        "北境之怒",
+        "Fury of the North",
+        "Sej",
+        "Sejuani"
+      ],
+      "normalized": [
+        "sejuani",
+        "sejuani",
+        "史瓦妮",
+        "北境之怒",
+        "furyofthenorth",
+        "sej",
+        "sejuani"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 235,
+      "id": "Senna",
+      "slug": "senna",
+      "nameZh": "姍娜",
+      "nameEn": "Senna",
+      "titleZh": "贖魂聖槍",
+      "titleEn": "the Redeemer",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Senna.png",
+      "aliases": [
+        "Senna",
+        "Senna",
+        "姍娜",
+        "贖魂聖槍",
+        "the Redeemer",
+        "Senna"
+      ],
+      "normalized": [
+        "senna",
+        "senna",
+        "姍娜",
+        "贖魂聖槍",
+        "theredeemer",
+        "senna"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 147,
+      "id": "Seraphine",
+      "slug": "seraphine",
+      "nameZh": "瑟菈紛",
+      "nameEn": "Seraphine",
+      "titleZh": "燦眸歌姬",
+      "titleEn": "the Starry-Eyed Songstress",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Seraphine.png",
+      "aliases": [
+        "Seraphine",
+        "Seraphine",
+        "瑟菈紛",
+        "燦眸歌姬",
+        "the Starry-Eyed Songstress",
+        "Seraphine"
+      ],
+      "normalized": [
+        "seraphine",
+        "seraphine",
+        "瑟菈紛",
+        "燦眸歌姬",
+        "thestarryeyedsongstress",
+        "seraphine"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 875,
+      "id": "Sett",
+      "slug": "sett",
+      "nameZh": "賽特",
+      "nameEn": "Sett",
+      "titleZh": "獸血拳皇",
+      "titleEn": "the Boss",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Sett.png",
+      "aliases": [
+        "Sett",
+        "Sett",
+        "賽特",
+        "獸血拳皇",
+        "the Boss",
+        "Sett"
+      ],
+      "normalized": [
+        "sett",
+        "sett",
+        "賽特",
+        "獸血拳皇",
+        "theboss",
+        "sett"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 35,
+      "id": "Shaco",
+      "slug": "shaco",
+      "nameZh": "薩科",
+      "nameEn": "Shaco",
+      "titleZh": "惡魔小丑",
+      "titleEn": "the Demon Jester",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Shaco.png",
+      "aliases": [
+        "Shaco",
+        "Shaco",
+        "薩科",
+        "惡魔小丑",
+        "the Demon Jester",
+        "Shaco"
+      ],
+      "normalized": [
+        "shaco",
+        "shaco",
+        "薩科",
+        "惡魔小丑",
+        "thedemonjester",
+        "shaco"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 98,
+      "id": "Shen",
+      "slug": "shen",
+      "nameZh": "慎",
+      "nameEn": "Shen",
+      "titleZh": "暮光之眼",
+      "titleEn": "the Eye of Twilight",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Shen.png",
+      "aliases": [
+        "Shen",
+        "Shen",
+        "慎",
+        "暮光之眼",
+        "the Eye of Twilight",
+        "Shen"
+      ],
+      "normalized": [
+        "shen",
+        "shen",
+        "慎",
+        "暮光之眼",
+        "theeyeoftwilight",
+        "shen"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 102,
+      "id": "Shyvana",
+      "slug": "shyvana",
+      "nameZh": "希瓦娜",
+      "nameEn": "Shyvana",
+      "titleZh": "半龍少女",
+      "titleEn": "the Half-Dragon",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Shyvana.png",
+      "aliases": [
+        "Shyvana",
+        "Shyvana",
+        "希瓦娜",
+        "半龍少女",
+        "the Half-Dragon",
+        "Shyvana"
+      ],
+      "normalized": [
+        "shyvana",
+        "shyvana",
+        "希瓦娜",
+        "半龍少女",
+        "thehalfdragon",
+        "shyvana"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 27,
+      "id": "Singed",
+      "slug": "singed",
+      "nameZh": "辛吉德",
+      "nameEn": "Singed",
+      "titleZh": "瘋狂煉金師",
+      "titleEn": "the Mad Chemist",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Singed.png",
+      "aliases": [
+        "Singed",
+        "Singed",
+        "辛吉德",
+        "瘋狂煉金師",
+        "the Mad Chemist",
+        "Singed"
+      ],
+      "normalized": [
+        "singed",
+        "singed",
+        "辛吉德",
+        "瘋狂煉金師",
+        "themadchemist",
+        "singed"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 14,
+      "id": "Sion",
+      "slug": "sion",
+      "nameZh": "賽恩",
+      "nameEn": "Sion",
+      "titleZh": "亡靈勇士",
+      "titleEn": "The Undead Juggernaut",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Sion.png",
+      "aliases": [
+        "Sion",
+        "Sion",
+        "賽恩",
+        "亡靈勇士",
+        "The Undead Juggernaut",
+        "Sion"
+      ],
+      "normalized": [
+        "sion",
+        "sion",
+        "賽恩",
+        "亡靈勇士",
+        "theundeadjuggernaut",
+        "sion"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 15,
+      "id": "Sivir",
+      "slug": "sivir",
+      "nameZh": "希維爾",
+      "nameEn": "Sivir",
+      "titleZh": "戰爭女神",
+      "titleEn": "the Battle Mistress",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Sivir.png",
+      "aliases": [
+        "Sivir",
+        "Sivir",
+        "希維爾",
+        "戰爭女神",
+        "the Battle Mistress",
+        "Sivir"
+      ],
+      "normalized": [
+        "sivir",
+        "sivir",
+        "希維爾",
+        "戰爭女神",
+        "thebattlemistress",
+        "sivir"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 72,
+      "id": "Skarner",
+      "slug": "skarner",
+      "nameZh": "史加納",
+      "nameEn": "Skarner",
+      "titleZh": "遠古強者",
+      "titleEn": "the Primordial Sovereign",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Skarner.png",
+      "aliases": [
+        "Skarner",
+        "Skarner",
+        "史加納",
+        "遠古強者",
+        "the Primordial Sovereign",
+        "Skarner"
+      ],
+      "normalized": [
+        "skarner",
+        "skarner",
+        "史加納",
+        "遠古強者",
+        "theprimordialsovereign",
+        "skarner"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 901,
+      "id": "Smolder",
+      "slug": "smolder",
+      "nameZh": "史矛德",
+      "nameEn": "Smolder",
+      "titleZh": "帝煌雛龍",
+      "titleEn": "the Fiery Fledgling",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Smolder.png",
+      "aliases": [
+        "Smolder",
+        "Smolder",
+        "史矛德",
+        "帝煌雛龍",
+        "the Fiery Fledgling",
+        "Smolder"
+      ],
+      "normalized": [
+        "smolder",
+        "smolder",
+        "史矛德",
+        "帝煌雛龍",
+        "thefieryfledgling",
+        "smolder"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 37,
+      "id": "Sona",
+      "slug": "sona",
+      "nameZh": "索娜",
+      "nameEn": "Sona",
+      "titleZh": "琴仙",
+      "titleEn": "Maven of the Strings",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Sona.png",
+      "aliases": [
+        "Sona",
+        "Sona",
+        "索娜",
+        "琴仙",
+        "Maven of the Strings",
+        "Sona"
+      ],
+      "normalized": [
+        "sona",
+        "sona",
+        "索娜",
+        "琴仙",
+        "mavenofthestrings",
+        "sona"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 16,
+      "id": "Soraka",
+      "slug": "soraka",
+      "nameZh": "索拉卡",
+      "nameEn": "Soraka",
+      "titleZh": "眾星之子",
+      "titleEn": "the Starchild",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Soraka.png",
+      "aliases": [
+        "Soraka",
+        "Soraka",
+        "索拉卡",
+        "眾星之子",
+        "the Starchild",
+        "Soraka"
+      ],
+      "normalized": [
+        "soraka",
+        "soraka",
+        "索拉卡",
+        "眾星之子",
+        "thestarchild",
+        "soraka"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 50,
+      "id": "Swain",
+      "slug": "swain",
+      "nameZh": "斯溫",
+      "nameEn": "Swain",
+      "titleZh": "諾克薩斯總帥",
+      "titleEn": "the Noxian Grand General",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Swain.png",
+      "aliases": [
+        "Swain",
+        "Swain",
+        "斯溫",
+        "諾克薩斯總帥",
+        "the Noxian Grand General",
+        "Swain"
+      ],
+      "normalized": [
+        "swain",
+        "swain",
+        "斯溫",
+        "諾克薩斯總帥",
+        "thenoxiangrandgeneral",
+        "swain"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 517,
+      "id": "Sylas",
+      "slug": "sylas",
+      "nameZh": "賽勒斯",
+      "nameEn": "Sylas",
+      "titleZh": "罪鍊術士",
+      "titleEn": "the Unshackled",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Sylas.png",
+      "aliases": [
+        "Sylas",
+        "Sylas",
+        "賽勒斯",
+        "罪鍊術士",
+        "the Unshackled",
+        "Sylas"
+      ],
+      "normalized": [
+        "sylas",
+        "sylas",
+        "賽勒斯",
+        "罪鍊術士",
+        "theunshackled",
+        "sylas"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 134,
+      "id": "Syndra",
+      "slug": "syndra",
+      "nameZh": "星朵拉",
+      "nameEn": "Syndra",
+      "titleZh": "黑暗領主",
+      "titleEn": "the Dark Sovereign",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Syndra.png",
+      "aliases": [
+        "Syndra",
+        "Syndra",
+        "星朵拉",
+        "黑暗領主",
+        "the Dark Sovereign",
+        "Syndra"
+      ],
+      "normalized": [
+        "syndra",
+        "syndra",
+        "星朵拉",
+        "黑暗領主",
+        "thedarksovereign",
+        "syndra"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 223,
+      "id": "TahmKench",
+      "slug": "tahm-kench",
+      "nameZh": "貪啃奇",
+      "nameEn": "Tahm Kench",
+      "titleZh": "河中巨怪",
+      "titleEn": "The River King",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/TahmKench.png",
+      "aliases": [
+        "Tahm Kench",
+        "TahmKench",
+        "貪啃奇",
+        "河中巨怪",
+        "The River King",
+        "Tahm Kench"
+      ],
+      "normalized": [
+        "tahmkench",
+        "tahmkench",
+        "貪啃奇",
+        "河中巨怪",
+        "theriverking",
+        "tahmkench"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 163,
+      "id": "Taliyah",
+      "slug": "taliyah",
+      "nameZh": "塔莉雅",
+      "nameEn": "Taliyah",
+      "titleZh": "岩石編織者",
+      "titleEn": "the Stoneweaver",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Taliyah.png",
+      "aliases": [
+        "Taliyah",
+        "Taliyah",
+        "塔莉雅",
+        "岩石編織者",
+        "the Stoneweaver",
+        "Taliyah"
+      ],
+      "normalized": [
+        "taliyah",
+        "taliyah",
+        "塔莉雅",
+        "岩石編織者",
+        "thestoneweaver",
+        "taliyah"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 91,
+      "id": "Talon",
+      "slug": "talon",
+      "nameZh": "塔隆",
+      "nameEn": "Talon",
+      "titleZh": "神影刺客",
+      "titleEn": "the Blade's Shadow",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Talon.png",
+      "aliases": [
+        "Talon",
+        "Talon",
+        "塔隆",
+        "神影刺客",
+        "the Blade's Shadow",
+        "Talon"
+      ],
+      "normalized": [
+        "talon",
+        "talon",
+        "塔隆",
+        "神影刺客",
+        "thebladesshadow",
+        "talon"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 44,
+      "id": "Taric",
+      "slug": "taric",
+      "nameZh": "塔里克",
+      "nameEn": "Taric",
+      "titleZh": "瓦羅然之盾",
+      "titleEn": "the Shield of Valoran",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Taric.png",
+      "aliases": [
+        "Taric",
+        "Taric",
+        "塔里克",
+        "瓦羅然之盾",
+        "the Shield of Valoran",
+        "Taric"
+      ],
+      "normalized": [
+        "taric",
+        "taric",
+        "塔里克",
+        "瓦羅然之盾",
+        "theshieldofvaloran",
+        "taric"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 17,
+      "id": "Teemo",
+      "slug": "teemo",
+      "nameZh": "提摩",
+      "nameEn": "Teemo",
+      "titleZh": "迅捷斥候",
+      "titleEn": "the Swift Scout",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Teemo.png",
+      "aliases": [
+        "Teemo",
+        "Teemo",
+        "提摩",
+        "迅捷斥候",
+        "the Swift Scout",
+        "Teemo"
+      ],
+      "normalized": [
+        "teemo",
+        "teemo",
+        "提摩",
+        "迅捷斥候",
+        "theswiftscout",
+        "teemo"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 412,
+      "id": "Thresh",
+      "slug": "thresh",
+      "nameZh": "瑟雷西",
+      "nameEn": "Thresh",
+      "titleZh": "鍊魂獄長",
+      "titleEn": "the Chain Warden",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Thresh.png",
+      "aliases": [
+        "Thresh",
+        "Thresh",
+        "瑟雷西",
+        "鍊魂獄長",
+        "the Chain Warden",
+        "Thresh"
+      ],
+      "normalized": [
+        "thresh",
+        "thresh",
+        "瑟雷西",
+        "鍊魂獄長",
+        "thechainwarden",
+        "thresh"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 18,
+      "id": "Tristana",
+      "slug": "tristana",
+      "nameZh": "崔絲塔娜",
+      "nameEn": "Tristana",
+      "titleZh": "約德爾炮手",
+      "titleEn": "the Yordle Gunner",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Tristana.png",
+      "aliases": [
+        "Tristana",
+        "Tristana",
+        "崔絲塔娜",
+        "約德爾炮手",
+        "the Yordle Gunner",
+        "Trist",
+        "Tristana"
+      ],
+      "normalized": [
+        "tristana",
+        "tristana",
+        "崔絲塔娜",
+        "約德爾炮手",
+        "theyordlegunner",
+        "trist",
+        "tristana"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 48,
+      "id": "Trundle",
+      "slug": "trundle",
+      "nameZh": "特朗德",
+      "nameEn": "Trundle",
+      "titleZh": "巨魔王",
+      "titleEn": "the Troll King",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Trundle.png",
+      "aliases": [
+        "Trundle",
+        "Trundle",
+        "特朗德",
+        "巨魔王",
+        "the Troll King",
+        "Trundle"
+      ],
+      "normalized": [
+        "trundle",
+        "trundle",
+        "特朗德",
+        "巨魔王",
+        "thetrollking",
+        "trundle"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 23,
+      "id": "Tryndamere",
+      "slug": "tryndamere",
+      "nameZh": "泰達米爾",
+      "nameEn": "Tryndamere",
+      "titleZh": "蠻族之王",
+      "titleEn": "the Barbarian King",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Tryndamere.png",
+      "aliases": [
+        "Tryndamere",
+        "Tryndamere",
+        "泰達米爾",
+        "蠻族之王",
+        "the Barbarian King",
+        "Trynd",
+        "Tryndamere"
+      ],
+      "normalized": [
+        "tryndamere",
+        "tryndamere",
+        "泰達米爾",
+        "蠻族之王",
+        "thebarbarianking",
+        "trynd",
+        "tryndamere"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 4,
+      "id": "TwistedFate",
+      "slug": "twisted-fate",
+      "nameZh": "逆命",
+      "nameEn": "Twisted Fate",
+      "titleZh": "卡牌大師",
+      "titleEn": "the Card Master",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/TwistedFate.png",
+      "aliases": [
+        "Twisted Fate",
+        "TwistedFate",
+        "逆命",
+        "卡牌大師",
+        "the Card Master",
+        "TF",
+        "Twisted Fate"
+      ],
+      "normalized": [
+        "twistedfate",
+        "twistedfate",
+        "逆命",
+        "卡牌大師",
+        "thecardmaster",
+        "tf",
+        "twistedfate"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 29,
+      "id": "Twitch",
+      "slug": "twitch",
+      "nameZh": "圖奇",
+      "nameEn": "Twitch",
+      "titleZh": "瘟疫之源",
+      "titleEn": "the Plague Rat",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Twitch.png",
+      "aliases": [
+        "Twitch",
+        "Twitch",
+        "圖奇",
+        "瘟疫之源",
+        "the Plague Rat",
+        "Twitch"
+      ],
+      "normalized": [
+        "twitch",
+        "twitch",
+        "圖奇",
+        "瘟疫之源",
+        "theplaguerat",
+        "twitch"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 77,
+      "id": "Udyr",
+      "slug": "udyr",
+      "nameZh": "烏迪爾",
+      "nameEn": "Udyr",
+      "titleZh": "神靈行者",
+      "titleEn": "the Spirit Walker",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Udyr.png",
+      "aliases": [
+        "Udyr",
+        "Udyr",
+        "烏迪爾",
+        "神靈行者",
+        "the Spirit Walker",
+        "Udyr"
+      ],
+      "normalized": [
+        "udyr",
+        "udyr",
+        "烏迪爾",
+        "神靈行者",
+        "thespiritwalker",
+        "udyr"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 6,
+      "id": "Urgot",
+      "slug": "urgot",
+      "nameZh": "烏爾加特",
+      "nameEn": "Urgot",
+      "titleZh": "重裝無畏",
+      "titleEn": "the Dreadnought",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Urgot.png",
+      "aliases": [
+        "Urgot",
+        "Urgot",
+        "烏爾加特",
+        "重裝無畏",
+        "the Dreadnought",
+        "Urgot"
+      ],
+      "normalized": [
+        "urgot",
+        "urgot",
+        "烏爾加特",
+        "重裝無畏",
+        "thedreadnought",
+        "urgot"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 110,
+      "id": "Varus",
+      "slug": "varus",
+      "nameZh": "法洛士",
+      "nameEn": "Varus",
+      "titleZh": "懲戒之箭",
+      "titleEn": "the Arrow of Retribution",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Varus.png",
+      "aliases": [
+        "Varus",
+        "Varus",
+        "法洛士",
+        "懲戒之箭",
+        "the Arrow of Retribution",
+        "Varus"
+      ],
+      "normalized": [
+        "varus",
+        "varus",
+        "法洛士",
+        "懲戒之箭",
+        "thearrowofretribution",
+        "varus"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 67,
+      "id": "Vayne",
+      "slug": "vayne",
+      "nameZh": "汎",
+      "nameEn": "Vayne",
+      "titleZh": "暗夜獵人",
+      "titleEn": "the Night Hunter",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Vayne.png",
+      "aliases": [
+        "Vayne",
+        "Vayne",
+        "汎",
+        "暗夜獵人",
+        "the Night Hunter",
+        "Vayne"
+      ],
+      "normalized": [
+        "vayne",
+        "vayne",
+        "汎",
+        "暗夜獵人",
+        "thenighthunter",
+        "vayne"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 45,
+      "id": "Veigar",
+      "slug": "veigar",
+      "nameZh": "維迦",
+      "nameEn": "Veigar",
+      "titleZh": "邪惡小法師",
+      "titleEn": "the Tiny Master of Evil",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Veigar.png",
+      "aliases": [
+        "Veigar",
+        "Veigar",
+        "維迦",
+        "邪惡小法師",
+        "the Tiny Master of Evil",
+        "Veigar"
+      ],
+      "normalized": [
+        "veigar",
+        "veigar",
+        "維迦",
+        "邪惡小法師",
+        "thetinymasterofevil",
+        "veigar"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 161,
+      "id": "Velkoz",
+      "slug": "velkoz",
+      "nameZh": "威寇茲",
+      "nameEn": "Vel'Koz",
+      "titleZh": "虛空魔眼",
+      "titleEn": "the Eye of the Void",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Velkoz.png",
+      "aliases": [
+        "Vel'Koz",
+        "Velkoz",
+        "威寇茲",
+        "虛空魔眼",
+        "the Eye of the Void",
+        "Velkoz",
+        "Vel'Koz"
+      ],
+      "normalized": [
+        "velkoz",
+        "velkoz",
+        "威寇茲",
+        "虛空魔眼",
+        "theeyeofthevoid",
+        "velkoz",
+        "velkoz"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 711,
+      "id": "Vex",
+      "slug": "vex",
+      "nameZh": "薇可絲",
+      "nameEn": "Vex",
+      "titleZh": "愁霧影巫",
+      "titleEn": "the Gloomist",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Vex.png",
+      "aliases": [
+        "Vex",
+        "Vex",
+        "薇可絲",
+        "愁霧影巫",
+        "the Gloomist",
+        "Vex"
+      ],
+      "normalized": [
+        "vex",
+        "vex",
+        "薇可絲",
+        "愁霧影巫",
+        "thegloomist",
+        "vex"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 254,
+      "id": "Vi",
+      "slug": "vi",
+      "nameZh": "菲艾",
+      "nameEn": "Vi",
+      "titleZh": "鐵腕特警",
+      "titleEn": "the Piltover Enforcer",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Vi.png",
+      "aliases": [
+        "Vi",
+        "Vi",
+        "菲艾",
+        "鐵腕特警",
+        "the Piltover Enforcer",
+        "Vi"
+      ],
+      "normalized": [
+        "vi",
+        "vi",
+        "菲艾",
+        "鐵腕特警",
+        "thepiltoverenforcer",
+        "vi"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 234,
+      "id": "Viego",
+      "slug": "viego",
+      "nameZh": "維爾戈",
+      "nameEn": "Viego",
+      "titleZh": "殞落王者",
+      "titleEn": "The Ruined King",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Viego.png",
+      "aliases": [
+        "Viego",
+        "Viego",
+        "維爾戈",
+        "殞落王者",
+        "The Ruined King",
+        "Viego"
+      ],
+      "normalized": [
+        "viego",
+        "viego",
+        "維爾戈",
+        "殞落王者",
+        "theruinedking",
+        "viego"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 112,
+      "id": "Viktor",
+      "slug": "viktor",
+      "nameZh": "維克特",
+      "nameEn": "Viktor",
+      "titleZh": "奧術預示者",
+      "titleEn": "the Herald of the Arcane",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Viktor.png",
+      "aliases": [
+        "Viktor",
+        "Viktor",
+        "維克特",
+        "奧術預示者",
+        "the Herald of the Arcane",
+        "Viktor"
+      ],
+      "normalized": [
+        "viktor",
+        "viktor",
+        "維克特",
+        "奧術預示者",
+        "theheraldofthearcane",
+        "viktor"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 8,
+      "id": "Vladimir",
+      "slug": "vladimir",
+      "nameZh": "弗拉迪米爾",
+      "nameEn": "Vladimir",
+      "titleZh": "血色收割者",
+      "titleEn": "the Crimson Reaper",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Vladimir.png",
+      "aliases": [
+        "Vladimir",
+        "Vladimir",
+        "弗拉迪米爾",
+        "血色收割者",
+        "the Crimson Reaper",
+        "Vlad",
+        "Vladimir"
+      ],
+      "normalized": [
+        "vladimir",
+        "vladimir",
+        "弗拉迪米爾",
+        "血色收割者",
+        "thecrimsonreaper",
+        "vlad",
+        "vladimir"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 106,
+      "id": "Volibear",
+      "slug": "volibear",
+      "nameZh": "弗力貝爾",
+      "nameEn": "Volibear",
+      "titleZh": "無情風暴",
+      "titleEn": "the Relentless Storm",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Volibear.png",
+      "aliases": [
+        "Volibear",
+        "Volibear",
+        "弗力貝爾",
+        "無情風暴",
+        "the Relentless Storm",
+        "Voli",
+        "Volibear"
+      ],
+      "normalized": [
+        "volibear",
+        "volibear",
+        "弗力貝爾",
+        "無情風暴",
+        "therelentlessstorm",
+        "voli",
+        "volibear"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 19,
+      "id": "Warwick",
+      "slug": "warwick",
+      "nameZh": "沃維克",
+      "nameEn": "Warwick",
+      "titleZh": "嗜血狂怒",
+      "titleEn": "the Uncaged Wrath of Zaun",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Warwick.png",
+      "aliases": [
+        "Warwick",
+        "Warwick",
+        "沃維克",
+        "嗜血狂怒",
+        "the Uncaged Wrath of Zaun",
+        "Warwick"
+      ],
+      "normalized": [
+        "warwick",
+        "warwick",
+        "沃維克",
+        "嗜血狂怒",
+        "theuncagedwrathofzaun",
+        "warwick"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 62,
+      "id": "MonkeyKing",
+      "slug": "wukong",
+      "nameZh": "悟空",
+      "nameEn": "Wukong",
+      "titleZh": "齊天大聖",
+      "titleEn": "the Monkey King",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/MonkeyKing.png",
+      "aliases": [
+        "Wukong",
+        "MonkeyKing",
+        "悟空",
+        "齊天大聖",
+        "the Monkey King",
+        "Wu",
+        "Wukong"
+      ],
+      "normalized": [
+        "wukong",
+        "monkeyking",
+        "悟空",
+        "齊天大聖",
+        "themonkeyking",
+        "wu",
+        "wukong"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 498,
+      "id": "Xayah",
+      "slug": "xayah",
+      "nameZh": "剎雅",
+      "nameEn": "Xayah",
+      "titleZh": "逆羽",
+      "titleEn": "the Rebel",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Xayah.png",
+      "aliases": [
+        "Xayah",
+        "Xayah",
+        "剎雅",
+        "逆羽",
+        "the Rebel",
+        "Xayah"
+      ],
+      "normalized": [
+        "xayah",
+        "xayah",
+        "剎雅",
+        "逆羽",
+        "therebel",
+        "xayah"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 101,
+      "id": "Xerath",
+      "slug": "xerath",
+      "nameZh": "齊勒斯",
+      "nameEn": "Xerath",
+      "titleZh": "遠古魔導",
+      "titleEn": "the Magus Ascendant",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Xerath.png",
+      "aliases": [
+        "Xerath",
+        "Xerath",
+        "齊勒斯",
+        "遠古魔導",
+        "the Magus Ascendant",
+        "Xerath"
+      ],
+      "normalized": [
+        "xerath",
+        "xerath",
+        "齊勒斯",
+        "遠古魔導",
+        "themagusascendant",
+        "xerath"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 5,
+      "id": "XinZhao",
+      "slug": "xin-zhao",
+      "nameZh": "趙信",
+      "nameEn": "Xin Zhao",
+      "titleZh": "蒂瑪西亞總管",
+      "titleEn": "the Seneschal of Demacia",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/XinZhao.png",
+      "aliases": [
+        "Xin Zhao",
+        "XinZhao",
+        "趙信",
+        "蒂瑪西亞總管",
+        "the Seneschal of Demacia",
+        "Xin",
+        "Xin Zhao"
+      ],
+      "normalized": [
+        "xinzhao",
+        "xinzhao",
+        "趙信",
+        "蒂瑪西亞總管",
+        "theseneschalofdemacia",
+        "xin",
+        "xinzhao"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 157,
+      "id": "Yasuo",
+      "slug": "yasuo",
+      "nameZh": "犽宿",
+      "nameEn": "Yasuo",
+      "titleZh": "放逐浪人",
+      "titleEn": "the Unforgiven",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Yasuo.png",
+      "aliases": [
+        "Yasuo",
+        "Yasuo",
+        "犽宿",
+        "放逐浪人",
+        "the Unforgiven",
+        "Yas",
+        "Yasuo"
+      ],
+      "normalized": [
+        "yasuo",
+        "yasuo",
+        "犽宿",
+        "放逐浪人",
+        "theunforgiven",
+        "yas",
+        "yasuo"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 777,
+      "id": "Yone",
+      "slug": "yone",
+      "nameZh": "犽凝",
+      "nameEn": "Yone",
+      "titleZh": "不滅劍豪",
+      "titleEn": "the Unforgotten",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Yone.png",
+      "aliases": [
+        "Yone",
+        "Yone",
+        "犽凝",
+        "不滅劍豪",
+        "the Unforgotten",
+        "Yone"
+      ],
+      "normalized": [
+        "yone",
+        "yone",
+        "犽凝",
+        "不滅劍豪",
+        "theunforgotten",
+        "yone"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 83,
+      "id": "Yorick",
+      "slug": "yorick",
+      "nameZh": "約瑞科",
+      "nameEn": "Yorick",
+      "titleZh": "亡魂牧人",
+      "titleEn": "Shepherd of Souls",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Yorick.png",
+      "aliases": [
+        "Yorick",
+        "Yorick",
+        "約瑞科",
+        "亡魂牧人",
+        "Shepherd of Souls",
+        "Yorick"
+      ],
+      "normalized": [
+        "yorick",
+        "yorick",
+        "約瑞科",
+        "亡魂牧人",
+        "shepherdofsouls",
+        "yorick"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 804,
+      "id": "Yunara",
+      "slug": "yunara",
+      "nameZh": "尤娜拉",
+      "nameEn": "Yunara",
+      "titleZh": "千年巫女",
+      "titleEn": "the Unbroken Faith",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Yunara.png",
+      "aliases": [
+        "Yunara",
+        "Yunara",
+        "尤娜拉",
+        "千年巫女",
+        "the Unbroken Faith",
+        "Yunara"
+      ],
+      "normalized": [
+        "yunara",
+        "yunara",
+        "尤娜拉",
+        "千年巫女",
+        "theunbrokenfaith",
+        "yunara"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 350,
+      "id": "Yuumi",
+      "slug": "yuumi",
+      "nameZh": "悠咪",
+      "nameEn": "Yuumi",
+      "titleZh": "魔法靈貓",
+      "titleEn": "the Magical Cat",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Yuumi.png",
+      "aliases": [
+        "Yuumi",
+        "Yuumi",
+        "悠咪",
+        "魔法靈貓",
+        "the Magical Cat",
+        "Yuumi"
+      ],
+      "normalized": [
+        "yuumi",
+        "yuumi",
+        "悠咪",
+        "魔法靈貓",
+        "themagicalcat",
+        "yuumi"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 904,
+      "id": "Zaahen",
+      "slug": "zaahen",
+      "nameZh": "薩亨",
+      "nameEn": "Zaahen",
+      "titleZh": "不滅冥聖",
+      "titleEn": "The Unsundered",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Zaahen.png",
+      "aliases": [
+        "Zaahen",
+        "Zaahen",
+        "薩亨",
+        "不滅冥聖",
+        "The Unsundered",
+        "Zaahen"
+      ],
+      "normalized": [
+        "zaahen",
+        "zaahen",
+        "薩亨",
+        "不滅冥聖",
+        "theunsundered",
+        "zaahen"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 154,
+      "id": "Zac",
+      "slug": "zac",
+      "nameZh": "札克",
+      "nameEn": "Zac",
+      "titleZh": "魔人",
+      "titleEn": "the Secret Weapon",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Zac.png",
+      "aliases": [
+        "Zac",
+        "Zac",
+        "札克",
+        "魔人",
+        "the Secret Weapon",
+        "Zac"
+      ],
+      "normalized": [
+        "zac",
+        "zac",
+        "札克",
+        "魔人",
+        "thesecretweapon",
+        "zac"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 238,
+      "id": "Zed",
+      "slug": "zed",
+      "nameZh": "劫",
+      "nameEn": "Zed",
+      "titleZh": "影忍至尊",
+      "titleEn": "the Master of Shadows",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Zed.png",
+      "aliases": [
+        "Zed",
+        "Zed",
+        "劫",
+        "影忍至尊",
+        "the Master of Shadows",
+        "Zed"
+      ],
+      "normalized": [
+        "zed",
+        "zed",
+        "劫",
+        "影忍至尊",
+        "themasterofshadows",
+        "zed"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 221,
+      "id": "Zeri",
+      "slug": "zeri",
+      "nameZh": "婕莉",
+      "nameEn": "Zeri",
+      "titleZh": "佐恩電光",
+      "titleEn": "The Spark of Zaun",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Zeri.png",
+      "aliases": [
+        "Zeri",
+        "Zeri",
+        "婕莉",
+        "佐恩電光",
+        "The Spark of Zaun",
+        "Zeri"
+      ],
+      "normalized": [
+        "zeri",
+        "zeri",
+        "婕莉",
+        "佐恩電光",
+        "thesparkofzaun",
+        "zeri"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 115,
+      "id": "Ziggs",
+      "slug": "ziggs",
+      "nameZh": "希格斯",
+      "nameEn": "Ziggs",
+      "titleZh": "魔法爆破專家",
+      "titleEn": "the Hexplosives Expert",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ziggs.png",
+      "aliases": [
+        "Ziggs",
+        "Ziggs",
+        "希格斯",
+        "魔法爆破專家",
+        "the Hexplosives Expert",
+        "Ziggs"
+      ],
+      "normalized": [
+        "ziggs",
+        "ziggs",
+        "希格斯",
+        "魔法爆破專家",
+        "thehexplosivesexpert",
+        "ziggs"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 26,
+      "id": "Zilean",
+      "slug": "zilean",
+      "nameZh": "極靈",
+      "nameEn": "Zilean",
+      "titleZh": "時光守護者",
+      "titleEn": "the Chronokeeper",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Zilean.png",
+      "aliases": [
+        "Zilean",
+        "Zilean",
+        "極靈",
+        "時光守護者",
+        "the Chronokeeper",
+        "Zil",
+        "Zilean"
+      ],
+      "normalized": [
+        "zilean",
+        "zilean",
+        "極靈",
+        "時光守護者",
+        "thechronokeeper",
+        "zil",
+        "zilean"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 142,
+      "id": "Zoe",
+      "slug": "zoe",
+      "nameZh": "柔依",
+      "nameEn": "Zoe",
+      "titleZh": "暮光星靈",
+      "titleEn": "the Aspect of Twilight",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Zoe.png",
+      "aliases": [
+        "Zoe",
+        "Zoe",
+        "柔依",
+        "暮光星靈",
+        "the Aspect of Twilight",
+        "Zoe"
+      ],
+      "normalized": [
+        "zoe",
+        "zoe",
+        "柔依",
+        "暮光星靈",
+        "theaspectoftwilight",
+        "zoe"
+      ],
+      "hasData": true
+    },
+    {
+      "key": 143,
+      "id": "Zyra",
+      "slug": "zyra",
+      "nameZh": "枷蘿",
+      "nameEn": "Zyra",
+      "titleZh": "荊棘漫遊者",
+      "titleEn": "Rise of the Thorns",
+      "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Zyra.png",
+      "aliases": [
+        "Zyra",
+        "Zyra",
+        "枷蘿",
+        "荊棘漫遊者",
+        "Rise of the Thorns",
+        "Zyra"
+      ],
+      "normalized": [
+        "zyra",
+        "zyra",
+        "枷蘿",
+        "荊棘漫遊者",
+        "riseofthethorns",
+        "zyra"
+      ],
+      "hasData": true
+    }
+  ]
+}
