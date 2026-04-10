@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "description": "Live ARAM lookup page powered by current U.GG and Riot static data.",
   "scripts": {
+    "build": "node scripts/build-static-data.js",
+    "build:data": "node scripts/build-static-data.js",
     "start": "node server.js"
   }
 }

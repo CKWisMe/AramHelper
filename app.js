@@ -43,12 +43,12 @@ async function boot() {
   renderRecentChips();
 
   try {
-    setStatus('正在同步最新版本資訊...', false);
-    state.meta = await fetchJson('/api/meta');
+    setStatus('正在載入最新靜態資料...', false);
+    state.meta = await fetchJson(buildDataUrl('data/meta.json'));
     populateSuggestions();
     renderFeaturedChips();
     updatePatchPill();
-    setStatus('已載入最新英雄清單，可以開始搜尋。', false);
+    setStatus('已載入最新資料快照，可以開始搜尋。', false);
   } catch (error) {
     setStatus(`初始化失敗：${error.message}`, true);
   }
@@ -84,21 +84,43 @@ async function lookupChampion(query, forceRefresh = false) {
   }
 
   state.loading = true;
-  setStatus(forceRefresh ? `重新抓取 ${keyword} 的最新資料...` : `正在查詢 ${keyword} 的最新資料...`, false);
+  setStatus(forceRefresh ? `重新讀取 ${keyword} 的資料快照...` : `正在查詢 ${keyword} 的資料快照...`, false);
 
   try {
-    const result = await fetchJson(`/api/champion?name=${encodeURIComponent(keyword)}`);
+    if (!state.meta || forceRefresh) {
+      state.meta = await fetchJson(buildDataUrl('data/meta.json'), forceRefresh);
+      populateSuggestions();
+      renderFeaturedChips();
+      updatePatchPill();
+    }
+
+    const champion = resolveChampionEntry(keyword);
+    if (!champion) {
+      state.currentResult = null;
+      const suggestions = buildClientSuggestions(keyword);
+      renderNotFound(keyword, suggestions);
+      setStatus(`找不到「${keyword}」對應的英雄。`, true);
+      return;
+    }
+
+    const result = await fetchJson(buildDataUrl(`data/champions/${champion.slug}.json`), forceRefresh);
+    if (result.error) {
+      state.currentResult = null;
+      renderUnavailableChampion(result);
+      setStatus(result.message || `目前找不到 ${champion.nameZh} 的可用資料。`, true);
+      return;
+    }
+
     state.currentResult = result;
     elements.championSearch.value = result.champion.nameZh;
     saveRecent(result.champion.nameZh);
     renderRecentChips();
     renderChampion(result);
-    setStatus(`已更新 ${result.champion.nameZh} 的最新 ARAM 建議。`, false);
+    setStatus(`已更新 ${result.champion.nameZh} 的 ARAM 資料快照。`, false);
   } catch (error) {
-    const message = error.payload?.message || error.message;
-    const suggestions = error.payload?.suggestions || [];
+    const suggestions = buildClientSuggestions(keyword);
     renderNotFound(keyword, suggestions);
-    setStatus(message, true);
+    setStatus(error.message, true);
   } finally {
     state.loading = false;
   }
@@ -112,7 +134,7 @@ function renderChampion(data) {
   elements.sourceLink.classList.remove('hidden');
 
   elements.resultTitle.textContent = `${data.champion.nameZh} / ${data.champion.nameEn}`;
-  elements.resultSubtitle.textContent = `最新 ARAM 即時資料 - Patch ${data.patch.statsPatchLabel}`;
+  elements.resultSubtitle.textContent = `ARAM 靜態資料快照 - Patch ${data.patch.statsPatchLabel}`;
   elements.championPortrait.src = data.champion.imageUrl;
   elements.championPortrait.alt = `${data.champion.nameZh} portrait`;
   elements.championKicker.textContent = `${data.champion.titleZh} · 資料更新 ${formatTime(data.patch.sourceUpdatedAt)}`;
@@ -125,6 +147,21 @@ function renderChampion(data) {
   renderRuneBlock(data);
   renderSkillBlock(data);
   renderTipsBlock(data);
+}
+
+function renderUnavailableChampion(data) {
+  elements.resultTitle.textContent = `${data.champion.nameZh} / ${data.champion.nameEn}`;
+  elements.resultSubtitle.textContent = data.message || '這隻英雄目前沒有可用資料。';
+  elements.emptyState.classList.remove('hidden');
+  elements.championHero.classList.add('hidden');
+  elements.statBar.classList.add('hidden');
+  elements.resultGrid.classList.add('hidden');
+  elements.sourceLink.classList.add('hidden');
+
+  elements.emptyState.innerHTML = `
+    <h3>這隻英雄暫時沒有資料</h3>
+    <p>${data.message || '目前這份靜態資料快照沒有收錄這隻英雄的 ARAM 建議。'}</p>
+  `;
 }
 
 function renderNotFound(keyword, suggestions) {
@@ -480,7 +517,8 @@ function updatePatchPill() {
     return;
   }
 
-  elements.patchPill.textContent = `目前資料 Patch ${state.meta.patch.statsPatchLabel} / Riot 資產 ${state.meta.patch.assetVersion}`;
+  const builtAt = state.meta.builtAt ? ` / 快照 ${formatTime(state.meta.builtAt)}` : '';
+  elements.patchPill.textContent = `目前資料 Patch ${state.meta.patch.statsPatchLabel} / Riot 資產 ${state.meta.patch.assetVersion}${builtAt}`;
 }
 
 function setStatus(message, isWarning) {
@@ -500,15 +538,57 @@ function formatTime(value) {
   }
 }
 
-async function fetchJson(url) {
-  const response = await fetch(url);
-  const payload = await response.json();
+async function fetchJson(url, bustCache = false) {
+  const targetUrl = bustCache ? `${url}${url.includes('?') ? '&' : '?'}t=${Date.now()}` : url;
+  const response = await fetch(targetUrl, {
+    cache: 'no-store'
+  });
 
   if (!response.ok) {
-    const error = new Error(payload.message || 'Request failed');
-    error.payload = payload;
-    throw error;
+    throw new Error(`讀取資料失敗：${response.status}`);
   }
 
-  return payload;
+  return response.json();
+}
+
+function buildDataUrl(relativePath) {
+  return new URL(relativePath, window.location.href).toString();
+}
+
+function resolveChampionEntry(query) {
+  const keyword = normalizeQuery(query);
+  if (!keyword || !state.meta) {
+    return null;
+  }
+
+  const exact = state.meta.champions.find((champion) => champion.normalized.includes(keyword));
+  if (exact) {
+    return exact;
+  }
+
+  return state.meta.champions.find((champion) => champion.normalized.some((alias) => alias.includes(keyword)));
+}
+
+function buildClientSuggestions(query) {
+  const keyword = normalizeQuery(query);
+  if (!keyword || !state.meta) {
+    return [];
+  }
+
+  return state.meta.champions
+    .filter((champion) => champion.normalized.some((alias) => alias.includes(keyword)))
+    .slice(0, 8)
+    .map((champion) => ({
+      nameZh: champion.nameZh,
+      nameEn: champion.nameEn,
+      slug: champion.slug
+    }));
+}
+
+function normalizeQuery(value) {
+  return String(value || '')
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
 }
