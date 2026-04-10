@@ -1,0 +1,9 @@
+{
+  "name": "aram-live-desk",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Live ARAM lookup page powered by current U.GG and Riot static data.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

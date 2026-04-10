@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARAM Live Desk</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero-banner">
+        <p class="eyebrow">League of Legends / ARAM / Live</p>
+        <div class="hero-copy">
+          <div>
+            <h1>ARAM Live Desk</h1>
+            <p class="lead">
+              直接查最新 ARAM 推薦出裝、符文、召喚師技能、技能點法與 ARAM 專屬平衡調整。
+              每次搜尋都會即時向線上資料源抓當前版本資料，不再是手動維護的靜態筆記。
+            </p>
+          </div>
+          <div class="hero-actions">
+            <a id="sourceLink" class="secondary-button hidden" href="#" target="_blank" rel="noreferrer">開啟資料來源</a>
+            <button id="refreshButton" class="primary-button">重新抓最新資料</button>
+          </div>
+        </div>
+        <div class="status-strip">
+          <span id="statusPill" class="status-pill">正在載入英雄清單...</span>
+          <span id="patchPill" class="status-note"></span>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <section class="panel search-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-tag">搜尋</p>
+              <h2>查詢最新 ARAM 方案</h2>
+            </div>
+            <p class="panel-note">支援中文、英文與常見別名。</p>
+          </div>
+
+          <div class="search-box">
+            <label for="championSearch" class="visually-hidden">搜尋英雄</label>
+            <input
+              id="championSearch"
+              type="text"
+              placeholder="例如：阿璃 / Ahri / Lux / 納帝魯斯"
+              autocomplete="off"
+              list="championSuggestions"
+            />
+            <datalist id="championSuggestions"></datalist>
+            <button id="searchButton" class="primary-button">搜尋</button>
+          </div>
+
+          <div>
+            <p class="subheading">常用英雄</p>
+            <div id="featuredList" class="chip-list"></div>
+          </div>
+
+          <div>
+            <p class="subheading">最近查詢</p>
+            <div id="recentList" class="chip-list"></div>
+          </div>
+        </section>
+
+        <section class="panel result-panel result-panel-wide">
+          <div class="panel-heading">
+            <div>
+              <p class="section-tag">結果</p>
+              <h2 id="resultTitle">尚未選擇英雄</h2>
+            </div>
+            <p id="resultSubtitle" class="panel-note">輸入英雄名稱後，這裡會顯示最新 ARAM 推薦配置。</p>
+          </div>
+
+          <div id="emptyState" class="empty-state">
+            <h3>準備好查角色了</h3>
+            <p>
+              這個版本會向即時資料源抓最新 ARAM 推薦內容。輸入英雄名稱後，就會自動顯示出裝、符文、技能點法與當前 ARAM 平衡調整。
+            </p>
+          </div>
+
+          <section id="championHero" class="champion-hero hidden">
+            <img id="championPortrait" alt="Champion portrait" />
+            <div>
+              <p id="championKicker" class="subheading"></p>
+              <h3 id="championName"></h3>
+              <p id="championBlurb" class="panel-note"></p>
+            </div>
+          </section>
+
+          <div id="statBar" class="stat-bar hidden"></div>
+
+          <div id="resultGrid" class="result-grid hidden">
+            <article class="result-card accent-red">
+              <p class="card-label">推薦出裝</p>
+              <div id="buildBlock" class="rich-text"></div>
+            </article>
+            <article class="result-card accent-gold">
+              <p class="card-label">符文與召喚師技能</p>
+              <div id="runeBlock" class="rich-text"></div>
+            </article>
+            <article class="result-card accent-cyan">
+              <p class="card-label">技能點法</p>
+              <div id="skillBlock" class="rich-text"></div>
+            </article>
+            <article class="result-card accent-green">
+              <p class="card-label">ARAM 重點</p>
+              <div id="tipsBlock" class="rich-text"></div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="chipTemplate">
+      <button type="button" class="chip"></button>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
