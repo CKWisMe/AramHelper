@@ -1,0 +1,438 @@
+{
+  "patch": {
+    "statsPatch": "16_7",
+    "statsPatchLabel": "16.7",
+    "assetVersion": "16.7.1",
+    "overviewVersion": "1.5.0",
+    "apiTrack": "1.5",
+    "sourceUpdatedAt": "2026-04-09T17:24:02.898740Z"
+  },
+  "source": {
+    "provider": "U.GG stats2 + Riot static",
+    "championUrl": "https://u.gg/lol/champions/aram/zeri-aram",
+    "overviewUrl": "https://stats2.u.gg/lol/1.5/overview/16_7/normal_aram/221/1.5.0.json"
+  },
+  "champion": {
+    "key": 221,
+    "id": "Zeri",
+    "slug": "zeri",
+    "nameZh": "婕莉",
+    "nameEn": "Zeri",
+    "titleZh": "佐恩電光",
+    "titleEn": "The Spark of Zaun",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Zeri.png",
+    "splashUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg",
+    "blurb": "婕莉是個任性固執、熱情活潑的佐恩勞工階級年輕女性，能夠運用電力魔法為自己和自製槍枝充電。那一觸即發的能力反映了她的心緒，隨時迸發的火花就如她急性子的處事風格。婕莉對他人也富有同情心，總是為了對家人和家園的愛而奮戰不懈。雖然婕莉樂於助人的性格有時候會適得其反，但她抱著這個信念：為他人挺身而出，他們也會為你而戰。",
+    "passive": {
+      "name": "人體蓄電池",
+      "description": "婕莉的普攻視作技能，且會造成魔法傷害。移動和施放激電連彈會為婕莉的電光蓄能包儲存能量。充能完畢後，她的下一次普攻會造成額外傷害。",
+      "image": {
+        "full": "ZeriP.png",
+        "sprite": "passive5.png",
+        "group": "passive",
+        "x": 336,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "spells": [
+      {
+        "key": "Q",
+        "name": "激電連彈",
+        "description": "激電連彈會快速連射出7發雷電彈，對第一位命中的敵人造成物理傷害。此技能視作普攻。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriQ.png"
+      },
+      {
+        "key": "W",
+        "name": "超激爆電磁炮",
+        "description": "婕莉射出一道電力脈衝，緩速並傷害首個命中的敵人。如果脈衝命中一堵牆壁，將會增長為一道長距離的雷射。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriW.png"
+      },
+      {
+        "key": "E",
+        "name": "電光石火",
+        "description": "婕莉衝刺一段短距離，並使她接下來施放的   3 次激電連彈充滿能量，使其能穿透敵人。她會跳躍並滑行過任何她碰觸到的地形。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriE.png"
+      },
+      {
+        "key": "R",
+        "name": "雷霆萬鈞",
+        "description": "婕莉釋放出一陣雷電衝擊，並使自身超載，提升傷害並累加跑速，每次命中敵方英雄可刷新並強化跑速加成。超載期間，激電連彈匯集為更快速的三連射，在敵人之間產生連鎖閃電。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/ZeriR.png"
+      }
+    ]
+  },
+  "recommended": {
+    "sample": {
+      "wins": 7008,
+      "losses": 3328,
+      "games": 10336,
+      "winRate": 0.6780185758513931
+    },
+    "runes": {
+      "primaryTree": {
+        "id": 8000,
+        "key": "Precision",
+        "name": "精準",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7201_Precision.png"
+      },
+      "secondaryTree": {
+        "id": 8100,
+        "key": "Domination",
+        "name": "征服",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7200_Domination.png"
+      },
+      "keystone": {
+        "id": 8008,
+        "name": "致命節奏",
+        "shortDesc": "對敵方英雄進行普攻可增加攻速，最多6層。滿層時，進行普攻可造成<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>額外適性傷害</font></lol-uikit-tooltipped-keyword>。",
+        "longDesc": "對敵方英雄進行普攻可增加[6%近戰 || 4%遠攻] 攻速6秒，最多6層。滿層時，進行普攻可造成[9 - 30 近戰 || 6 - 24遠攻] <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>額外適性傷害，每有1%額外攻速便增加1%</lol-uikit-tooltipped-keyword>。",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png",
+        "treeId": 8000
+      },
+      "primaryRunes": [
+        {
+          "id": 8008,
+          "name": "致命節奏",
+          "shortDesc": "對敵方英雄進行普攻可增加攻速，最多6層。滿層時，進行普攻可造成<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>額外適性傷害</font></lol-uikit-tooltipped-keyword>。",
+          "longDesc": "對敵方英雄進行普攻可增加[6%近戰 || 4%遠攻] 攻速6秒，最多6層。滿層時，進行普攻可造成[9 - 30 近戰 || 6 - 24遠攻] <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>額外適性傷害，每有1%額外攻速便增加1%</lol-uikit-tooltipped-keyword>。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png",
+          "treeId": 8000
+        },
+        {
+          "id": 8009,
+          "name": "氣定神閒",
+          "shortDesc": "對敵方英雄造成傷害時，回復少量魔力或能量。參與擊殺可回復魔力或能量。",
+          "longDesc": "對敵方英雄造成傷害時，回復6-50 (遠攻英雄為80%)魔力或6能量。<br><br>參與擊殺可回復15%最大魔力或能量。<br><br>傷害回復效果冷卻時間：8秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png",
+          "treeId": 8000
+        },
+        {
+          "id": 8014,
+          "name": "致命一擊",
+          "shortDesc": "對低血量的英雄造成額外傷害。",
+          "longDesc": "對生命低於 40% 的英雄造成 8% 額外傷害。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png",
+          "treeId": 8000
+        },
+        {
+          "id": 9103,
+          "name": "傳奇：血脈",
+          "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>擊殺參與</lol-uikit-tooltipped-keyword>會提供永久的<b>普攻吸血</b>，有其累加上限。達到上限時，提升你的最大生命。與其他傳奇符文相較，前期較弱但後期較強。",
+          "longDesc": "每層<i>傳奇</i>堆層提供<scaleAD>0.45%普攻吸血</scaleAD>(<statGood>上限為15層</statGood>)。<i>傳奇</i>層數堆積至滿層時，增加<scaleHealth>85最大生命</scaleHealth>。<br><br>可藉由參與擊殺英雄、參與擊殺史詩級野怪、擊殺大型野怪、擊殺士兵來累加<i>傳奇</i>堆層。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png",
+          "treeId": 8000
+        }
+      ],
+      "secondaryRunes": [
+        {
+          "id": 8135,
+          "name": "寶藏獵人",
+          "shortDesc": "<b>不重複</b>的<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>擊殺參與</lol-uikit-tooltipped-keyword>會在首次蒐集堆層時提升獲得的金錢。",
+          "longDesc": "下一次蒐集到一層<i>賞金獵人</i>堆層時，獲得額外 <gold>50 金錢</gold>。根據每一層<i>賞金獵人</i>層數，使獲得的金錢數量提升 <gold>20 金錢</gold>，最多可以獲得<gold>130 金錢</gold>。<br><br>從一名不重複的敵方英雄身上首次取得擊殺或助攻會獲得一層<i>賞金獵人</i>堆層。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png",
+          "treeId": 8100
+        },
+        {
+          "id": 8139,
+          "name": "血噬",
+          "shortDesc": "傷害一名敵方英雄時回復自身生命。",
+          "longDesc": "傷害一名敵方英雄時治療自己。<br><br>治療量：16 - 40(+0.1額外物理攻擊、+0.05魔法攻擊)生命(隨等級提升)<br><br>冷卻時間：20秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png",
+          "treeId": 8100
+        }
+      ],
+      "statShards": [
+        {
+          "id": "5005",
+          "name": "攻速",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAttackSpeedIcon.png"
+        },
+        {
+          "id": "5008",
+          "name": "適性之力",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+        },
+        {
+          "id": "5001",
+          "name": "成長生命",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsHealthScalingIcon.png"
+        }
+      ]
+    },
+    "summoners": [
+      {
+        "id": 4,
+        "name": "閃現",
+        "description": "朝著滑鼠游標傳送一小段距離。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerFlash.png"
+      },
+      {
+        "id": 6,
+        "name": "鬼步",
+        "description": "獲得跑速並在持續時間內無視單位碰撞。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerHaste.png"
+      }
+    ],
+    "starterItems": [
+      {
+        "id": 3144,
+        "name": "斥候彈弓",
+        "description": "啟動來造成魔法傷害並緩速目標英雄",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">斥候彈弓</div>\n      <div class=\"item-tooltip-meta\"><span>總價 600</span><span class=\"item-tooltip-dot\">•</span><span>售價 420</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">20%</span> 攻擊速度</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>正中紅心<br />傷害一名英雄會造成<magicDamage>額外魔法傷害</magicDamage>。<br />普攻會使冷卻時間縮短1秒。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3144.png"
+      },
+      {
+        "id": 6690,
+        "name": "導翔之羽",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">導翔之羽</div>\n      <div class=\"item-tooltip-meta\"><span>總價 775</span><span class=\"item-tooltip-dot\">•</span><span>售價 543</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">15</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">4%</span> 跑速</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6690.png"
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 3087,
+        "name": "史提克彈簧刀",
+        "description": "移動能堆積充能，普攻時可以釋放靜電電擊",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">史提克彈簧刀</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2700</span><span class=\"item-tooltip-dot\">•</span><span>售價 1890</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">45</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">30%</span> 攻擊速度<br /><span class=\"item-tooltip-emphasis\">4%</span> 跑速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>電光<br />普攻會觸發連鎖閃電<OnHit>命中敵軍時</OnHit>造成<magicDamage>魔法傷害</magicDamage>，並進入冷卻時間。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>電擊 <br />對目標造成傷害後的3秒內參與擊殺，可重置電光的冷卻時間。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3087.png"
+      },
+      {
+        "id": 3006,
+        "name": "狂戰士護脛",
+        "description": "增加跑速和攻速",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">狂戰士護脛</div>\n      <div class=\"item-tooltip-meta\"><span>總價 1100</span><span class=\"item-tooltip-dot\">•</span><span>售價 770</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">25%</span> 攻擊速度<br /><span class=\"item-tooltip-emphasis\">45</span> 跑速</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3006.png"
+      },
+      {
+        "id": 3085,
+        "name": "芮蘭颶風箭",
+        "description": "遠距離攻擊額外射出兩支箭攻擊附近敵人",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">芮蘭颶風箭</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2650</span><span class=\"item-tooltip-dot\">•</span><span>售價 1855</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">40%</span> 攻擊速度<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率<br /><span class=\"item-tooltip-emphasis\">4%</span> 跑速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>風之怒<br />普攻會發射2支分裂箭攻擊目標附近的敵軍。<br />每支分裂箭造成<physicalDamage>物理傷害</physicalDamage>並附加<OnHit>命中效果</OnHit>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3085.png"
+      }
+    ],
+    "situationalItems": [
+      {
+        "id": 3031,
+        "name": "無盡之刃",
+        "description": "大幅增強暴擊傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">無盡之刃</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率<br /><span class=\"item-tooltip-emphasis\">30%</span>暴擊傷害</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3031.png"
+      },
+      {
+        "id": 2003,
+        "name": "生命藥水",
+        "description": "使用以回復生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+      },
+      {
+        "id": 3036,
+        "name": "多明尼克的問候",
+        "description": "對抗有大量生命和物理防禦的敵人",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">多明尼克的問候</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3300</span><span class=\"item-tooltip-dot\">•</span><span>售價 2310</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">35</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">35%</span> 物理穿透<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>巨人殺手<br />對擁有額外生命的敵方英雄造成15%額外傷害。會在對方額外生命達到1500時造成最大傷害。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3036.png"
+      },
+      {
+        "id": 2140,
+        "name": "憤怒藥劑",
+        "description": "暫時增加物理攻擊，對英雄造成的物理傷害將可以恢復自身生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">憤怒藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleAD>30物理攻擊</scaleAD>和對英雄<lifeSteal>12%物理吸血</lifeSteal>，持續3分鐘。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2140.png"
+      },
+      {
+        "id": 3072,
+        "name": "嗜血者",
+        "description": "獲得物理攻擊，普攻吸血可獲得超量治療效果",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">嗜血者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3400</span><span class=\"item-tooltip-dot\">•</span><span>售價 2380</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">80</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">15%</span> 普攻吸血</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>庇蔭靈藥<br />將普攻吸血獲得的超額治療量轉化成<shield>護盾</shield>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3072.png"
+      },
+      {
+        "id": 2031,
+        "name": "回復藥水",
+        "description": "逐漸回復生命，可回商店回充",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">回復藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 150</span><span class=\"item-tooltip-dot\">•</span><span>售價 60</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>主動(2次使用次數)<br />在12秒內回復<healing>100生命</healing>。<br />返回商店時會自動補滿。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2031.png"
+      },
+      {
+        "id": 2512,
+        "name": "獵魔弩箭",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">獵魔弩箭</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2650</span><span class=\"item-tooltip-dot\">•</span><span>售價 1855</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">45%</span> 攻擊速度<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率<br /><span class=\"item-tooltip-emphasis\">4%</span> 跑速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>守夜<br />獲得30大絕技能加速。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>開場彈幕<br />施放大絕後，接下來3次普攻提升<attackSpeed>50%攻速</attackSpeed>，且暴擊率為平常暴擊傷害的80%，持續8秒。若該普攻本來就會暴擊，改為造成<trueDamage>15%額外真實傷害</trueDamage>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2512.png"
+      }
+    ],
+    "lateGameBuilds": [
+      {
+        "title": "順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 3031,
+            "name": "無盡之刃",
+            "description": "大幅增強暴擊傷害",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">無盡之刃</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率<br /><span class=\"item-tooltip-emphasis\">30%</span>暴擊傷害</div><br /><br /></div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3031.png"
+          },
+          {
+            "id": 3036,
+            "name": "多明尼克的問候",
+            "description": "對抗有大量生命和物理防禦的敵人",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">多明尼克的問候</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3300</span><span class=\"item-tooltip-dot\">•</span><span>售價 2310</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">35</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">35%</span> 物理穿透<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>巨人殺手<br />對擁有額外生命的敵方英雄造成15%額外傷害。會在對方額外生命達到1500時造成最大傷害。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3036.png"
+          }
+        ]
+      },
+      {
+        "title": "後期順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 3036,
+            "name": "多明尼克的問候",
+            "description": "對抗有大量生命和物理防禦的敵人",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">多明尼克的問候</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3300</span><span class=\"item-tooltip-dot\">•</span><span>售價 2310</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">35</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">35%</span> 物理穿透<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>巨人殺手<br />對擁有額外生命的敵方英雄造成15%額外傷害。會在對方額外生命達到1500時造成最大傷害。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3036.png"
+          },
+          {
+            "id": 3031,
+            "name": "無盡之刃",
+            "description": "大幅增強暴擊傷害",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">無盡之刃</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率<br /><span class=\"item-tooltip-emphasis\">30%</span>暴擊傷害</div><br /><br /></div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3031.png"
+          },
+          {
+            "id": 3072,
+            "name": "嗜血者",
+            "description": "獲得物理攻擊，普攻吸血可獲得超量治療效果",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">嗜血者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3400</span><span class=\"item-tooltip-dot\">•</span><span>售價 2380</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">80</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">15%</span> 普攻吸血</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>庇蔭靈藥<br />將普攻吸血獲得的超額治療量轉化成<shield>護盾</shield>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3072.png"
+          }
+        ]
+      },
+      {
+        "title": "滿裝順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 3072,
+            "name": "嗜血者",
+            "description": "獲得物理攻擊，普攻吸血可獲得超量治療效果",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">嗜血者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3400</span><span class=\"item-tooltip-dot\">•</span><span>售價 2380</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">80</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">15%</span> 普攻吸血</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>庇蔭靈藥<br />將普攻吸血獲得的超額治療量轉化成<shield>護盾</shield>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3072.png"
+          },
+          {
+            "id": 3036,
+            "name": "多明尼克的問候",
+            "description": "對抗有大量生命和物理防禦的敵人",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">多明尼克的問候</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3300</span><span class=\"item-tooltip-dot\">•</span><span>售價 2310</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">35</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">35%</span> 物理穿透<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>巨人殺手<br />對擁有額外生命的敵方英雄造成15%額外傷害。會在對方額外生命達到1500時造成最大傷害。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3036.png"
+          },
+          {
+            "id": 2512,
+            "name": "獵魔弩箭",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">獵魔弩箭</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2650</span><span class=\"item-tooltip-dot\">•</span><span>售價 1855</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">45%</span> 攻擊速度<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率<br /><span class=\"item-tooltip-emphasis\">4%</span> 跑速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>守夜<br />獲得30大絕技能加速。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>開場彈幕<br />施放大絕後，接下來3次普攻提升<attackSpeed>50%攻速</attackSpeed>，且暴擊率為平常暴擊傷害的80%，持續8秒。若該普攻本來就會暴擊，改為造成<trueDamage>15%額外真實傷害</trueDamage>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2512.png"
+          }
+        ]
+      },
+      {
+        "title": "拉扯續航",
+        "note": "會戰常常拉很久，或你需要邊打邊回、一直站場輸出時，就換這組。",
+        "items": [
+          {
+            "id": 2003,
+            "name": "生命藥水",
+            "description": "使用以回復生命",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+          },
+          {
+            "id": 2140,
+            "name": "憤怒藥劑",
+            "description": "暫時增加物理攻擊，對英雄造成的物理傷害將可以恢復自身生命",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">憤怒藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleAD>30物理攻擊</scaleAD>和對英雄<lifeSteal>12%物理吸血</lifeSteal>，持續3分鐘。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2140.png"
+          },
+          {
+            "id": 2031,
+            "name": "回復藥水",
+            "description": "逐漸回復生命，可回商店回充",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">回復藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 150</span><span class=\"item-tooltip-dot\">•</span><span>售價 60</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>主動(2次使用次數)<br />在12秒內回復<healing>100生命</healing>。<br />返回商店時會自動補滿。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2031.png"
+          }
+        ]
+      }
+    ],
+    "skillOrder": {
+      "priority": "Q > E > W",
+      "sequence": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "Q",
+        "E",
+        "R",
+        "E",
+        "E",
+        "W",
+        "W",
+        "R",
+        "W",
+        "W"
+      ],
+      "firstLevels": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "Q"
+      ],
+      "spellNames": {
+        "Q": "激電連彈",
+        "W": "超激爆電磁炮",
+        "E": "電光石火",
+        "R": "雷霆萬鈞"
+      }
+    }
+  },
+  "balance": {
+    "changed": true,
+    "entries": [
+      "造成傷害增加 10%",
+      "承受傷害減少 5%"
+    ],
+    "raw": {
+      "damage_taken": 0.95,
+      "damage_dealt": 1.1,
+      "damage_healing": 1,
+      "damage_shielding": 1,
+      "abilities": "",
+      "total_attack_speed": 1,
+      "ability_haste": 1,
+      "energy_regeneration": 1,
+      "tenacity": 1,
+      "changes": true
+    }
+  },
+  "tips": [
+    "這套主流配置樣本約 10,336 場，配置勝率 67.8%。",
+    "起手通常從 2 件裝備開局，優先照系統推薦順序購買。",
+    "核心成裝以前 3 件為主，先把主力傷害與鞋子湊齊，再補功能裝。",
+    "技能主升順序多半是 Q > E > W，照前 9 等順序點法最穩。",
+    "這隻英雄目前有 ARAM 專屬平衡調整，進場前記得看一下面板。"
+  ]
+}
