@@ -240,19 +240,30 @@ function renderSkillBlock(data) {
   const wrapper = document.createElement('div');
   wrapper.className = 'block-stack';
   const skill = data.recommended.skillOrder;
+  const spellMap = new Map((data.champion.spells || []).map((entry) => [entry.key, entry]));
 
   const priority = document.createElement('p');
   priority.innerHTML = `主升順序：<strong>${skill.priority}</strong>`;
   wrapper.appendChild(priority);
 
-  wrapper.appendChild(renderInlineSection(
+  wrapper.appendChild(renderSkillSequenceSection(
     '前 9 等點法',
-    skill.firstLevels.map((entry) => `${entry} - ${skill.spellNames[entry] || entry}`)
+    skill.firstLevels.map((entry, index) => ({
+      level: index + 1,
+      key: entry,
+      name: skill.spellNames[entry] || entry,
+      imageUrl: spellMap.get(entry)?.imageUrl || '',
+      description: spellMap.get(entry)?.description || ''
+    }))
   ));
 
-  wrapper.appendChild(renderInlineSection(
+  wrapper.appendChild(renderIconSection(
     '技能對照',
-    ['Q', 'W', 'E', 'R'].map((key) => `${key}: ${skill.spellNames[key] || key}`)
+    ['Q', 'W', 'E', 'R'].map((key) => ({
+      name: `${key} - ${skill.spellNames[key] || key}`,
+      imageUrl: spellMap.get(key)?.imageUrl || '',
+      description: spellMap.get(key)?.description || ''
+    }))
   ));
 
   elements.skillBlock.replaceChildren(wrapper);
@@ -350,6 +361,57 @@ function renderInlineSection(title, values) {
   return section;
 }
 
+function renderSkillSequenceSection(title, entries) {
+  const section = document.createElement('section');
+  section.className = 'block-stack';
+
+  const heading = document.createElement('h4');
+  heading.textContent = title;
+  section.appendChild(heading);
+
+  if (!entries.length) {
+    const empty = document.createElement('p');
+    empty.textContent = '目前沒有足夠樣本。';
+    section.appendChild(empty);
+    return section;
+  }
+
+  const list = document.createElement('div');
+  list.className = 'skill-sequence-list';
+
+  entries.forEach((entry) => {
+    const chip = document.createElement('div');
+    chip.className = 'skill-sequence-chip';
+
+    if (entry.imageUrl) {
+      const icon = document.createElement('img');
+      icon.src = entry.imageUrl;
+      icon.alt = entry.name;
+      icon.loading = 'lazy';
+      chip.appendChild(icon);
+    }
+
+    const meta = document.createElement('div');
+    meta.className = 'skill-sequence-meta';
+
+    const level = document.createElement('span');
+    level.className = 'skill-level';
+    level.textContent = `Lv.${entry.level}`;
+    meta.appendChild(level);
+
+    const label = document.createElement('strong');
+    label.textContent = `${entry.key} - ${entry.name}`;
+    meta.appendChild(label);
+
+    chip.appendChild(meta);
+    bindItemTooltip(chip, entry);
+    list.appendChild(chip);
+  });
+
+  section.appendChild(list);
+  return section;
+}
+
 function renderIconSection(title, entries) {
   const section = document.createElement('section');
   section.className = 'block-stack';
@@ -384,6 +446,7 @@ function renderIconSection(title, entries) {
     const label = document.createElement('span');
     label.textContent = entry.name;
     chip.appendChild(label);
+    bindItemTooltip(chip, entry);
     list.appendChild(chip);
   });
 
