@@ -1,0 +1,438 @@
+{
+  "patch": {
+    "statsPatch": "16_7",
+    "statsPatchLabel": "16.7",
+    "assetVersion": "16.7.1",
+    "overviewVersion": "1.5.0",
+    "apiTrack": "1.5",
+    "sourceUpdatedAt": "2026-04-09T17:24:03.625005Z"
+  },
+  "source": {
+    "provider": "U.GG stats2 + Riot static",
+    "championUrl": "https://u.gg/lol/champions/aram/ryze-aram",
+    "overviewUrl": "https://stats2.u.gg/lol/1.5/overview/16_7/normal_aram/13/1.5.0.json"
+  },
+  "champion": {
+    "key": 13,
+    "id": "Ryze",
+    "slug": "ryze",
+    "nameZh": "雷茲",
+    "nameEn": "Ryze",
+    "titleZh": "符文法師",
+    "titleEn": "the Rune Mage",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Ryze.png",
+    "splashUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
+    "blurb": "古老而頑強的大法師雷茲，是符文大地公認經驗最豐富的法師之一，然而他也肩負著常人難以想像的重擔。他身懷強大的奧術之力，背後的魔法卷軸收錄了各種神祕法術。他不辭辛勞四處搜尋世界符文──蘊含原始魔法的碎片，這股力量曾被用來從虛無之中塑造了世界。他必須盡快找回這些符文，以免它們落入惡人之手，因為雷茲深知這些符文可能對符文大地造成的嚴重危害。",
+    "passive": {
+      "name": "奧術專精",
+      "description": "<mainText>雷茲的技能會根據己身的額外魔力而對敵方造成額外傷害，他的魔法攻擊會提升一定百分比的最大魔力。</mainText>",
+      "image": {
+        "full": "Ryze_P.png",
+        "sprite": "passive3.png",
+        "group": "passive",
+        "x": 144,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "spells": [
+      {
+        "key": "Q",
+        "name": "超負荷",
+        "description": "被動：雷茲的其它基礎技能會重置【超負荷】的冷卻時間並且充能一層符文。當雷茲在有著 2 層符文的狀態下施放【超負荷】時，他會獲得短暫的爆發性跑速加成。<br><br>施放時，雷茲會沿直線扔出一道純粹的能量，對命中的第一個敵人造成傷害。如果目標身上有【法術湧動】效果，那麼【超負荷】會造成額外傷害並彈射至附近帶有【法術湧動】效果的敵人身上。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RyzeQWrapper.png"
+      },
+      {
+        "key": "W",
+        "name": "符文禁錮",
+        "description": "雷茲使用符文將敵人禁錮，傷害並緩速他們。如果目標身上帶有【法術湧動】效果，那麼緩速效果會替換為定身效果。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RyzeW.png"
+      },
+      {
+        "key": "E",
+        "name": "法術湧動",
+        "description": "雷茲釋放一顆精純魔法能量匯聚的光球，傷害一名敵人並對所有附近的敵人造成減益效果。雷茲的技能可以對帶有該減益效果的敵人造成額外效果。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RyzeE.png"
+      },
+      {
+        "key": "R",
+        "name": "扭轉之境",
+        "description": "被動：【超負荷】對帶有【法術湧動】效果的目標造成更多傷害。<br><br>施放時，雷茲會創造一個傳送門來通往一個附近的位置。在數秒後，站在傳送門附近的友軍會被傳送至目標位置。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/RyzeR.png"
+      }
+    ]
+  },
+  "recommended": {
+    "sample": {
+      "wins": 3486,
+      "losses": 1701,
+      "games": 5187,
+      "winRate": 0.6720647773279352
+    },
+    "runes": {
+      "primaryTree": {
+        "id": 8200,
+        "key": "Sorcery",
+        "name": "巫術",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7202_Sorcery.png"
+      },
+      "secondaryTree": {
+        "id": 8100,
+        "key": "Domination",
+        "name": "征服",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7200_Domination.png"
+      },
+      "keystone": {
+        "id": 8230,
+        "name": "相位衝擊",
+        "shortDesc": "以3次<b>獨立</b>的普攻或技能命中敵方英雄時，將大幅增加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>跑速</lol-uikit-tooltipped-keyword>和緩速抗性。 ",
+        "longDesc": "在4秒內以3次普攻或<b>獨立</b>的技能命中敵方英雄時，將根據等級增加<speed>25 - 50%跑速</speed>及<status>50%緩速抗性</status>，持續3秒。若為遠攻英雄，跑速增益只有近戰英雄的50%。<br>冷卻時間：30 - 10秒",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/PhaseRush/PhaseRush.png",
+        "treeId": 8200
+      },
+      "primaryRunes": [
+        {
+          "id": 8230,
+          "name": "相位衝擊",
+          "shortDesc": "以3次<b>獨立</b>的普攻或技能命中敵方英雄時，將大幅增加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>跑速</lol-uikit-tooltipped-keyword>和緩速抗性。 ",
+          "longDesc": "在4秒內以3次普攻或<b>獨立</b>的技能命中敵方英雄時，將根據等級增加<speed>25 - 50%跑速</speed>及<status>50%緩速抗性</status>，持續3秒。若為遠攻英雄，跑速增益只有近戰英雄的50%。<br>冷卻時間：30 - 10秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/PhaseRush/PhaseRush.png",
+          "treeId": 8200
+        },
+        {
+          "id": 8210,
+          "name": "卓越",
+          "shortDesc": "達到下列等級時獲得加成效果：<br>等級 5：+5<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>技能加速</lol-uikit-tooltipped-keyword><br>等級 8：+5<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>技能加速</lol-uikit-tooltipped-keyword><br>等級 11：參與擊殺英雄時，使基礎技能的剩餘冷卻時間減少 20%。",
+          "longDesc": "達到下列等級時獲得加成效果：<br>等級5：+5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>技能加速</lol-uikit-tooltipped-keyword> <br>等級8：+5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>技能加速</lol-uikit-tooltipped-keyword> <br>等級11：參與擊殺英雄時，基礎技能的剩餘冷卻時間減少20%。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/Transcendence/Transcendence.png",
+          "treeId": 8200
+        },
+        {
+          "id": 8226,
+          "name": "附魔之帶",
+          "shortDesc": "使用技能擊中一名敵方英雄時使你的最大魔力永久提升25點，最多提升250點魔力。<br><br>額外獲得的魔力達250點之後，每5秒回復自身1%已消耗魔力。",
+          "longDesc": "使用技能擊中一名敵方英雄時使你的最大魔力永久提升25點，最多提升250點魔力。<br><br>額外獲得的魔力達250點之後，每5秒回復自身1%已消耗魔力。<br><br>冷卻時間：15秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png",
+          "treeId": 8200
+        },
+        {
+          "id": 8236,
+          "name": "暴風凝聚",
+          "shortDesc": "隨著遊戲的進行獲得逐漸增加的物理攻擊或魔法攻擊<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(適性)</lol-uikit-tooltipped-keyword>。",
+          "longDesc": "每10分鐘，獲得魔攻或物攻，<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>適性</font></lol-uikit-tooltipped-keyword>。<br><br><i>10分鐘</i>：+8魔攻或5物攻 <br><i>20分鐘</i>：+24魔攻或14物攻<br><i>30分鐘</i>：+48魔攻或29物攻<br><i>40分鐘</i>：+80魔攻或48物攻<br><i>50分鐘</i>：+120魔攻或72物攻<br><i>60分鐘</i>：+168魔攻或101物攻<br>依此類推……",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png",
+          "treeId": 8200
+        }
+      ],
+      "secondaryRunes": [
+        {
+          "id": 8135,
+          "name": "寶藏獵人",
+          "shortDesc": "<b>不重複</b>的<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>擊殺參與</lol-uikit-tooltipped-keyword>會在首次蒐集堆層時提升獲得的金錢。",
+          "longDesc": "下一次蒐集到一層<i>賞金獵人</i>堆層時，獲得額外 <gold>50 金錢</gold>。根據每一層<i>賞金獵人</i>層數，使獲得的金錢數量提升 <gold>20 金錢</gold>，最多可以獲得<gold>130 金錢</gold>。<br><br>從一名不重複的敵方英雄身上首次取得擊殺或助攻會獲得一層<i>賞金獵人</i>堆層。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png",
+          "treeId": 8100
+        },
+        {
+          "id": 8139,
+          "name": "血噬",
+          "shortDesc": "傷害一名敵方英雄時回復自身生命。",
+          "longDesc": "傷害一名敵方英雄時治療自己。<br><br>治療量：16 - 40(+0.1額外物理攻擊、+0.05魔法攻擊)生命(隨等級提升)<br><br>冷卻時間：20秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png",
+          "treeId": 8100
+        }
+      ],
+      "statShards": [
+        {
+          "id": "5008",
+          "name": "適性之力",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+        },
+        {
+          "id": "5008",
+          "name": "適性之力",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+        },
+        {
+          "id": "5001",
+          "name": "成長生命",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsHealthScalingIcon.png"
+        }
+      ]
+    },
+    "summoners": [
+      {
+        "id": 4,
+        "name": "閃現",
+        "description": "朝著滑鼠游標傳送一小段距離。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerFlash.png"
+      },
+      {
+        "id": 6,
+        "name": "鬼步",
+        "description": "獲得跑速並在持續時間內無視單位碰撞。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerHaste.png"
+      }
+    ],
+    "starterItems": [
+      {
+        "id": 1026,
+        "name": "爆裂魔杖",
+        "description": "中等程度增加魔法攻擊",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">爆裂魔杖</div>\n      <div class=\"item-tooltip-meta\"><span>總價 850</span><span class=\"item-tooltip-dot\">•</span><span>售價 595</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">45</span> 魔法攻擊</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/1026.png"
+      },
+      {
+        "id": 2031,
+        "name": "回復藥水",
+        "description": "逐漸回復生命，可回商店回充",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">回復藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 150</span><span class=\"item-tooltip-dot\">•</span><span>售價 60</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>主動(2次使用次數)<br />在12秒內回復<healing>100生命</healing>。<br />返回商店時會自動補滿。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2031.png"
+      },
+      {
+        "id": 3070,
+        "name": "女神之淚",
+        "description": "消耗魔力時提高最大魔力",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">女神之淚</div>\n      <div class=\"item-tooltip-meta\"><span>總價 400</span><span class=\"item-tooltip-dot\">•</span><span>售價 280</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">240</span> 魔力</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔力之流 (8秒，最多4次充能)<br />技能命中將賦予<scaleMana>3最大魔力</scaleMana>(對英雄加倍)，最多<scaleMana>360最大魔力</scaleMana>。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>伸出援手<br />普攻對士兵造成額外<physicalDamage>5物理傷害</physicalDamage>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3070.png"
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6657,
+        "name": "時光之杖",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">時光之杖</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2600</span><span class=\"item-tooltip-dot\">•</span><span>售價 1820</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">45</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">350</span> 生命<br /><span class=\"item-tooltip-emphasis\">500</span> 魔力</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>雋永<br />此道具每60秒自動累加一層，最多10層。每層增加<scaleHealth>10生命</scaleHealth>、<scaleMana>30魔力</scaleMana>以及<scaleAP>3魔法攻擊</scaleAP>。累加至滿層後，獲得1等級。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>永續之力<br />受到來自英雄的傷害時，回復等同於<scaleMana>10%</scaleMana>傷害的<scaleMana>魔力</scaleMana>。<br />施放技能<healing>可回復所消耗魔力的25%</healing>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6657.png"
+      },
+      {
+        "id": 3003,
+        "name": "大天使之杖",
+        "description": "根據最大魔力增加魔攻",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">大天使之杖</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2900</span><span class=\"item-tooltip-dot\">•</span><span>售價 2030</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">70</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">600</span> 魔力<br /><span class=\"item-tooltip-emphasis\">25</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>威嚇<br />增加相當於<scaleMana>1%額外魔力</scaleMana>的魔法攻擊。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔力之流 (8秒，最多5次充能)<br />技能命中將賦予<scaleMana>5最大魔力</scaleMana>(對英雄加倍)。<br />達到<scaleMana>360最大魔力</scaleMana>時進化成<span class=\"item-tooltip-rarity legendary\">熾天使的擁抱</span>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3003.png"
+      },
+      {
+        "id": 3020,
+        "name": "法師之靴",
+        "description": "增加跑速及魔法傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">法師之靴</div>\n      <div class=\"item-tooltip-meta\"><span>總價 1100</span><span class=\"item-tooltip-dot\">•</span><span>售價 770</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">12</span> 魔法穿透<br /><span class=\"item-tooltip-emphasis\">45</span> 跑速</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3020.png"
+      }
+    ],
+    "situationalItems": [
+      {
+        "id": 2522,
+        "name": "時現者",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">時現者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2800</span><span class=\"item-tooltip-dot\">•</span><span>售價 1960</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">90</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">300</span> 魔力<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label active\">主動</span>魔力具現 (0秒)<br />在8秒內，魔力獲得強化。強化期間，召喚師技能耗費的魔力增加100%，你增加0技能傷害、護盾和治療量，且基礎技能冷卻加快30%。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2522.png"
+      },
+      {
+        "id": 2003,
+        "name": "生命藥水",
+        "description": "使用以回復生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+      },
+      {
+        "id": 4629,
+        "name": "星河馳騁",
+        "description": "大幅冷卻時間減免",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">星河馳騁</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">70</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">350</span> 生命<br /><span class=\"item-tooltip-emphasis\">25</span> 技能加速<br /><span class=\"item-tooltip-emphasis\">4%</span> 跑速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>技能狂舞<br />對英雄造成<magicDamage>魔法傷害</magicDamage>或<trueDamage>真實傷害</trueDamage>時，提升<speed>跑速</speed>，持續4秒。 </div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/4629.png"
+      },
+      {
+        "id": 3089,
+        "name": "死亡之帽",
+        "description": "大幅增加魔法攻擊",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">死亡之帽</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">130</span> 魔法攻擊</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔法心血<br />總<scaleAP>魔法攻擊提升30%</scaleAP>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3089.png"
+      },
+      {
+        "id": 2139,
+        "name": "巫魔藥劑",
+        "description": "暫時獲得魔攻，並對英雄與防禦塔造成額外傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">巫魔藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleAP>50魔法攻擊</scaleAP>和<scaleMana>15%魔力回復</scaleMana>，持續3分鐘。在效果期間，可對英雄或防禦塔造成<trueDamage>25額外真實傷害</trueDamage>(對英雄冷卻時間：5秒)。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2139.png"
+      },
+      {
+        "id": 3110,
+        "name": "冰霜之心",
+        "description": "大幅增加物理防禦和降低敵方攻速",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">冰霜之心</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2500</span><span class=\"item-tooltip-dot\">•</span><span>售價 1750</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理防禦<br /><span class=\"item-tooltip-emphasis\">400</span> 魔力<br /><span class=\"item-tooltip-emphasis\">20</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>冬之輕撫<br />降低鄰近英雄<attackSpeed>20%</attackSpeed><attackSpeed>攻速</attackSpeed>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3110.png"
+      },
+      {
+        "id": 3135,
+        "name": "虛空之杖",
+        "description": "增加魔法傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">虛空之杖</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">95</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">40%</span> 魔法穿透</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3135.png"
+      }
+    ],
+    "lateGameBuilds": [
+      {
+        "title": "功能反制",
+        "note": "對面回血很兇，或你隊伍缺重創、緩速、功能裝時，優先補這組。",
+        "items": [
+          {
+            "id": 2522,
+            "name": "時現者",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">時現者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2800</span><span class=\"item-tooltip-dot\">•</span><span>售價 1960</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">90</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">300</span> 魔力<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label active\">主動</span>魔力具現 (0秒)<br />在8秒內，魔力獲得強化。強化期間，召喚師技能耗費的魔力增加100%，你增加0技能傷害、護盾和治療量，且基礎技能冷卻加快30%。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2522.png"
+          },
+          {
+            "id": 4629,
+            "name": "星河馳騁",
+            "description": "大幅冷卻時間減免",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">星河馳騁</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">70</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">350</span> 生命<br /><span class=\"item-tooltip-emphasis\">25</span> 技能加速<br /><span class=\"item-tooltip-emphasis\">4%</span> 跑速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>技能狂舞<br />對英雄造成<magicDamage>魔法傷害</magicDamage>或<trueDamage>真實傷害</trueDamage>時，提升<speed>跑速</speed>，持續4秒。 </div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/4629.png"
+          }
+        ]
+      },
+      {
+        "title": "後期功能反制",
+        "note": "對面回血很兇，或你隊伍缺重創、緩速、功能裝時，優先補這組。",
+        "items": [
+          {
+            "id": 3089,
+            "name": "死亡之帽",
+            "description": "大幅增加魔法攻擊",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">死亡之帽</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">130</span> 魔法攻擊</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔法心血<br />總<scaleAP>魔法攻擊提升30%</scaleAP>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3089.png"
+          },
+          {
+            "id": 3110,
+            "name": "冰霜之心",
+            "description": "大幅增加物理防禦和降低敵方攻速",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">冰霜之心</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2500</span><span class=\"item-tooltip-dot\">•</span><span>售價 1750</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理防禦<br /><span class=\"item-tooltip-emphasis\">400</span> 魔力<br /><span class=\"item-tooltip-emphasis\">20</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>冬之輕撫<br />降低鄰近英雄<attackSpeed>20%</attackSpeed><attackSpeed>攻速</attackSpeed>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3110.png"
+          },
+          {
+            "id": 2522,
+            "name": "時現者",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">時現者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2800</span><span class=\"item-tooltip-dot\">•</span><span>售價 1960</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">90</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">300</span> 魔力<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label active\">主動</span>魔力具現 (0秒)<br />在8秒內，魔力獲得強化。強化期間，召喚師技能耗費的魔力增加100%，你增加0技能傷害、護盾和治療量，且基礎技能冷卻加快30%。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2522.png"
+          }
+        ]
+      },
+      {
+        "title": "順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 3089,
+            "name": "死亡之帽",
+            "description": "大幅增加魔法攻擊",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">死亡之帽</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">130</span> 魔法攻擊</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔法心血<br />總<scaleAP>魔法攻擊提升30%</scaleAP>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3089.png"
+          },
+          {
+            "id": 3135,
+            "name": "虛空之杖",
+            "description": "增加魔法傷害",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">虛空之杖</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">95</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">40%</span> 魔法穿透</div><br /><br /></div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3135.png"
+          },
+          {
+            "id": 3110,
+            "name": "冰霜之心",
+            "description": "大幅增加物理防禦和降低敵方攻速",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">冰霜之心</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2500</span><span class=\"item-tooltip-dot\">•</span><span>售價 1750</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理防禦<br /><span class=\"item-tooltip-emphasis\">400</span> 魔力<br /><span class=\"item-tooltip-emphasis\">20</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>冬之輕撫<br />降低鄰近英雄<attackSpeed>20%</attackSpeed><attackSpeed>攻速</attackSpeed>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3110.png"
+          }
+        ]
+      },
+      {
+        "title": "後期順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 2003,
+            "name": "生命藥水",
+            "description": "使用以回復生命",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+          },
+          {
+            "id": 2139,
+            "name": "巫魔藥劑",
+            "description": "暫時獲得魔攻，並對英雄與防禦塔造成額外傷害",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">巫魔藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleAP>50魔法攻擊</scaleAP>和<scaleMana>15%魔力回復</scaleMana>，持續3分鐘。在效果期間，可對英雄或防禦塔造成<trueDamage>25額外真實傷害</trueDamage>(對英雄冷卻時間：5秒)。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2139.png"
+          }
+        ]
+      }
+    ],
+    "skillOrder": {
+      "priority": "Q > E > W",
+      "sequence": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "Q",
+        "E",
+        "R",
+        "E",
+        "E",
+        "W",
+        "W",
+        "R",
+        "W",
+        "W"
+      ],
+      "firstLevels": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "Q"
+      ],
+      "spellNames": {
+        "Q": "超負荷",
+        "W": "符文禁錮",
+        "E": "法術湧動",
+        "R": "扭轉之境"
+      }
+    }
+  },
+  "balance": {
+    "changed": true,
+    "entries": [
+      "造成傷害增加 5%",
+      "承受傷害減少 5%"
+    ],
+    "raw": {
+      "damage_taken": 0.95,
+      "damage_dealt": 1.05,
+      "damage_healing": 1,
+      "damage_shielding": 1,
+      "abilities": "",
+      "total_attack_speed": 1,
+      "ability_haste": 1,
+      "energy_regeneration": 1,
+      "tenacity": 1,
+      "changes": true
+    }
+  },
+  "tips": [
+    "這套主流配置樣本約 5,187 場，配置勝率 67.2%。",
+    "起手通常從 3 件裝備開局，優先照系統推薦順序購買。",
+    "核心成裝以前 3 件為主，先把主力傷害與鞋子湊齊，再補功能裝。",
+    "技能主升順序多半是 Q > E > W，照前 9 等順序點法最穩。",
+    "這隻英雄目前有 ARAM 專屬平衡調整，進場前記得看一下面板。"
+  ]
+}

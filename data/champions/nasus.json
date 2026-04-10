@@ -1,0 +1,438 @@
+{
+  "patch": {
+    "statsPatch": "16_7",
+    "statsPatchLabel": "16.7",
+    "assetVersion": "16.7.1",
+    "overviewVersion": "1.5.0",
+    "apiTrack": "1.5",
+    "sourceUpdatedAt": "2026-04-09T17:24:03.435836Z"
+  },
+  "source": {
+    "provider": "U.GG stats2 + Riot static",
+    "championUrl": "https://u.gg/lol/champions/aram/nasus-aram",
+    "overviewUrl": "https://stats2.u.gg/lol/1.5/overview/16_7/normal_aram/75/1.5.0.json"
+  },
+  "champion": {
+    "key": 75,
+    "id": "Nasus",
+    "slug": "nasus",
+    "nameZh": "納瑟斯",
+    "nameEn": "Nasus",
+    "titleZh": "沙漠死神",
+    "titleEn": "the Curator of the Sands",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nasus.png",
+    "splashUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg",
+    "blurb": "納瑟斯是一名來自古蘇瑞瑪，豺狼容貌、氣宇非凡的飛昇者，並在沙漠中被視為半神的英雄人物。絕頂聰明的納瑟斯曾掌握所有知識及戰略技巧，並引導古蘇瑞瑪帝國走入幾個世紀的輝煌。在帝國毀滅之後，他逐漸自我放逐，豐功偉業都成了過眼雲煙的傳說。現在，古蘇瑞瑪帝國又再次崛起，而納瑟斯也再度歸來，並決心守護它不會再次遭到毀滅。",
+    "passive": {
+      "name": "食魂者",
+      "description": "納瑟斯吸取敵方生命能量，讓自己獲得額外普攻吸血。",
+      "image": {
+        "full": "Nasus_Passive.png",
+        "sprite": "passive2.png",
+        "group": "passive",
+        "x": 432,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "spells": [
+      {
+        "key": "Q",
+        "name": "虹吸打擊 ",
+        "description": "納瑟斯打擊他的敵人，造成傷害。若擊殺該單位的話虹吸打擊的傷害則永久提高。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NasusQ.png"
+      },
+      {
+        "key": "W",
+        "name": "枯萎",
+        "description": "納瑟斯使一名敵方英雄衰老，隨時間降低其跑速和攻速。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NasusW.png"
+      },
+      {
+        "key": "E",
+        "name": "靈魂烈焰",
+        "description": "納瑟斯在該地點釋放一股靈魂烈焰，造成傷害並且降低在該區域敵方單位的物理防禦。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NasusE.png"
+      },
+      {
+        "key": "R",
+        "name": "死神降臨",
+        "description": "納瑟斯釋放一股巨大的沙漠風暴攻擊附近敵人，風暴咆嘯時他會獲得額外生命和攻擊距離，同時虹吸打擊的冷卻時間會減少。納瑟斯也會獲得額外物防及魔防。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NasusR.png"
+      }
+    ]
+  },
+  "recommended": {
+    "sample": {
+      "wins": 4284,
+      "losses": 1993,
+      "games": 6277,
+      "winRate": 0.6824916361319101
+    },
+    "runes": {
+      "primaryTree": {
+        "id": 8400,
+        "key": "Resolve",
+        "name": "意志",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7204_Resolve.png"
+      },
+      "secondaryTree": {
+        "id": 8000,
+        "key": "Precision",
+        "name": "精準",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7201_Precision.png"
+      },
+      "keystone": {
+        "id": 8437,
+        "name": "不死之握",
+        "shortDesc": "進入戰鬥之後，每過 4 秒你下一次對敵方英雄的普攻將造成額外魔法傷害；治療你，並永久提升你的生命。 ",
+        "longDesc": "戰鬥開始每過4秒，下一次對敵方英雄的普攻將附帶以下效果：<li>額外造成相當於自身3.5%最大生命的魔法傷害<li>回復1.3%最大生命<li>永久增加5生命<br><rules><i>遠攻英雄：</i>額外傷害、治療效果及永久生命增加量為40%。</rules>",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png",
+        "treeId": 8400
+      },
+      "primaryRunes": [
+        {
+          "id": 8437,
+          "name": "不死之握",
+          "shortDesc": "進入戰鬥之後，每過 4 秒你下一次對敵方英雄的普攻將造成額外魔法傷害；治療你，並永久提升你的生命。 ",
+          "longDesc": "戰鬥開始每過4秒，下一次對敵方英雄的普攻將附帶以下效果：<li>額外造成相當於自身3.5%最大生命的魔法傷害<li>回復1.3%最大生命<li>永久增加5生命<br><rules><i>遠攻英雄：</i>額外傷害、治療效果及永久生命增加量為40%。</rules>",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png",
+          "treeId": 8400
+        },
+        {
+          "id": 8429,
+          "name": "調節",
+          "shortDesc": "對戰進行至12分鐘後，增加8物防和8魔防，並提升3%額外物理和魔法防禦。",
+          "longDesc": "對戰進行至12分鐘後，增加8物防和8魔防，並提升3%額外物理和魔法防禦。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/Conditioning/Conditioning.png",
+          "treeId": 8400
+        },
+        {
+          "id": 8451,
+          "name": "過度生長",
+          "shortDesc": "當士兵或野怪在你周圍死亡時，獲得永久的最大生命成長。",
+          "longDesc": "從在你身邊死亡的野怪或敵方士兵吸取靈魂碎片，每8 個碎片將使你永久獲得 3 總生命。<br><br>當收集 120 個野怪或敵方士兵的碎片，將獲得額外 3.5% 總生命。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/Overgrowth/Overgrowth.png",
+          "treeId": 8400
+        },
+        {
+          "id": 8463,
+          "name": "生命之泉",
+          "shortDesc": "對敵方英雄造成<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>行動受限</lol-uikit-tooltipped-keyword>效果時，治療周圍友方英雄。 ",
+          "longDesc": "對敵方英雄造成行動限制效果時，治療自身以及附近生命值最低的友方英雄<healing>@BaseHeal@生命</healing>。<br><br>遠攻英雄觸發效果為70%。<br><br>冷卻時間：20秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/FontOfLife/FontOfLife.png",
+          "treeId": 8400
+        }
+      ],
+      "secondaryRunes": [
+        {
+          "id": 9105,
+          "name": "傳奇：疾速",
+          "shortDesc": "對敵軍造成<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>擊殺或助攻</lol-uikit-tooltipped-keyword>將賦予你永久基礎技能<b>加速</b>。 ",
+          "longDesc": "每層<i>傳奇</i>堆層提升1.5基礎技能加速(<statGood>最多10層</statGood>)。<br><br>你可以藉由對敵方英雄、史詩級野怪造成擊殺或助攻；擊殺大型野怪或士兵來堆積<i>傳奇</i>堆層。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
+          "treeId": 8000
+        },
+        {
+          "id": 9111,
+          "name": "凱旋",
+          "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>造成擊殺或助攻時</lol-uikit-tooltipped-keyword>回復5% 失去生命並額外獲得 20 金錢。 ",
+          "longDesc": "取得擊殺或助攻時回復5%已損失生命、2.5最大生命並獲得額外20金錢。<br><br><hr><br><i>「最危險的對決會帶來最偉大的榮耀。」<br>——諾克薩斯角鬥士</i>",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/Triumph.png",
+          "treeId": 8000
+        }
+      ],
+      "statShards": [
+        {
+          "id": "5007",
+          "name": "技能急速",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsCDRScalingIcon.png"
+        },
+        {
+          "id": "5008",
+          "name": "適性之力",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+        },
+        {
+          "id": "5001",
+          "name": "成長生命",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsHealthScalingIcon.png"
+        }
+      ]
+    },
+    "summoners": [
+      {
+        "id": 4,
+        "name": "閃現",
+        "description": "朝著滑鼠游標傳送一小段距離。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerFlash.png"
+      },
+      {
+        "id": 32,
+        "name": "標記",
+        "description": "向前方投擲雪球，若擊中敵人則標記該單位並獲得目標真視視野，你將可以快速移動至該單位旁。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerSnowball.png"
+      }
+    ],
+    "starterItems": [
+      {
+        "id": 1028,
+        "name": "紅水晶",
+        "description": "增加生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">紅水晶</div>\n      <div class=\"item-tooltip-meta\"><span>總價 400</span><span class=\"item-tooltip-dot\">•</span><span>售價 280</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">150</span> 生命</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/1028.png"
+      },
+      {
+        "id": 2003,
+        "name": "生命藥水",
+        "description": "使用以回復生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+      },
+      {
+        "id": 2003,
+        "name": "生命藥水",
+        "description": "使用以回復生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+      },
+      {
+        "id": 3057,
+        "name": "閃耀劍",
+        "description": "施放技能後的下次普攻獲得加成",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">閃耀劍</div>\n      <div class=\"item-tooltip-meta\"><span>總價 900</span><span class=\"item-tooltip-dot\">•</span><span>售價 630</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔法彎刀<br />使用技能後，下一次普攻造成<physicalDamage>額外物理傷害</physicalDamage><OnHit>命中效果</OnHit>。<br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3057.png"
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 3078,
+        "name": "三相之力",
+        "description": "超大量傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">三相之力</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3333</span><span class=\"item-tooltip-dot\">•</span><span>售價 2333</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">36</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">30%</span> 攻擊速度<br /><span class=\"item-tooltip-emphasis\">333</span> 生命<br /><span class=\"item-tooltip-emphasis\">15</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔法彎刀<br />使用技能後，下一次普攻造成<physicalDamage>額外物理傷害</physicalDamage><OnHit>命中效果</OnHit>。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>加速<br />普攻可增加<speed>20跑速</speed>，持續2秒。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3078.png"
+      },
+      {
+        "id": 3111,
+        "name": "水星之靴",
+        "description": "增加跑速和減少控制效果持續時間",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">水星之靴</div>\n      <div class=\"item-tooltip-meta\"><span>總價 1250</span><span class=\"item-tooltip-dot\">•</span><span>售價 875</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">20</span> 魔法防禦<br /><span class=\"item-tooltip-emphasis\">45</span> 跑速<br /><span class=\"item-tooltip-emphasis\">30%</span> 韌性</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3111.png"
+      },
+      {
+        "id": 3065,
+        "name": "振奮盔甲",
+        "description": "增加生命和回復效果",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">振奮盔甲</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2700</span><span class=\"item-tooltip-dot\">•</span><span>售價 1890</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">400</span> 生命<br /><span class=\"item-tooltip-emphasis\">50</span> 魔法防禦<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速<br /><span class=\"item-tooltip-emphasis\">100%</span> 基礎生命回復</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>無限活力<br />自身受到的治療與護盾效果增加25%</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3065.png"
+      }
+    ],
+    "situationalItems": [
+      {
+        "id": 2031,
+        "name": "回復藥水",
+        "description": "逐漸回復生命，可回商店回充",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">回復藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 150</span><span class=\"item-tooltip-dot\">•</span><span>售價 60</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>主動(2次使用次數)<br />在12秒內回復<healing>100生命</healing>。<br />返回商店時會自動補滿。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2031.png"
+      },
+      {
+        "id": 3075,
+        "name": "荊棘之甲",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">荊棘之甲</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2450</span><span class=\"item-tooltip-dot\">•</span><span>售價 1715</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">150</span> 生命<br /><span class=\"item-tooltip-emphasis\">75</span> 物理防禦</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>荊棘<br />受到普攻攻擊時，對攻擊者造成<magicDamage>魔法傷害</magicDamage>；若目標是英雄則另外附加40%<keyword>重創效果</keyword>，持續3秒。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3075.png"
+      },
+      {
+        "id": 3110,
+        "name": "冰霜之心",
+        "description": "大幅增加物理防禦和降低敵方攻速",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">冰霜之心</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2500</span><span class=\"item-tooltip-dot\">•</span><span>售價 1750</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理防禦<br /><span class=\"item-tooltip-emphasis\">400</span> 魔力<br /><span class=\"item-tooltip-emphasis\">20</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>冬之輕撫<br />降低鄰近英雄<attackSpeed>20%</attackSpeed><attackSpeed>攻速</attackSpeed>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3110.png"
+      },
+      {
+        "id": 2138,
+        "name": "抗擊藥劑",
+        "description": "暫時提升防禦能力，並留下一道路徑讓友軍跟隨",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">抗擊藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleHealth>300生命</scaleHealth>、25%韌性並增加體積，持續3分鐘。啟動時，你身後會留下一條路徑，使路徑上的友方英雄提升<speed>15%跑速</speed>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2138.png"
+      },
+      {
+        "id": 6610,
+        "name": "突破天際",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">突破天際</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3100</span><span class=\"item-tooltip-dot\">•</span><span>售價 2170</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">45</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">400</span> 生命<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>光盾打擊<br />你對英雄的第一次普攻會<span class=\"item-tooltip-emphasis\">暴擊</span>，並<healing>回復生命</healing>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6610.png"
+      },
+      {
+        "id": 6665,
+        "name": "千變萬化之賈克修",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">千變萬化之賈克修</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3200</span><span class=\"item-tooltip-dot\">•</span><span>售價 2240</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">350</span> 生命<br /><span class=\"item-tooltip-emphasis\">45</span> 物理防禦<br /><span class=\"item-tooltip-emphasis\">45</span> 魔法防禦</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>虛空抗壓<br />與英雄進行戰鬥5秒後，增加30%額外<scaleArmor>物理防禦</scaleArmor>與<scaleMR>魔法防禦</scaleMR>，持續到戰鬥結束。<br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6665.png"
+      }
+    ],
+    "lateGameBuilds": [
+      {
+        "title": "保命",
+        "note": "對面刺客一直切後排，或你常常一進場就蒸發時，先補這組保命。",
+        "items": [
+          {
+            "id": 3075,
+            "name": "荊棘之甲",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">荊棘之甲</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2450</span><span class=\"item-tooltip-dot\">•</span><span>售價 1715</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">150</span> 生命<br /><span class=\"item-tooltip-emphasis\">75</span> 物理防禦</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>荊棘<br />受到普攻攻擊時，對攻擊者造成<magicDamage>魔法傷害</magicDamage>；若目標是英雄則另外附加40%<keyword>重創效果</keyword>，持續3秒。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3075.png"
+          },
+          {
+            "id": 3110,
+            "name": "冰霜之心",
+            "description": "大幅增加物理防禦和降低敵方攻速",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">冰霜之心</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2500</span><span class=\"item-tooltip-dot\">•</span><span>售價 1750</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理防禦<br /><span class=\"item-tooltip-emphasis\">400</span> 魔力<br /><span class=\"item-tooltip-emphasis\">20</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>冬之輕撫<br />降低鄰近英雄<attackSpeed>20%</attackSpeed><attackSpeed>攻速</attackSpeed>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3110.png"
+          }
+        ]
+      },
+      {
+        "title": "後期保命",
+        "note": "對面刺客一直切後排，或你常常一進場就蒸發時，先補這組保命。",
+        "items": [
+          {
+            "id": 3075,
+            "name": "荊棘之甲",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">荊棘之甲</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2450</span><span class=\"item-tooltip-dot\">•</span><span>售價 1715</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">150</span> 生命<br /><span class=\"item-tooltip-emphasis\">75</span> 物理防禦</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>荊棘<br />受到普攻攻擊時，對攻擊者造成<magicDamage>魔法傷害</magicDamage>；若目標是英雄則另外附加40%<keyword>重創效果</keyword>，持續3秒。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3075.png"
+          },
+          {
+            "id": 3110,
+            "name": "冰霜之心",
+            "description": "大幅增加物理防禦和降低敵方攻速",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">冰霜之心</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2500</span><span class=\"item-tooltip-dot\">•</span><span>售價 1750</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理防禦<br /><span class=\"item-tooltip-emphasis\">400</span> 魔力<br /><span class=\"item-tooltip-emphasis\">20</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>冬之輕撫<br />降低鄰近英雄<attackSpeed>20%</attackSpeed><attackSpeed>攻速</attackSpeed>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3110.png"
+          },
+          {
+            "id": 6610,
+            "name": "突破天際",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">突破天際</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3100</span><span class=\"item-tooltip-dot\">•</span><span>售價 2170</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">45</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">400</span> 生命<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>光盾打擊<br />你對英雄的第一次普攻會<span class=\"item-tooltip-emphasis\">暴擊</span>，並<healing>回復生命</healing>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6610.png"
+          }
+        ]
+      },
+      {
+        "title": "滿裝保命",
+        "note": "對面刺客一直切後排，或你常常一進場就蒸發時，先補這組保命。",
+        "items": [
+          {
+            "id": 3075,
+            "name": "荊棘之甲",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">荊棘之甲</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2450</span><span class=\"item-tooltip-dot\">•</span><span>售價 1715</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">150</span> 生命<br /><span class=\"item-tooltip-emphasis\">75</span> 物理防禦</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>荊棘<br />受到普攻攻擊時，對攻擊者造成<magicDamage>魔法傷害</magicDamage>；若目標是英雄則另外附加40%<keyword>重創效果</keyword>，持續3秒。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3075.png"
+          },
+          {
+            "id": 6665,
+            "name": "千變萬化之賈克修",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">千變萬化之賈克修</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3200</span><span class=\"item-tooltip-dot\">•</span><span>售價 2240</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">350</span> 生命<br /><span class=\"item-tooltip-emphasis\">45</span> 物理防禦<br /><span class=\"item-tooltip-emphasis\">45</span> 魔法防禦</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>虛空抗壓<br />與英雄進行戰鬥5秒後，增加30%額外<scaleArmor>物理防禦</scaleArmor>與<scaleMR>魔法防禦</scaleMR>，持續到戰鬥結束。<br /><br /></div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6665.png"
+          },
+          {
+            "id": 6610,
+            "name": "突破天際",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">突破天際</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3100</span><span class=\"item-tooltip-dot\">•</span><span>售價 2170</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">45</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">400</span> 生命<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>光盾打擊<br />你對英雄的第一次普攻會<span class=\"item-tooltip-emphasis\">暴擊</span>，並<healing>回復生命</healing>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6610.png"
+          }
+        ]
+      },
+      {
+        "title": "後期保命",
+        "note": "對面刺客一直切後排，或你常常一進場就蒸發時，先補這組保命。",
+        "items": [
+          {
+            "id": 2031,
+            "name": "回復藥水",
+            "description": "逐漸回復生命，可回商店回充",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">回復藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 150</span><span class=\"item-tooltip-dot\">•</span><span>售價 60</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>主動(2次使用次數)<br />在12秒內回復<healing>100生命</healing>。<br />返回商店時會自動補滿。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2031.png"
+          },
+          {
+            "id": 2138,
+            "name": "抗擊藥劑",
+            "description": "暫時提升防禦能力，並留下一道路徑讓友軍跟隨",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">抗擊藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleHealth>300生命</scaleHealth>、25%韌性並增加體積，持續3分鐘。啟動時，你身後會留下一條路徑，使路徑上的友方英雄提升<speed>15%跑速</speed>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2138.png"
+          }
+        ]
+      }
+    ],
+    "skillOrder": {
+      "priority": "Q > E > W",
+      "sequence": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "Q",
+        "E",
+        "R",
+        "E",
+        "E",
+        "W",
+        "W",
+        "R",
+        "W",
+        "W"
+      ],
+      "firstLevels": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "Q"
+      ],
+      "spellNames": {
+        "Q": "虹吸打擊 ",
+        "W": "枯萎",
+        "E": "靈魂烈焰",
+        "R": "死神降臨"
+      }
+    }
+  },
+  "balance": {
+    "changed": true,
+    "entries": [
+      "造成傷害減少 10%",
+      "承受傷害增加 5%"
+    ],
+    "raw": {
+      "damage_taken": 1.05,
+      "damage_dealt": 0.9,
+      "damage_healing": 1,
+      "damage_shielding": 1,
+      "abilities": "",
+      "total_attack_speed": 1,
+      "ability_haste": 1,
+      "energy_regeneration": 1,
+      "tenacity": 1,
+      "changes": true
+    }
+  },
+  "tips": [
+    "這套主流配置樣本約 6,277 場，配置勝率 68.2%。",
+    "起手通常從 4 件裝備開局，優先照系統推薦順序購買。",
+    "核心成裝以前 3 件為主，先把主力傷害與鞋子湊齊，再補功能裝。",
+    "技能主升順序多半是 Q > E > W，照前 9 等順序點法最穩。",
+    "這隻英雄目前有 ARAM 專屬平衡調整，進場前記得看一下面板。"
+  ]
+}

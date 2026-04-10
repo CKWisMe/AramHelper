@@ -1,0 +1,428 @@
+{
+  "patch": {
+    "statsPatch": "16_7",
+    "statsPatchLabel": "16.7",
+    "assetVersion": "16.7.1",
+    "overviewVersion": "1.5.0",
+    "apiTrack": "1.5",
+    "sourceUpdatedAt": "2026-04-09T17:24:02.769507Z"
+  },
+  "source": {
+    "provider": "U.GG stats2 + Riot static",
+    "championUrl": "https://u.gg/lol/champions/aram/nilah-aram",
+    "overviewUrl": "https://stats2.u.gg/lol/1.5/overview/16_7/normal_aram/895/1.5.0.json"
+  },
+  "champion": {
+    "key": 895,
+    "id": "Nilah",
+    "slug": "nilah",
+    "nameZh": "淣菈",
+    "nameEn": "Nilah",
+    "titleZh": "奔放笑顏",
+    "titleEn": "the Joy Unbound",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Nilah.png",
+    "splashUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nilah_0.jpg",
+    "blurb": "淣菈是一個來自遙遠國度的苦行戰士，專門尋找世界上最致命的巨大神獸，挑戰並摧毀他們。在一次和囚禁已久的歡悅之魔相遇後，她便獲得了強大的力量，除了永不止息的喜悅之外，她再也感受不到任何情緒—這也是為了取得力量所付出的一點小代價。她將惡魔的流水型態化作威力無比的利刃，起身對抗那些早已被世人遺忘的遠古威脅。",
+    "passive": {
+      "name": "樂無止境",
+      "description": "淣菈使用最後一擊擊殺士兵時獲得額外經驗值。除此之外，還能強化並分享來自隊友的治療和護盾。",
+      "image": {
+        "full": "NIlahP.png",
+        "sprite": "passive3.png",
+        "group": "passive",
+        "x": 144,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "spells": [
+      {
+        "key": "Q",
+        "name": "百變之刃",
+        "description": "淣菈朝著指定方向揮舞鞭刃，對直線上所有命中的敵人造成傷害。短暫時間內，淣菈獲得攻擊距離提升。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahQ.png"
+      },
+      {
+        "key": "W",
+        "name": "歡躍面紗",
+        "description": "淣菈將自身籠罩在水霧中，提升跑速並優雅地閃避所有普通攻擊。技能期間接觸到的友軍也將獲得此效果。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahW.png"
+      },
+      {
+        "key": "E",
+        "name": "湍流淩步",
+        "description": "淣菈充滿熱情地向目標衝刺，對途徑中的敵人造成傷害。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahE.png"
+      },
+      {
+        "key": "R",
+        "name": "神之禮讚",
+        "description": "淣菈愉快地揮舞手中的鞭刃，對周圍敵人造成傷害後將其拉向自身。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/NilahR.png"
+      }
+    ]
+  },
+  "recommended": {
+    "sample": {
+      "wins": 2041,
+      "losses": 997,
+      "games": 3038,
+      "winRate": 0.6718235681369322
+    },
+    "runes": {
+      "primaryTree": {
+        "id": 8000,
+        "key": "Precision",
+        "name": "精準",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7201_Precision.png"
+      },
+      "secondaryTree": {
+        "id": 8100,
+        "key": "Domination",
+        "name": "征服",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7200_Domination.png"
+      },
+      "keystone": {
+        "id": 8010,
+        "name": "征服者",
+        "shortDesc": "在攻擊敵方英雄時獲得適性之力的堆層。在達到12層後，將你對英雄造成的一部分傷害轉化為等數值的回復量。",
+        "longDesc": "基礎攻擊或技能在命中敵方英雄時獲得 2 層征服者效果，持續 5 秒，每層效果提供 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>適性之力</font></lol-uikit-tooltipped-keyword>。 最多可以累加 12 次。遠攻英雄每次普攻只會提供 1 層效果。<br><br>在堆滿層數後，你對英雄造成的 8% 傷害會轉化為對自身的回復效果（遠攻英雄則為 5%）。",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+        "treeId": 8000
+      },
+      "primaryRunes": [
+        {
+          "id": 8010,
+          "name": "征服者",
+          "shortDesc": "在攻擊敵方英雄時獲得適性之力的堆層。在達到12層後，將你對英雄造成的一部分傷害轉化為等數值的回復量。",
+          "longDesc": "基礎攻擊或技能在命中敵方英雄時獲得 2 層征服者效果，持續 5 秒，每層效果提供 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>適性之力</font></lol-uikit-tooltipped-keyword>。 最多可以累加 12 次。遠攻英雄每次普攻只會提供 1 層效果。<br><br>在堆滿層數後，你對英雄造成的 8% 傷害會轉化為對自身的回復效果（遠攻英雄則為 5%）。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/Conqueror/Conqueror.png",
+          "treeId": 8000
+        },
+        {
+          "id": 8014,
+          "name": "致命一擊",
+          "shortDesc": "對低血量的英雄造成額外傷害。",
+          "longDesc": "對生命低於 40% 的英雄造成 8% 額外傷害。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png",
+          "treeId": 8000
+        },
+        {
+          "id": 9103,
+          "name": "傳奇：血脈",
+          "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>擊殺參與</lol-uikit-tooltipped-keyword>會提供永久的<b>普攻吸血</b>，有其累加上限。達到上限時，提升你的最大生命。與其他傳奇符文相較，前期較弱但後期較強。",
+          "longDesc": "每層<i>傳奇</i>堆層提供<scaleAD>0.45%普攻吸血</scaleAD>(<statGood>上限為15層</statGood>)。<i>傳奇</i>層數堆積至滿層時，增加<scaleHealth>85最大生命</scaleHealth>。<br><br>可藉由參與擊殺英雄、參與擊殺史詩級野怪、擊殺大型野怪、擊殺士兵來累加<i>傳奇</i>堆層。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png",
+          "treeId": 8000
+        },
+        {
+          "id": 9111,
+          "name": "凱旋",
+          "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>造成擊殺或助攻時</lol-uikit-tooltipped-keyword>回復5% 失去生命並額外獲得 20 金錢。 ",
+          "longDesc": "取得擊殺或助攻時回復5%已損失生命、2.5最大生命並獲得額外20金錢。<br><br><hr><br><i>「最危險的對決會帶來最偉大的榮耀。」<br>——諾克薩斯角鬥士</i>",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/Triumph.png",
+          "treeId": 8000
+        }
+      ],
+      "secondaryRunes": [
+        {
+          "id": 8135,
+          "name": "寶藏獵人",
+          "shortDesc": "<b>不重複</b>的<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>擊殺參與</lol-uikit-tooltipped-keyword>會在首次蒐集堆層時提升獲得的金錢。",
+          "longDesc": "下一次蒐集到一層<i>賞金獵人</i>堆層時，獲得額外 <gold>50 金錢</gold>。根據每一層<i>賞金獵人</i>層數，使獲得的金錢數量提升 <gold>20 金錢</gold>，最多可以獲得<gold>130 金錢</gold>。<br><br>從一名不重複的敵方英雄身上首次取得擊殺或助攻會獲得一層<i>賞金獵人</i>堆層。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png",
+          "treeId": 8100
+        },
+        {
+          "id": 8139,
+          "name": "血噬",
+          "shortDesc": "傷害一名敵方英雄時回復自身生命。",
+          "longDesc": "傷害一名敵方英雄時治療自己。<br><br>治療量：16 - 40(+0.1額外物理攻擊、+0.05魔法攻擊)生命(隨等級提升)<br><br>冷卻時間：20秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png",
+          "treeId": 8100
+        }
+      ],
+      "statShards": [
+        {
+          "id": "5005",
+          "name": "攻速",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAttackSpeedIcon.png"
+        },
+        {
+          "id": "5008",
+          "name": "適性之力",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+        },
+        {
+          "id": "5001",
+          "name": "成長生命",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsHealthScalingIcon.png"
+        }
+      ]
+    },
+    "summoners": [
+      {
+        "id": 4,
+        "name": "閃現",
+        "description": "朝著滑鼠游標傳送一小段距離。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerFlash.png"
+      },
+      {
+        "id": 32,
+        "name": "標記",
+        "description": "向前方投擲雪球，若擊中敵人則標記該單位並獲得目標真視視野，你將可以快速移動至該單位旁。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerSnowball.png"
+      }
+    ],
+    "starterItems": [
+      {
+        "id": 1001,
+        "name": "鞋子",
+        "description": "稍微增加跑速",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">鞋子</div>\n      <div class=\"item-tooltip-meta\"><span>總價 300</span><span class=\"item-tooltip-dot\">•</span><span>售價 210</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">25</span> 跑速</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/1001.png"
+      },
+      {
+        "id": 3134,
+        "name": "殘暴之力",
+        "description": "增加物理攻擊和物理致命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">殘暴之力</div>\n      <div class=\"item-tooltip-meta\"><span>總價 1000</span><span class=\"item-tooltip-dot\">•</span><span>售價 700</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">20</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">10</span>物理致命</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3134.png"
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6676,
+        "name": "蒐集者",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">蒐集者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">50</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">10</span>物理致命<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>死亡<br />你造成的傷害會處決生命低於5%的英雄。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>賦稅<br />擊殺英雄可額外獲得<gold>25金錢</gold>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6676.png"
+      },
+      {
+        "id": 3006,
+        "name": "狂戰士護脛",
+        "description": "增加跑速和攻速",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">狂戰士護脛</div>\n      <div class=\"item-tooltip-meta\"><span>總價 1100</span><span class=\"item-tooltip-dot\">•</span><span>售價 770</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">25%</span> 攻擊速度<br /><span class=\"item-tooltip-emphasis\">45</span> 跑速</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3006.png"
+      },
+      {
+        "id": 3031,
+        "name": "無盡之刃",
+        "description": "大幅增強暴擊傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">無盡之刃</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">75</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率<br /><span class=\"item-tooltip-emphasis\">30%</span>暴擊傷害</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3031.png"
+      }
+    ],
+    "situationalItems": [
+      {
+        "id": 2003,
+        "name": "生命藥水",
+        "description": "使用以回復生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+      },
+      {
+        "id": 3036,
+        "name": "多明尼克的問候",
+        "description": "對抗有大量生命和物理防禦的敵人",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">多明尼克的問候</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3300</span><span class=\"item-tooltip-dot\">•</span><span>售價 2310</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">35</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">35%</span> 物理穿透<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>巨人殺手<br />對擁有額外生命的敵方英雄造成15%額外傷害。會在對方額外生命達到1500時造成最大傷害。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3036.png"
+      },
+      {
+        "id": 6673,
+        "name": "不朽盾弓",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">不朽盾弓</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">55</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>命脈<br />受到將使自身生命低於30%的傷害時，獲得<shield>護盾</shield>，持續3秒。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6673.png"
+      },
+      {
+        "id": 3072,
+        "name": "嗜血者",
+        "description": "獲得物理攻擊，普攻吸血可獲得超量治療效果",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">嗜血者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3400</span><span class=\"item-tooltip-dot\">•</span><span>售價 2380</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">80</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">15%</span> 普攻吸血</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>庇蔭靈藥<br />將普攻吸血獲得的超額治療量轉化成<shield>護盾</shield>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3072.png"
+      },
+      {
+        "id": 2031,
+        "name": "回復藥水",
+        "description": "逐漸回復生命，可回商店回充",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">回復藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 150</span><span class=\"item-tooltip-dot\">•</span><span>售價 60</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>主動(2次使用次數)<br />在12秒內回復<healing>100生命</healing>。<br />返回商店時會自動補滿。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2031.png"
+      },
+      {
+        "id": 2140,
+        "name": "憤怒藥劑",
+        "description": "暫時增加物理攻擊，對英雄造成的物理傷害將可以恢復自身生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">憤怒藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleAD>30物理攻擊</scaleAD>和對英雄<lifeSteal>12%物理吸血</lifeSteal>，持續3分鐘。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2140.png"
+      }
+    ],
+    "lateGameBuilds": [
+      {
+        "title": "順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 6673,
+            "name": "不朽盾弓",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">不朽盾弓</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">55</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>命脈<br />受到將使自身生命低於30%的傷害時，獲得<shield>護盾</shield>，持續3秒。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6673.png"
+          },
+          {
+            "id": 3036,
+            "name": "多明尼克的問候",
+            "description": "對抗有大量生命和物理防禦的敵人",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">多明尼克的問候</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3300</span><span class=\"item-tooltip-dot\">•</span><span>售價 2310</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">35</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">35%</span> 物理穿透<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>巨人殺手<br />對擁有額外生命的敵方英雄造成15%額外傷害。會在對方額外生命達到1500時造成最大傷害。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3036.png"
+          }
+        ]
+      },
+      {
+        "title": "後期順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 3036,
+            "name": "多明尼克的問候",
+            "description": "對抗有大量生命和物理防禦的敵人",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">多明尼克的問候</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3300</span><span class=\"item-tooltip-dot\">•</span><span>售價 2310</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">35</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">35%</span> 物理穿透<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>巨人殺手<br />對擁有額外生命的敵方英雄造成15%額外傷害。會在對方額外生命達到1500時造成最大傷害。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3036.png"
+          },
+          {
+            "id": 3072,
+            "name": "嗜血者",
+            "description": "獲得物理攻擊，普攻吸血可獲得超量治療效果",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">嗜血者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3400</span><span class=\"item-tooltip-dot\">•</span><span>售價 2380</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">80</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">15%</span> 普攻吸血</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>庇蔭靈藥<br />將普攻吸血獲得的超額治療量轉化成<shield>護盾</shield>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3072.png"
+          },
+          {
+            "id": 6673,
+            "name": "不朽盾弓",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">不朽盾弓</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">55</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>命脈<br />受到將使自身生命低於30%的傷害時，獲得<shield>護盾</shield>，持續3秒。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6673.png"
+          }
+        ]
+      },
+      {
+        "title": "滿裝順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 3072,
+            "name": "嗜血者",
+            "description": "獲得物理攻擊，普攻吸血可獲得超量治療效果",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">嗜血者</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3400</span><span class=\"item-tooltip-dot\">•</span><span>售價 2380</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">80</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">15%</span> 普攻吸血</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>庇蔭靈藥<br />將普攻吸血獲得的超額治療量轉化成<shield>護盾</shield>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3072.png"
+          },
+          {
+            "id": 3036,
+            "name": "多明尼克的問候",
+            "description": "對抗有大量生命和物理防禦的敵人",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">多明尼克的問候</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3300</span><span class=\"item-tooltip-dot\">•</span><span>售價 2310</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">35</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">35%</span> 物理穿透<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>巨人殺手<br />對擁有額外生命的敵方英雄造成15%額外傷害。會在對方額外生命達到1500時造成最大傷害。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3036.png"
+          },
+          {
+            "id": 6673,
+            "name": "不朽盾弓",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">不朽盾弓</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">55</span> 物理攻擊<br /><span class=\"item-tooltip-emphasis\">25%</span> 暴擊率</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>命脈<br />受到將使自身生命低於30%的傷害時，獲得<shield>護盾</shield>，持續3秒。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6673.png"
+          }
+        ]
+      },
+      {
+        "title": "拉扯續航",
+        "note": "會戰常常拉很久，或你需要邊打邊回、一直站場輸出時，就換這組。",
+        "items": [
+          {
+            "id": 2003,
+            "name": "生命藥水",
+            "description": "使用以回復生命",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+          },
+          {
+            "id": 2031,
+            "name": "回復藥水",
+            "description": "逐漸回復生命，可回商店回充",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">回復藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 150</span><span class=\"item-tooltip-dot\">•</span><span>售價 60</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>主動(2次使用次數)<br />在12秒內回復<healing>100生命</healing>。<br />返回商店時會自動補滿。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2031.png"
+          },
+          {
+            "id": 2140,
+            "name": "憤怒藥劑",
+            "description": "暫時增加物理攻擊，對英雄造成的物理傷害將可以恢復自身生命",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">憤怒藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleAD>30物理攻擊</scaleAD>和對英雄<lifeSteal>12%物理吸血</lifeSteal>，持續3分鐘。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2140.png"
+          }
+        ]
+      }
+    ],
+    "skillOrder": {
+      "priority": "Q > E > W",
+      "sequence": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "Q",
+        "E",
+        "R",
+        "E",
+        "E",
+        "W",
+        "W",
+        "R",
+        "W",
+        "W"
+      ],
+      "firstLevels": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "E",
+        "Q"
+      ],
+      "spellNames": {
+        "Q": "百變之刃",
+        "W": "歡躍面紗",
+        "E": "湍流淩步",
+        "R": "神之禮讚"
+      }
+    }
+  },
+  "balance": {
+    "changed": false,
+    "entries": [],
+    "raw": {
+      "damage_taken": 1,
+      "damage_dealt": 1,
+      "damage_healing": 1,
+      "damage_shielding": 1,
+      "abilities": "",
+      "total_attack_speed": 1,
+      "ability_haste": 1,
+      "energy_regeneration": 1,
+      "tenacity": 1,
+      "changes": false
+    }
+  },
+  "tips": [
+    "這套主流配置樣本約 3,038 場，配置勝率 67.2%。",
+    "起手通常從 2 件裝備開局，優先照系統推薦順序購買。",
+    "核心成裝以前 3 件為主，先把主力傷害與鞋子湊齊，再補功能裝。",
+    "技能主升順序多半是 Q > E > W，照前 9 等順序點法最穩。",
+    "目前沒有顯著的 ARAM 專屬平衡調整。"
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "patch": {
+    "statsPatch": "16_7",
+    "statsPatchLabel": "16.7",
+    "assetVersion": "16.7.1",
+    "overviewVersion": "1.5.0",
+    "apiTrack": "1.5",
+    "sourceUpdatedAt": "2026-04-09T17:24:03.551668Z"
+  },
+  "source": {
+    "provider": "U.GG stats2 + Riot static",
+    "championUrl": "https://u.gg/lol/champions/aram/leblanc-aram",
+    "overviewUrl": "https://stats2.u.gg/lol/1.5/overview/16_7/normal_aram/7/1.5.0.json"
+  },
+  "champion": {
+    "key": 7,
+    "id": "Leblanc",
+    "slug": "leblanc",
+    "nameZh": "勒布朗",
+    "nameEn": "LeBlanc",
+    "titleZh": "詐欺師",
+    "titleEn": "the Deceiver",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/champion/Leblanc.png",
+    "splashUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg",
+    "blurb": "即使對於黑玫瑰的其他成員來說，勒布朗也是相當神祕的人物，——這個面容蒼白的女人擁有無數個名字，在諾克薩斯建國之初便已存在，擅於操縱人事以達目的。利用魔法鏡像出多重分身，她能夠在任何時候出現在任何地方，甚至能同時出現在不同場合中。勒布朗經常暗地策劃陰謀，然而她真實的動機就與她成謎的身份一樣，都是無人能夠捉摸的。",
+    "passive": {
+      "name": "鏡像",
+      "description": "當勒布朗的生命值低於 40% 時，她將進入隱形狀態 1 秒，並創造一個不會產生傷害的鏡像分身，持續 8 秒。",
+      "image": {
+        "full": "LeblancP.Leblanc_Rework.png",
+        "sprite": "passive2.png",
+        "group": "passive",
+        "x": 432,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "spells": [
+      {
+        "key": "Q",
+        "name": "惡意印記",
+        "description": "勒布朗發射一枚印記，造成傷害並標記目標3.5秒。利用技能傷害被標記的目標將引爆印記，造成額外的傷害。若目標在印記擊中或消耗時被擊殺，則返還消耗的魔力與此技能部份剩餘冷卻時間。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LeblancQ.png"
+      },
+      {
+        "key": "W",
+        "name": "移行瞬影",
+        "description": "勒布朗衝向指定區域，對她目的地附近的敵人造成魔法傷害。在接下來的 4 秒內，重啟移行瞬影將使勒布朗回到她一開始的施放位置。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LeblancW.png"
+      },
+      {
+        "key": "E",
+        "name": "幻影鎖鍊",
+        "description": "勒布朗擲出ㄧ條鎖鏈鍊住第一個命中的敵人。如果目標被鍊住超過 1.5 秒，勒布朗將定身他們並對他們造成額外的傷害。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LeblancE.png"
+      },
+      {
+        "key": "R",
+        "name": "模仿",
+        "description": "勒布朗施放一個模仿版的技能（模仿她的基本技能）。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/LeblancR.png"
+      }
+    ]
+  },
+  "recommended": {
+    "sample": {
+      "wins": 1011,
+      "losses": 457,
+      "games": 1468,
+      "winRate": 0.6886920980926431
+    },
+    "runes": {
+      "primaryTree": {
+        "id": 8100,
+        "key": "Domination",
+        "name": "征服",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7200_Domination.png"
+      },
+      "secondaryTree": {
+        "id": 8200,
+        "key": "Sorcery",
+        "name": "巫術",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7202_Sorcery.png"
+      },
+      "keystone": {
+        "id": 8112,
+        "name": "死亡電刑",
+        "shortDesc": "3 秒內使用三個<b>獨立的</b>普攻或技能攻擊一名敵方英雄時將造成額外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>適性傷害</lol-uikit-tooltipped-keyword>。",
+        "longDesc": "3秒內使用3次<b>獨立</b>的普攻或技能命中英雄時，將造成額外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>適性傷害</font></lol-uikit-tooltipped-keyword>。<br><br>傷害：70-240 (+0.1額外物攻+0.05魔攻) 傷害。<br>冷卻時間：20秒<br><br><i>「我們稱呼他們為雷神，意味著他們的雷電將引發災厄。」</i>",
+        "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png",
+        "treeId": 8100
+      },
+      "primaryRunes": [
+        {
+          "id": 8112,
+          "name": "死亡電刑",
+          "shortDesc": "3 秒內使用三個<b>獨立的</b>普攻或技能攻擊一名敵方英雄時將造成額外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>適性傷害</lol-uikit-tooltipped-keyword>。",
+          "longDesc": "3秒內使用3次<b>獨立</b>的普攻或技能命中英雄時，將造成額外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>適性傷害</font></lol-uikit-tooltipped-keyword>。<br><br>傷害：70-240 (+0.1額外物攻+0.05魔攻) 傷害。<br>冷卻時間：20秒<br><br><i>「我們稱呼他們為雷神，意味著他們的雷電將引發災厄。」</i>",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png",
+          "treeId": 8100
+        },
+        {
+          "id": 8106,
+          "name": "終焉獵人",
+          "shortDesc": "<b>唯一</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>擊殺或助攻</lol-uikit-tooltipped-keyword> 將給予你大絕永久的冷卻時間減免。",
+          "longDesc": "大絕獲得技能加速，數值相當於<attention>6</attention>加上額外<attention>5</attention> x <i>賞金獵人</i>堆層。首次參與擊殺每位敵方英雄時，都可獲得1層<i>賞金獵人</i>堆層。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
+          "treeId": 8100
+        },
+        {
+          "id": 8140,
+          "name": "恐懼紀念物",
+          "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>參與擊殺</lol-uikit-tooltipped-keyword>英雄可收集1件紀念品，最多可收集18件。<br><br>每件紀念品提供6飾品加速。",
+          "longDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>參與擊殺</lol-uikit-tooltipped-keyword>英雄可收集1件紀念品，最多可收集18件。<br><br>每件紀念品提供6飾品加速。在沒有視野飾品的遊戲模式中，改為提供3召喚師技能加速。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png",
+          "treeId": 8100
+        },
+        {
+          "id": 8143,
+          "name": "即刻衝擊",
+          "shortDesc": "使用衝撞、跳躍、閃現、傳送或脫離潛行狀態後，普攻和技能對敵方英雄造成額外真實傷害。",
+          "longDesc": "使用衝撞、跳躍、閃現、傳送或脫離潛行狀態後4秒，普攻和技能對敵方英雄造成額外<trueDamage>20 - 80真實傷害</trueDamage>(取決於等級)。<br><br>冷卻時間：10秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png",
+          "treeId": 8100
+        }
+      ],
+      "secondaryRunes": [
+        {
+          "id": 8210,
+          "name": "卓越",
+          "shortDesc": "達到下列等級時獲得加成效果：<br>等級 5：+5<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>技能加速</lol-uikit-tooltipped-keyword><br>等級 8：+5<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>技能加速</lol-uikit-tooltipped-keyword><br>等級 11：參與擊殺英雄時，使基礎技能的剩餘冷卻時間減少 20%。",
+          "longDesc": "達到下列等級時獲得加成效果：<br>等級5：+5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>技能加速</lol-uikit-tooltipped-keyword> <br>等級8：+5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>技能加速</lol-uikit-tooltipped-keyword> <br>等級11：參與擊殺英雄時，基礎技能的剩餘冷卻時間減少20%。",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/Transcendence/Transcendence.png",
+          "treeId": 8200
+        },
+        {
+          "id": 8226,
+          "name": "附魔之帶",
+          "shortDesc": "使用技能擊中一名敵方英雄時使你的最大魔力永久提升25點，最多提升250點魔力。<br><br>額外獲得的魔力達250點之後，每5秒回復自身1%已消耗魔力。",
+          "longDesc": "使用技能擊中一名敵方英雄時使你的最大魔力永久提升25點，最多提升250點魔力。<br><br>額外獲得的魔力達250點之後，每5秒回復自身1%已消耗魔力。<br><br>冷卻時間：15秒",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png",
+          "treeId": 8200
+        }
+      ],
+      "statShards": [
+        {
+          "id": "5008",
+          "name": "適性之力",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+        },
+        {
+          "id": "5008",
+          "name": "適性之力",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+        },
+        {
+          "id": "5001",
+          "name": "成長生命",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatModsHealthScalingIcon.png"
+        }
+      ]
+    },
+    "summoners": [
+      {
+        "id": 4,
+        "name": "閃現",
+        "description": "朝著滑鼠游標傳送一小段距離。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerFlash.png"
+      },
+      {
+        "id": 14,
+        "name": "點燃",
+        "description": "在一段時間內對目標敵方英雄造成真實傷害，並在持續時間內降低目標治療效果。",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/spell/SummonerDot.png"
+      }
+    ],
+    "starterItems": [
+      {
+        "id": 2031,
+        "name": "回復藥水",
+        "description": "逐漸回復生命，可回商店回充",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">回復藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 150</span><span class=\"item-tooltip-dot\">•</span><span>售價 60</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>主動(2次使用次數)<br />在12秒內回復<healing>100生命</healing>。<br />返回商店時會自動補滿。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2031.png"
+      },
+      {
+        "id": 3802,
+        "name": "失落之章",
+        "description": "等級提升時回復魔力。",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">失落之章</div>\n      <div class=\"item-tooltip-meta\"><span>總價 1200</span><span class=\"item-tooltip-dot\">•</span><span>售價 840</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">40</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">300</span> 魔力<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>啟發<br />等級提升時，在3秒內回復<scaleMana>20%最大魔力</scaleMana>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3802.png"
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6655,
+        "name": "盧登回音",
+        "description": "高爆發傷害，用於對付脆弱的敵人。",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">盧登回音</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2750</span><span class=\"item-tooltip-dot\">•</span><span>售價 1925</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">100</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">600</span> 魔力<br /><span class=\"item-tooltip-emphasis\">10</span> 技能加速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>回音<br />傷害性技能會射出6發回音，對目標和鄰近敵軍造成<magicDamage>額外魔法傷害</magicDamage>。剩餘回音皆射向主要目標，造成20%傷害。<br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/6655.png"
+      },
+      {
+        "id": 3020,
+        "name": "法師之靴",
+        "description": "增加跑速及魔法傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">法師之靴</div>\n      <div class=\"item-tooltip-meta\"><span>總價 1100</span><span class=\"item-tooltip-dot\">•</span><span>售價 770</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">12</span> 魔法穿透<br /><span class=\"item-tooltip-emphasis\">45</span> 跑速</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3020.png"
+      },
+      {
+        "id": 4645,
+        "name": "黯影之炎",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">黯影之炎</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3200</span><span class=\"item-tooltip-dot\">•</span><span>售價 2240</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">110</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">15</span> 魔法穿透</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>燼滅之華<br /><magicDamage>魔法傷害</magicDamage>與<trueDamage>真實傷害</trueDamage>可對生命低於40%的敵軍<span class=\"item-tooltip-emphasis\">暴擊</span>，造成20%額外傷害。 </div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/4645.png"
+      }
+    ],
+    "situationalItems": [
+      {
+        "id": 3089,
+        "name": "死亡之帽",
+        "description": "大幅增加魔法攻擊",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">死亡之帽</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">130</span> 魔法攻擊</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔法心血<br />總<scaleAP>魔法攻擊提升30%</scaleAP>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3089.png"
+      },
+      {
+        "id": 3135,
+        "name": "虛空之杖",
+        "description": "增加魔法傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">虛空之杖</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">95</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">40%</span> 魔法穿透</div><br /><br /></div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3135.png"
+      },
+      {
+        "id": 2139,
+        "name": "巫魔藥劑",
+        "description": "暫時獲得魔攻，並對英雄與防禦塔造成額外傷害",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">巫魔藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleAP>50魔法攻擊</scaleAP>和<scaleMana>15%魔力回復</scaleMana>，持續3分鐘。在效果期間，可對英雄或防禦塔造成<trueDamage>25額外真實傷害</trueDamage>(對英雄冷卻時間：5秒)。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2139.png"
+      },
+      {
+        "id": 4646,
+        "name": "雷霆風暴",
+        "description": "",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">雷霆風暴</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2800</span><span class=\"item-tooltip-dot\">•</span><span>售價 1960</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">90</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">15</span> 魔法穿透<br /><span class=\"item-tooltip-emphasis\">6%</span> 跑速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>暴風突襲者<br />在2.5秒內對英雄造成等同於其最大生命25%的傷害會對其附加<span class=\"item-tooltip-label passive\">被動</span>暴風。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>暴風<br />2秒後，造成<magicDamage>魔法傷害</magicDamage>。若目標在<span class=\"item-tooltip-label passive\">被動</span>暴風觸發前死亡，則會對鄰近敵軍造成傷害。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/4646.png"
+      },
+      {
+        "id": 3157,
+        "name": "中婭沙漏",
+        "description": "啟動以進入無敵狀態，但是無法進行任何動作",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">中婭沙漏</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3250</span><span class=\"item-tooltip-dot\">•</span><span>售價 2275</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">105</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">50</span> 物理防禦</div><br /><br /><br /><br /><span class=\"item-tooltip-label active\">主動</span>時間暫停<br />進入<keyword>凝滯</keyword>狀態，持續2.5秒。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3157.png"
+      },
+      {
+        "id": 2003,
+        "name": "生命藥水",
+        "description": "使用以回復生命",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+      },
+      {
+        "id": 3102,
+        "name": "女妖面紗",
+        "description": "每隔一段時間可以阻擋敵方技能",
+        "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">女妖面紗</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">105</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">40</span> 魔法防禦</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>無效<br />獲得法術護盾，可阻擋下一次敵方技能。</div>\n    </div>",
+        "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3102.png"
+      }
+    ],
+    "lateGameBuilds": [
+      {
+        "title": "對坦",
+        "note": "對面有 2 隻以上前排，或你開始打不動鬥士、坦克時，就優先換這組。",
+        "items": [
+          {
+            "id": 3089,
+            "name": "死亡之帽",
+            "description": "大幅增加魔法攻擊",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">死亡之帽</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">130</span> 魔法攻擊</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔法心血<br />總<scaleAP>魔法攻擊提升30%</scaleAP>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3089.png"
+          },
+          {
+            "id": 4646,
+            "name": "雷霆風暴",
+            "description": "",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">雷霆風暴</div>\n      <div class=\"item-tooltip-meta\"><span>總價 2800</span><span class=\"item-tooltip-dot\">•</span><span>售價 1960</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">90</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">15</span> 魔法穿透<br /><span class=\"item-tooltip-emphasis\">6%</span> 跑速</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>暴風突襲者<br />在2.5秒內對英雄造成等同於其最大生命25%的傷害會對其附加<span class=\"item-tooltip-label passive\">被動</span>暴風。<br /><br /><span class=\"item-tooltip-label passive\">被動</span>暴風<br />2秒後，造成<magicDamage>魔法傷害</magicDamage>。若目標在<span class=\"item-tooltip-label passive\">被動</span>暴風觸發前死亡，則會對鄰近敵軍造成傷害。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/4646.png"
+          }
+        ]
+      },
+      {
+        "title": "順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 3089,
+            "name": "死亡之帽",
+            "description": "大幅增加魔法攻擊",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">死亡之帽</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3500</span><span class=\"item-tooltip-dot\">•</span><span>售價 2450</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">130</span> 魔法攻擊</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>魔法心血<br />總<scaleAP>魔法攻擊提升30%</scaleAP>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3089.png"
+          },
+          {
+            "id": 3135,
+            "name": "虛空之杖",
+            "description": "增加魔法傷害",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">虛空之杖</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">95</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">40%</span> 魔法穿透</div><br /><br /></div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3135.png"
+          },
+          {
+            "id": 3157,
+            "name": "中婭沙漏",
+            "description": "啟動以進入無敵狀態，但是無法進行任何動作",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">中婭沙漏</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3250</span><span class=\"item-tooltip-dot\">•</span><span>售價 2275</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">105</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">50</span> 物理防禦</div><br /><br /><br /><br /><span class=\"item-tooltip-label active\">主動</span>時間暫停<br />進入<keyword>凝滯</keyword>狀態，持續2.5秒。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3157.png"
+          }
+        ]
+      },
+      {
+        "title": "保命",
+        "note": "對面刺客一直切後排，或你常常一進場就蒸發時，先補這組保命。",
+        "items": [
+          {
+            "id": 3135,
+            "name": "虛空之杖",
+            "description": "增加魔法傷害",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">虛空之杖</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">95</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">40%</span> 魔法穿透</div><br /><br /></div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3135.png"
+          },
+          {
+            "id": 3102,
+            "name": "女妖面紗",
+            "description": "每隔一段時間可以阻擋敵方技能",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">女妖面紗</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3000</span><span class=\"item-tooltip-dot\">•</span><span>售價 2100</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">105</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">40</span> 魔法防禦</div><br /><br /><span class=\"item-tooltip-label passive\">被動</span>無效<br />獲得法術護盾，可阻擋下一次敵方技能。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3102.png"
+          },
+          {
+            "id": 3157,
+            "name": "中婭沙漏",
+            "description": "啟動以進入無敵狀態，但是無法進行任何動作",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">中婭沙漏</div>\n      <div class=\"item-tooltip-meta\"><span>總價 3250</span><span class=\"item-tooltip-dot\">•</span><span>售價 2275</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"><span class=\"item-tooltip-emphasis\">105</span> 魔法攻擊<br /><span class=\"item-tooltip-emphasis\">50</span> 物理防禦</div><br /><br /><br /><br /><span class=\"item-tooltip-label active\">主動</span>時間暫停<br />進入<keyword>凝滯</keyword>狀態，持續2.5秒。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/3157.png"
+          }
+        ]
+      },
+      {
+        "title": "後期順風收頭",
+        "note": "你方已經打出優勢，想更快秒後排或直接收頭滾雪球時，就優先這組。",
+        "items": [
+          {
+            "id": 2139,
+            "name": "巫魔藥劑",
+            "description": "暫時獲得魔攻，並對英雄與防禦塔造成額外傷害",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">巫魔藥劑</div>\n      <div class=\"item-tooltip-meta\"><span>總價 500</span><span class=\"item-tooltip-dot\">•</span><span>售價 200</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />賦予<scaleAP>50魔法攻擊</scaleAP>和<scaleMana>15%魔力回復</scaleMana>，持續3分鐘。在效果期間，可對英雄或防禦塔造成<trueDamage>25額外真實傷害</trueDamage>(對英雄冷卻時間：5秒)。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2139.png"
+          },
+          {
+            "id": 2003,
+            "name": "生命藥水",
+            "description": "使用以回復生命",
+            "tooltipHtml": "<div class=\"item-tooltip-header\">\n      <div class=\"item-tooltip-name\">生命藥水</div>\n      <div class=\"item-tooltip-meta\"><span>總價 50</span><span class=\"item-tooltip-dot\">•</span><span>售價 20</span></div>\n    </div>\n    <div class=\"item-tooltip-body\">\n      <div><div class=\"item-tooltip-stats\"></div><br /><br /><span class=\"item-tooltip-label active\">主動</span>喝下<br />在15秒內回復<healing>120生命</healing>。</div>\n    </div>",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/16.7.1/img/item/2003.png"
+          }
+        ]
+      }
+    ],
+    "skillOrder": {
+      "priority": "W > Q > E",
+      "sequence": [
+        "Q",
+        "W",
+        "E",
+        "W",
+        "W",
+        "R",
+        "W",
+        "Q",
+        "W",
+        "Q",
+        "R",
+        "Q",
+        "Q",
+        "E",
+        "E",
+        "R",
+        "E",
+        "E"
+      ],
+      "firstLevels": [
+        "Q",
+        "W",
+        "E",
+        "W",
+        "W",
+        "R",
+        "W",
+        "Q",
+        "W"
+      ],
+      "spellNames": {
+        "Q": "惡意印記",
+        "W": "移行瞬影",
+        "E": "幻影鎖鍊",
+        "R": "模仿"
+      }
+    }
+  },
+  "balance": {
+    "changed": true,
+    "entries": [
+      "造成傷害增加 10%",
+      "承受傷害減少 10%"
+    ],
+    "raw": {
+      "damage_taken": 0.9,
+      "damage_dealt": 1.1,
+      "damage_healing": 1,
+      "damage_shielding": 1,
+      "abilities": "",
+      "total_attack_speed": 1,
+      "ability_haste": 1,
+      "energy_regeneration": 1,
+      "tenacity": 1,
+      "changes": true
+    }
+  },
+  "tips": [
+    "這套主流配置樣本約 1,468 場，配置勝率 68.9%。",
+    "起手通常從 2 件裝備開局，優先照系統推薦順序購買。",
+    "核心成裝以前 3 件為主，先把主力傷害與鞋子湊齊，再補功能裝。",
+    "技能主升順序多半是 W > Q > E，照前 9 等順序點法最穩。",
+    "這隻英雄目前有 ARAM 專屬平衡調整，進場前記得看一下面板。"
+  ]
+}
